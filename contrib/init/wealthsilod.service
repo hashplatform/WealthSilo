@@ -1,0 +1,26 @@
+[Unit]
+Description=WealthSilo's distributed currency daemon
+After=network.target
+
+[Service]
+User=wealthsilo
+Group=wealthsilo
+
+Type=forking
+PIDFile=/var/lib/wealthsilod/wealthsilod.pid
+
+ExecStart=/usr/bin/wealthsilod -daemon -pid=/var/lib/wealthsilod/wealthsilod.pid \
+          -conf=/etc/wealthsilo/wealthsilo.conf -datadir=/var/lib/wealthsilod
+
+ExecStop=-/usr/bin/wealthsilo-cli -conf=/etc/wealthsilo/wealthsilo.conf \
+         -datadir=/var/lib/wealthsilod stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WealthSilo
+Comment=WealthSilo P2P Cryptocurrency
+Comment[fr]=WealthSilo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=WealthSilo, eşten eşe kriptografik sanal para birimi
+Exec=wealthsilo-qt %u
+Terminal=false
+Type=Application
+Icon=wealthsilo128
+MimeType=x-scheme-handler/wealthsilo;
+Categories=Office;Finance;
