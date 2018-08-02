@@ -957,6 +957,11 @@ void BitcoinGUI::setNumBlocks(int count)
             progressBarLabel->setVisible(false);
             progressBar->setVisible(false);
             labelBlocksIcon->setPixmap(QIcon(":/icons/synced").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
+#ifdef ENABLE_WALLET
+	        if (walletFrame)
+	            walletFrame->showOutOfSyncWarning(false);
+#endif // ENABLE_WALLET
+
         } else {
             int nAttempt;
             int progress = 0;
@@ -976,10 +981,6 @@ void BitcoinGUI::setNumBlocks(int count)
             progressBar->setValue(progress);
         }
 
-#ifdef ENABLE_WALLET
-        if (walletFrame)
-            walletFrame->showOutOfSyncWarning(false);
-#endif // ENABLE_WALLET
         strSyncStatus = QString(masternodeSync.GetSyncStatus().c_str());
         progressBarLabel->setText(strSyncStatus);
         tooltip = strSyncStatus + QString("<br>") + tooltip;
