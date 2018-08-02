@@ -147,12 +147,12 @@ OverviewPage::OverviewPage(QWidget* parent) : QWidget(parent),
     connect(ui->listTransactions, SIGNAL(clicked(QModelIndex)), this, SLOT(handleTransactionClicked(QModelIndex)));
 
     // init "out of sync" warning labels
-    ui->labelWalletStatus->setText("");
-    ui->labelTransactionsStatus->setText("");
+    ui->labelWalletStatus->setText("(" + tr("out of sync") + ")");
+    ui->labelTransactionsStatus->setText("(" + tr("out of sync") + ")");
 
     ui->frame_ZerocoinBalances->hide();
     // start with displaying the "out of sync" warnings
-    showOutOfSyncWarning(true); 
+    showOutOfSyncWarning(true);
 }
 
 void OverviewPage::handleTransactionClicked(const QModelIndex& index)
