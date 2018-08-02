@@ -168,13 +168,13 @@
          <widget class="QFrame" name="frame_Content">
           <layout class="QVBoxLayout" name="verticalLayout_Content">
            <property name="leftMargin">
-            <number>6</number>
+            <number>0</number>
            </property>
            <property name="topMargin">
             <number>0</number>
            </property>
            <property name="rightMargin">
-            <number>6</number>
+            <number>0</number>
            </property>
            <property name="bottomMargin">
             <number>0</number>
