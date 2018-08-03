@@ -36,10 +36,10 @@ then
   cd
 
   wget https://github.com/wealthsilo/WealthSilo/files/2257942/Linux-daemon.zip
-  unzip Linux.zip
-  chmod +x Linux/bin/*
-  sudo mv  Linux/bin/* /usr/local/bin
-  rm -rf Linux.zip Windows Linux Mac
+  unzip Linux-daemon
+  chmod +x Linux-daemon/*
+  sudo mv  Linux-daemon/* /usr/local/bin
+  rm -rf Linux-daemon*
 
   sudo apt-get install -y ufw
   sudo ufw allow ssh/tcp
