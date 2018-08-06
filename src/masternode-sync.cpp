@@ -27,13 +27,11 @@ CMasternodeSync::CMasternodeSync()
 
 bool CMasternodeSync::IsSynced()
 {
-return true; 
     return RequestedMasternodeAssets == MASTERNODE_SYNC_FINISHED;
 }
 
 bool CMasternodeSync::IsBlockchainSynced()
 {
-return true; // changed to assume synced
     static bool fBlockchainSynced = false;
     static int64_t lastProcess = GetTime();
 
