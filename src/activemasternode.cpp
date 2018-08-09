@@ -78,9 +78,9 @@ void CActiveMasternode::ManageStatus()
         if (!pnode) {
             notCapableReason = "Could not connect to " + service.ToString();
             LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
-        //    return;
+           return;
         }
-        //pnode->Release();
+        pnode->Release();
 
         // Choose coins to use
         CPubKey pubKeyCollateralAddress;

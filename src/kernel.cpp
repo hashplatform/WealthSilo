@@ -259,8 +259,7 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t& nStakeModifier, int
     while (nStakeModifierTime < pindexFrom->GetBlockTime() + nStakeModifierSelectionInterval) {
         if (!pindexNext) {
             // Should never happen
-     LogPrint("debug", "Null pindexNext\n");
-return true; //TODO Update after network is running smoothly
+            return error("Null pindexNext\n");
        }
 
         pindex = pindexNext;
@@ -428,5 +427,8 @@ unsigned int GetStakeModifierChecksum(const CBlockIndex* pindex)
 bool CheckStakeModifierCheckpoints(int nHeight, unsigned int nStakeModifierChecksum)
 {
     if (fTestNet) return true; // Testnet has no checkpoints
+    if (mapStakeModifierCheckpoints.count(nHeight)) {
+        return nStakeModifierChecksum == mapStakeModifierCheckpoints[nHeight];
+    }
     return true;
 }
