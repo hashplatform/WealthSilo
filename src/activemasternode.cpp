@@ -78,7 +78,7 @@ void CActiveMasternode::ManageStatus()
         if (!pnode) {
             notCapableReason = "Could not connect to " + service.ToString();
             LogPrintf("CActiveMasternode::ManageStatus() - not capable: %s\n", notCapableReason);
-           return;
+            return;
         }
         pnode->Release();
 

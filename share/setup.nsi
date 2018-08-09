@@ -1,4 +1,4 @@
-Name "Wealthsilo Core (-bit)"
+Name "Wealthsilo Core (32-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -10,25 +10,25 @@ SetCompressor /SOLID lzma
 !define URL https://www.wealthsilo.io
 
 # MUI Symbol Definitions
-!define MUI_ICON "/home/any/Desktop/projects/inno/mod/re/Wealth.Silo/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/home/any/Desktop/projects/inno/mod/re/Wealth.Silo/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/root/telos/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/root/telos/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/home/any/Desktop/projects/inno/mod/re/Wealth.Silo/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/root/telos/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Wealthsilo Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\wealthsilo-qt
+!define MUI_FINISHPAGE_RUN $INSTDIR\wealthsilo-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/home/any/Desktop/projects/inno/mod/re/Wealth.Silo/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/telos/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
 !include Sections.nsh
 !include MUI2.nsh
-!if "" == "64"
+!if "32" == "64"
 !include x64.nsh
 !endif
 
@@ -48,8 +48,8 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/wealthsilo-${VERSION}-win-setup.exe
-!if "" == "64"
+OutFile /root/telos/wealthsilo-${VERSION}-win32-setup.exe
+!if "32" == "64"
 InstallDir $PROGRAMFILES64\Wealthsilo
 !else
 InstallDir $PROGRAMFILES\Wealthsilo
@@ -73,14 +73,14 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/release/wealthsilo-qt
-    File /oname=COPYING.txt /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/COPYING
-    File /oname=readme.txt /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/doc/README_windows.txt
+    File /root/telos/release/wealthsilo-qt.exe
+    File /oname=COPYING.txt /root/telos/COPYING
+    File /oname=readme.txt /root/telos/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/release/wealthsilod
-    File /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/release/wealthsilo-cli
+    File /root/telos/release/wealthsilod.exe
+    File /root/telos/release/wealthsilo-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /home/any/Desktop/projects/inno/mod/re/Wealth.Silo/doc\*.*
+    File /r /root/telos/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 SectionEnd
@@ -91,8 +91,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\wealthsilo-qt
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Wealthsilo Core (testnet, -bit).lnk" "$INSTDIR\wealthsilo-qt" "-testnet" "$INSTDIR\wealthsilo-qt" 1
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\wealthsilo-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Wealthsilo Core (testnet, 32-bit).lnk" "$INSTDIR\wealthsilo-qt.exe" "-testnet" "$INSTDIR\wealthsilo-qt.exe" 1
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -105,8 +105,8 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "wealthsilo" "URL Protocol" ""
     WriteRegStr HKCR "wealthsilo" "" "URL:Wealthsilo"
-    WriteRegStr HKCR "wealthsilo\DefaultIcon" "" $INSTDIR\wealthsilo-qt
-    WriteRegStr HKCR "wealthsilo\shell\open\command" "" '"$INSTDIR\wealthsilo-qt" "%1"'
+    WriteRegStr HKCR "wealthsilo\DefaultIcon" "" $INSTDIR\wealthsilo-qt.exe
+    WriteRegStr HKCR "wealthsilo\shell\open\command" "" '"$INSTDIR\wealthsilo-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -124,7 +124,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\wealthsilo-qt
+    Delete /REBOOTOK $INSTDIR\wealthsilo-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -136,7 +136,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Wealthsilo Core (testnet, -bit).lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Wealthsilo Core (testnet, 32-bit).lnk"
     Delete /REBOOTOK "$SMSTARTUP\Wealthsilo.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
@@ -158,7 +158,7 @@ SectionEnd
 # Installer functions
 Function .onInit
     InitPluginsDir
-!if "" == "64"
+!if "32" == "64"
     ${If} ${RunningX64}
       ; disable registry redirection (enable access to 64-bit portion of registry)
       SetRegView 64

@@ -54,12 +54,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (  0, uint256("00000a96267104b0d904027552cf071187c75dcf4e394a3022e084609c3612b9")); //gen block
+    (  0, uint256("0x000008724d94018559df6d1c6188f29d3012cc34b5fd75d5ae56ac1d9c8f1374")); //gen block
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1522920605, // * UNIX timestamp of last checkpoint block
-    1,    // * total number of transactions between genesis and last checkpoint
+    1533725713, // * UNIX timestamp of last checkpoint block
+    2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     10000        // * estimated number of transactions per day after checkpoint
 };
@@ -115,7 +115,7 @@ public:
         pchMessageStart[2] = 0xfd;
         pchMessageStart[3] = 0xf9;
         vAlertPubKey = ParseHex("0000098d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
-        nDefaultPort = 45595;
+        nDefaultPort = 5595;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // WealthSilo starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
@@ -125,15 +125,15 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // WealthSilo: 1 day
         nTargetSpacing = 2 * 60;  // WealthSilo: 2 minute
-        nMaturity = 50; //50
+        nMaturity = 10; //50
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 12000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 200; //200
-        nModifierUpdateBlock = 999999999;
-        nZerocoinStartHeight = 50;
-        nZerocoinStartTime = 1522920605; // Sunday, December 31, 2017 11:51:41 AM
+        nLastPOWBlock = 103; //200
+        nModifierUpdateBlock = 99999999;
+        nZerocoinStartHeight = 250;
+        nZerocoinStartTime = 1533692856; // Sunday, December 31, 2017 11:51:41 AM
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -174,13 +174,13 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x5c1bef01c54d2f5ebac7d3ced8d9ca6961e87afa04a671f4f82ab2512145859c"));
 
         
-        vSeeds.push_back(CDNSSeedData("81.4.101.233", "81.4.101.233"));           // Single node address
         vSeeds.push_back(CDNSSeedData("45.32.226.207", "45.32.226.207"));           // Single node address
         vSeeds.push_back(CDNSSeedData("168.235.105.177", "168.235.105.177"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("168.235.109.205", "168.235.109.205"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("81.4.101.233", "81.4.101.233"));           // Single node address
         vSeeds.push_back(CDNSSeedData("185.52.2.37", "185.52.2.37"));           // Single node address
-        vSeeds.push_back(CDNSSeedData("168.235.109.205 ", "168.235.109.205 "));           // Single node address
-        vSeeds.push_back(CDNSSeedData("185.52.3.82 ", "185.52.3.82 "));           // Single node address
-        vSeeds.push_back(CDNSSeedData("45.63.119.129 ", "45.63.119.129"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("185.52.3.82", "185.52.3.82 "));           // Single node address
+        vSeeds.push_back(CDNSSeedData("45.63.119.129", "45.63.119.129"));           // Single node address
         vSeeds.push_back(CDNSSeedData("149.28.150.45", "149.28.150.45"));           // Single node address
        
         
@@ -194,7 +194,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = false;
+        fMiningRequiresPeers = true;
         fAllowMinDifficultyBlocks = false;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
@@ -256,7 +256,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // WealthSilo: 1 day
         nTargetSpacing = 1 * 60;  // WealthSilo: 1 minute
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 100;
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
@@ -282,10 +282,14 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "wealthsilo-testnet.seed.fuzzbawls.pw"));
-        //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "wealthsilo-testnet.seed2.fuzzbawls.pw"));
-        //vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
-        vSeeds.push_back(CDNSSeedData("192.168.100.2", "192.168.100.2"));
+        vSeeds.push_back(CDNSSeedData("45.32.226.207", "45.32.226.207"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("168.235.105.177", "168.235.105.177"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("168.235.109.205", "168.235.109.205"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("81.4.101.233", "81.4.101.233"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("185.52.2.37", "185.52.2.37"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("185.52.3.82", "185.52.3.82 "));           // Single node address
+        vSeeds.push_back(CDNSSeedData("45.63.119.129", "45.63.119.129"));           // Single node address
+        vSeeds.push_back(CDNSSeedData("149.28.150.45", "149.28.150.45"));           // Single node address
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 129); // Testnet wealthsilo addresses start with 't' or 'u'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 14);  // Testnet wealthsilo script addresses start with '6' or '7'
@@ -299,7 +303,7 @@ public:
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
-        fMiningRequiresPeers = true;
+        fMiningRequiresPeers = false;
         fAllowMinDifficultyBlocks = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;

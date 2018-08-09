@@ -259,7 +259,8 @@ bool GetKernelStakeModifier(uint256 hashBlockFrom, uint64_t& nStakeModifier, int
     while (nStakeModifierTime < pindexFrom->GetBlockTime() + nStakeModifierSelectionInterval) {
         if (!pindexNext) {
             // Should never happen
-            return error("Null pindexNext\n");
+     LogPrint("debug", "Null pindexNext\n");
+return true; //TODO Update after network is running smoothly
        }
 
         pindex = pindexNext;

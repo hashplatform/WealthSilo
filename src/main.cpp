@@ -2125,15 +2125,12 @@ int64_t GetBlockValue(int nHeight)
     }
 
     if (nHeight == 1) {
-        nSubsidy = 630100 * COIN;
+        nSubsidy = 640500 * COIN;
     } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 1) {
         nSubsidy = 100 * COIN;
-    }  else if (nHeight <= 5000 && nHeight > Params().LAST_POW_BLOCK()) {
-        nSubsidy = 5 * COIN;
-    } else if (nHeight <= 10000 && nHeight > 5000) {
-        nSubsidy = 10 * COIN;
-    } else if (nHeight > 10000) {
-        nSubsidy = 20 * COIN;
+    }  
+    else {
+        nSubsidy = 12 * COIN;
     }
     
     return nSubsidy;
@@ -2163,11 +2160,7 @@ CAmount GetSeeSaw(const CAmount& blockValue, int nMasternodeCount, int nHeight)
     if (mNodeCoins == 0) {
         ret = 0;
     } else {
-        if (nHeight <= 200) {
-            ret = 0;
-        } else {
         ret = blockValue * .75;
-        }
     }
 
     return ret;
@@ -3164,7 +3157,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     LogPrint("bench", "      - Connect %u transactions: %.2fms (%.3fms/tx, %.3fms/txin) [%.2fs]\n", (unsigned)block.vtx.size(), 0.001 * (nTime1 - nTimeStart), 0.001 * (nTime1 - nTimeStart) / block.vtx.size(), nInputs <= 1 ? 0 : 0.001 * (nTime1 - nTimeStart) / (nInputs - 1), nTimeConnect * 0.000001);
 
     //PoW phase redistributed fees to miner. PoS stage destroys fees.
-    CAmount nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
+     CAmount nExpectedMint = GetBlockValue(pindex->pprev->nHeight);
     if (block.IsProofOfWork())
         nExpectedMint += nFees;
 
