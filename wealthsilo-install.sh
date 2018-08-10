@@ -24,7 +24,7 @@ function compile_node() {
   wget https://github.com/wealthsilo/WealthSilo/files/2273906/Linux-daemon.zip
   unzip Linux-daemon.zip
   chmod +x Linux-daemon/*
-  cd Linux-daemon
+  cd Linux-daemon/bin
   sudo cp wealthsilod wealthsilo-cli /usr/local/bin
   cd -
   clear
