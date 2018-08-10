@@ -26,6 +26,7 @@ function compile_node() {
   chmod +x Linux-daemon/*
   cd Linux-daemon/bin
   sudo cp wealthsilod wealthsilo-cli /usr/local/bin
+  chmod +x /usr/local/bin/*
   cd -
   clear
 }
