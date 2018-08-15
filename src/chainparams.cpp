@@ -54,11 +54,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (  0, uint256("0x000008724d94018559df6d1c6188f29d3012cc34b5fd75d5ae56ac1d9c8f1374")); //gen block
+    (  1, uint256("0x000007f851ccaa4e17013630596ab3e27e56256b65d49be2c6e567f032469b9f")); //gen block
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1533725713, // * UNIX timestamp of last checkpoint block
+    1534332122, // * UNIX timestamp of last checkpoint block
     2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     10000        // * estimated number of transactions per day after checkpoint
@@ -110,11 +110,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xf0;
-        pchMessageStart[1] = 0xf4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xf9;
-        vAlertPubKey = ParseHex("0000098d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
+        pchMessageStart[0] = 0xa0;
+        pchMessageStart[1] = 0xb4;
+        pchMessageStart[2] = 0xcd;
+        pchMessageStart[3] = 0xd9;
+        vAlertPubKey = ParseHex("0000078d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
         nDefaultPort = 5595;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // WealthSilo starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
@@ -125,21 +125,21 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // WealthSilo: 1 day
         nTargetSpacing = 2 * 60;  // WealthSilo: 2 minute
-        nMaturity = 10; //50
+        nMaturity = 50; //50
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 12000000 * COIN;
+        nMaxMoneyOut = 21000000 * COIN;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 103; //200
-        nModifierUpdateBlock = 99999999;
-        nZerocoinStartHeight = 250;
+        nLastPOWBlock = 112; //200
+        nModifierUpdateBlock = 105;
+        nZerocoinStartHeight = 113;
         nZerocoinStartTime = 1533692856; // Sunday, December 31, 2017 11:51:41 AM
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
         nBlockLastGoodCheckpoint = ~1; //Last valid accumulator checkpoint
         nBlockEnforceInvalidUTXO = 1; // Start enforcing the invalid UTXO's
-        nInvalidAmountFiltered = 268200*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
+        nInvalidAmountFiltered = 20000000*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 200000; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
         nEnforceNewSporkKey = 1528516800; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
         nRejectOldSporkKey = 1525159000; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
