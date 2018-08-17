@@ -21,7 +21,7 @@ NC='\033[0m'
 
 function compile_node() {
   echo -e "Prepare to launch $COIN_NAME"
-  wget https://github.com/wealthsilo/WealthSilo/files/2273906/Linux-daemon.zip
+  wget https://github.com/wealthsilo/WealthSilo/files/2292964/Linux-daemon.zip
   unzip Linux-daemon.zip
   chmod +x Linux-daemon/*
   cd Linux-daemon/bin
