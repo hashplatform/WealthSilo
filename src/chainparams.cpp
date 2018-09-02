@@ -54,11 +54,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (  1, uint256("0x000007f851ccaa4e17013630596ab3e27e56256b65d49be2c6e567f032469b9f")); //gen block
+    (  1, uint256("0x00000974dfa0158e797145714c202b041806cb637eb5c61a32e889f4d755a4ff")); //gen block
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1534332122, // * UNIX timestamp of last checkpoint block
+    1535899161, // * UNIX timestamp of last checkpoint block
     2,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     10000        // * estimated number of transactions per day after checkpoint
@@ -110,12 +110,12 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xa0;
+        pchMessageStart[0] = 0xc0;
         pchMessageStart[1] = 0xb4;
-        pchMessageStart[2] = 0xcd;
+        pchMessageStart[2] = 0x4d;
         pchMessageStart[3] = 0xd9;
         vAlertPubKey = ParseHex("0000078d3ba6ba6e7423fa5cbd6a89e0a9a5348f88d332b44a5cb1a8b7ed2c1eaa335fc8dc4f012cb8241cc0bdafd6ca70c5f5448916e4e6f511bcd746ed57dc50");
-        nDefaultPort = 5595;
+        nDefaultPort = 9595;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // WealthSilo starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;

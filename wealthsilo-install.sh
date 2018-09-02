@@ -8,7 +8,7 @@ COIN_CLI='/usr/local/bin/wealthsilo-cli'
 COIN_TGZ='https://github.com/wealthsilo/WealthSilo/archive/v1.1.tar.gz'
 COIN_ZIP='https://github.com/wealthsilo/WealthSilo/files/2292964/Linux-daemon.zip'
 COIN_NAME='wealthsilo'
-COIN_PORT=5595
+COIN_PORT=9595
 RPC_PORT=45596
 
 

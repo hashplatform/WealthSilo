@@ -97,7 +97,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = i686-w64-mingw32
+host_triplet = x86_64-apple-darwin
 am__append_1 = -I$(srcdir)/leveldb/include \
 	-I$(srcdir)/leveldb/helpers/memenv
 am__append_2 = $(builddir)/leveldb/libleveldb.a
@@ -109,9 +109,9 @@ TESTS = $(am__EXEEXT_6) $(am__EXEEXT_5)
 am__append_4 = wealthsilod
 am__append_5 = wealthsilo-cli wealthsilo-tx
 #am__append_6 = compat/glibc_compat.cpp
-am__append_7 = wealthsilod-res.rc
-am__append_8 = wealthsilo-cli-res.rc
-am__append_9 = wealthsilo-tx-res.rc
+#am__append_7 = wealthsilod-res.rc
+#am__append_8 = wealthsilo-cli-res.rc
+#am__append_9 = wealthsilo-tx-res.rc
 ##am__append_10 = compat/glibc_compat.cpp
 ##am__append_11 = secp256k1/libsecp256k1.la
 
@@ -139,11 +139,11 @@ am__append_9 = wealthsilo-tx-res.rc
 #  test/rpc_wallet_tests.cpp
 
 #am__append_16 = $(LIBBITCOIN_WALLET)
-#am__append_17 = $(ZMQ_LIBS)
+##am__append_17 = $(ZMQ_LIBS)
 #am__append_18 = $(CLEAN_BITCOIN_TEST)
 am__append_19 = qt/wealthsilo-qt
 am__append_20 = qt/libbitcoinqt.a
-am__append_21 = qt/winshutdownmonitor.cpp
+#am__append_21 = qt/winshutdownmonitor.cpp
 am__append_22 = \
   qt/addressbookpage.cpp \
   qt/addresstablemodel.cpp \
@@ -180,10 +180,10 @@ am__append_22 = \
   qt/walletview.cpp \
   qt/zwealthcontroldialog.cpp
 
-#am__append_23 = $(BITCOIN_MM)
-am__append_24 = $(BITCOIN_RC)
+am__append_23 = $(BITCOIN_MM)
+#am__append_24 = $(BITCOIN_RC)
 am__append_25 = $(LIBBITCOIN_WALLET)
-am__append_26 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_26 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_27 = $(CLEAN_QT)
 
 # Copyright (c) 2013-2016 The Bitcoin Core developers
@@ -196,7 +196,7 @@ am__append_27 = $(CLEAN_QT)
 #  qt/test/paymentservertests.cpp
 
 #am__append_32 = $(LIBBITCOIN_WALLET)
-#am__append_33 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+##am__append_33 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 #am__append_34 = $(CLEAN_BITCOIN_QT_TEST)
 subdir = src
 SUBDIRS =
@@ -426,9 +426,9 @@ libbitcoin_zmq_a_AR = $(AR) $(ARFLAGS)
 libbitcoin_zmq_a_LIBADD =
 am__libbitcoin_zmq_a_SOURCES_DIST = zmq/zmqabstractnotifier.cpp \
 	zmq/zmqnotificationinterface.cpp zmq/zmqpublishnotifier.cpp
-am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
-	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
-	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
+#am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
+#	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
+#	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
 libbitcoin_zmq_a_OBJECTS = $(am_libbitcoin_zmq_a_OBJECTS)
 libzerocoin_libbitcoin_zerocoin_a_AR = $(AR) $(ARFLAGS)
 libzerocoin_libbitcoin_zerocoin_a_LIBADD =
@@ -572,7 +572,7 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/res/images/walletFrame.png qt/res/images/walletFrame_bg.png \
 	qt/res/css/default.css $(wildcard \
 	$(srcdir)/qt/res/movies/spinner-*.png)
-am__objects_3 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
+#am__objects_3 = qt/qt_libbitcoinqt_a-winshutdownmonitor.$(OBJEXT)
 am__objects_4 = qt/qt_libbitcoinqt_a-addressbookpage.$(OBJEXT) \
 	qt/qt_libbitcoinqt_a-addresstablemodel.$(OBJEXT) \
 	qt/qt_libbitcoinqt_a-askpassphrasedialog.$(OBJEXT) \
@@ -797,9 +797,9 @@ am__qt_test_test_wealthsilo_qt_SOURCES_DIST = qt/test/test_main.cpp \
 qt_test_test_wealthsilo_qt_OBJECTS =  \
 	$(am_qt_test_test_wealthsilo_qt_OBJECTS) \
 	$(nodist_qt_test_test_wealthsilo_qt_OBJECTS)
-#am__DEPENDENCIES_2 =  \
-#	$(LIBBITCOIN_ZMQ) \
-#	$(am__DEPENDENCIES_1)
+##am__DEPENDENCIES_2 =  \
+##	$(LIBBITCOIN_ZMQ) \
+##	$(am__DEPENDENCIES_1)
 #am__DEPENDENCIES_3 = $(am__DEPENDENCIES_1)
 am__DEPENDENCIES_3 = univalue/libunivalue.la
 am__DEPENDENCIES_4 = $(am__append_2)
@@ -834,18 +834,18 @@ am__qt_wealthsilo_qt_SOURCES_DIST = qt/wealthsilo.cpp \
 	qt/res/wealthsilo-qt-res.rc
 am__objects_14 = qt/qt_wealthsilo_qt-macdockiconhandler.$(OBJEXT) \
 	qt/qt_wealthsilo_qt-macnotificationhandler.$(OBJEXT)
-#am__objects_15 =  \
-#	$(am__objects_14)
+am__objects_15 =  \
+	$(am__objects_14)
 am__objects_16 = qt/res/wealthsilo-qt-res.$(OBJEXT)
-am__objects_17 =  \
-	$(am__objects_16)
+#am__objects_17 =  \
+#	$(am__objects_16)
 am_qt_wealthsilo_qt_OBJECTS =  \
 	qt/qt_wealthsilo_qt-wealthsilo.$(OBJEXT) \
 	$(am__objects_15) $(am__objects_17)
 qt_wealthsilo_qt_OBJECTS = $(am_qt_wealthsilo_qt_OBJECTS)
-am__DEPENDENCIES_6 =  \
-	$(LIBBITCOIN_ZMQ) \
-	$(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_6 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
 qt_wealthsilo_qt_DEPENDENCIES = qt/libbitcoinqt.a \
 	$(LIBBITCOIN_SERVER) $(am__append_25) \
 	$(am__DEPENDENCIES_6) $(LIBBITCOIN_CLI) \
@@ -951,8 +951,8 @@ am__test_test_wealthsilo_SOURCES_DIST =  \
 #	$(am__objects_20)
 test_test_wealthsilo_OBJECTS = $(am_test_test_wealthsilo_OBJECTS) \
 	$(nodist_test_test_wealthsilo_OBJECTS)
-#am__DEPENDENCIES_7 =  \
-#	$(am__DEPENDENCIES_1)
+##am__DEPENDENCIES_7 =  \
+##	$(am__DEPENDENCIES_1)
 #test_test_wealthsilo_DEPENDENCIES =  \
 #	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) \
 #	$(LIBBITCOIN_COMMON) $(LIBBITCOIN_UTIL) \
@@ -971,7 +971,7 @@ test_test_wealthsilo_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(LDFLAGS) -o $@
 am__wealthsilo_cli_SOURCES_DIST = wealthsilo-cli.cpp \
 	wealthsilo-cli-res.rc
-am__objects_21 = wealthsilo-cli-res.$(OBJEXT)
+#am__objects_21 = wealthsilo-cli-res.$(OBJEXT)
 am_wealthsilo_cli_OBJECTS = wealthsilo_cli-wealthsilo-cli.$(OBJEXT) \
 	$(am__objects_21)
 wealthsilo_cli_OBJECTS = $(am_wealthsilo_cli_OBJECTS)
@@ -985,7 +985,7 @@ wealthsilo_cli_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(wealthsilo_cli_LDFLAGS) $(LDFLAGS) -o $@
 am__wealthsilo_tx_SOURCES_DIST = wealthsilo-tx.cpp \
 	wealthsilo-tx-res.rc
-am__objects_22 = wealthsilo-tx-res.$(OBJEXT)
+#am__objects_22 = wealthsilo-tx-res.$(OBJEXT)
 am_wealthsilo_tx_OBJECTS = wealthsilo_tx-wealthsilo-tx.$(OBJEXT) \
 	$(am__objects_22)
 wealthsilo_tx_OBJECTS = $(am_wealthsilo_tx_OBJECTS)
@@ -998,7 +998,7 @@ wealthsilo_tx_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 	$(wealthsilo_tx_CXXFLAGS) $(CXXFLAGS) $(wealthsilo_tx_LDFLAGS) \
 	$(LDFLAGS) -o $@
 am__wealthsilod_SOURCES_DIST = wealthsilod.cpp wealthsilod-res.rc
-am__objects_23 = wealthsilod-res.$(OBJEXT)
+#am__objects_23 = wealthsilod-res.$(OBJEXT)
 am_wealthsilod_OBJECTS = wealthsilod-wealthsilod.$(OBJEXT) \
 	$(am__objects_23)
 wealthsilod_OBJECTS = $(am_wealthsilod_OBJECTS)
@@ -1315,7 +1315,7 @@ RECHECK_LOGS = $(TEST_LOGS)
 #am__EXEEXT_6 = test/test_wealthsilo$(EXEEXT) \
 #	test/bitcoin-util-test.py
 TEST_SUITE_LOG = test-suite.log
-TEST_EXTENSIONS = .exe .test
+TEST_EXTENSIONS =  .test
 LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)
 am__set_b = \
@@ -1329,7 +1329,7 @@ am__set_b = \
       b='$*';; \
   esac
 am__test_logs1 = $(TESTS:=.log)
-am__test_logs2 = $(am__test_logs1:.exe.log=.log)
+am__test_logs2 = $(am__test_logs1:.log=.log)
 TEST_LOGS = $(am__test_logs2:.test.log=.log)
 TEST_LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 TEST_LOG_COMPILE = $(TEST_LOG_COMPILER) $(AM_TEST_LOG_FLAGS) \
@@ -1365,14 +1365,14 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
-ACLOCAL = ${SHELL} /root/telos/build-aux/missing aclocal-1.15
+ACLOCAL = ${SHELL} /root/cottoncoin/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /usr/bin/i686-w64-mingw32-ar
+AR = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ar
 ARFLAGS = cr
-AUTOCONF = ${SHELL} /root/telos/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /root/telos/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /root/telos/build-aux/missing automake-1.15
+AUTOCONF = ${SHELL} /root/cottoncoin/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /root/cottoncoin/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /root/cottoncoin/build-aux/missing automake-1.15
 AWK = gawk
 BDB_CFLAGS = 
 BDB_CPPFLAGS = 
@@ -1381,21 +1381,21 @@ BITCOIN_CLI_NAME = wealthsilo-cli
 BITCOIN_DAEMON_NAME = wealthsilod
 BITCOIN_GUI_NAME = wealthsilo-qt
 BITCOIN_TX_NAME = wealthsilo-tx
-BOOST_CHRONO_LIB = -lboost_chrono-mt-s
-BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -mthreads -I/root/telos/depends/i686-w64-mingw32/share/../include
-BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt-s
-BOOST_LDFLAGS = -L/root/telos/depends/i686-w64-mingw32/share/../lib
-BOOST_LIBS = -L/root/telos/depends/i686-w64-mingw32/share/../lib -lboost_system-mt-s -lboost_filesystem-mt-s -lboost_program_options-mt-s -lboost_thread_win32-mt-s -lboost_chrono-mt-s
-BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt-s
-BOOST_SYSTEM_LIB = -lboost_system-mt-s
-BOOST_THREAD_LIB = -lboost_thread_win32-mt-s
+BOOST_CHRONO_LIB = -lboost_chrono-mt
+BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -pthread -I/root/cottoncoin/depends/x86_64-apple-darwin/share/../include
+BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt
+BOOST_LDFLAGS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib
+BOOST_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_thread-mt -lboost_chrono-mt
+BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt
+BOOST_SYSTEM_LIB = -lboost_system-mt
+BOOST_THREAD_LIB = -lboost_thread-mt
 BOOST_UNIT_TEST_FRAMEWORK_LIB = 
-BREW = 
+BREW = no
 BUILD_QT = qt
 BUILD_TEST = 
 BUILD_TEST_QT = 
-CC = /root/telos/depends/i686-w64-mingw32/share/../native/bin/ccache i686-w64-mingw32-gcc
-CCACHE = /root/telos/depends/i686-w64-mingw32/share/../native/bin/ccache
+CC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9
+CCACHE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache
 CCDEPMODE = depmode=gcc3
 CFLAGS = -pipe -O2 
 CLIENT_VERSION_BUILD = 0
@@ -1405,86 +1405,86 @@ CLIENT_VERSION_MINOR = 0
 CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
 COPYRIGHT_YEAR = 2018
-CPP = i686-w64-mingw32-gcc -E
-CPPFILT = /usr/bin/i686-w64-mingw32-c++filt
-CPPFLAGS = -I/root/telos/depends/i686-w64-mingw32/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64 -DHAVE_QT5
-CRYPTO_CFLAGS = 
-CRYPTO_LIBS = -lcrypto
-CXX = /root/telos/depends/i686-w64-mingw32/share/../native/bin/ccache i686-w64-mingw32-g++ -std=c++11
-CXXCPP = i686-w64-mingw32-g++ -std=c++11 -E
+CPP = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -E
+CPPFILT = /usr/bin/c++filt
+CPPFLAGS = -Qunused-arguments -I/root/cottoncoin/depends/x86_64-apple-darwin/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -DMAC_OSX -DHAVE_QT5
+CRYPTO_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+CRYPTO_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lcrypto
+CXX = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11
+CXXCPP = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -pipe -O2 
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = i686-w64-mingw32-dlltool
-DSYMUTIL = 
+DLLTOOL = false
+DSYMUTIL = x86_64-apple-darwin-dsymutil
 DUMPBIN = 
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
 ERROR_CXXFLAGS = 
-EVENT_CFLAGS = 
-EVENT_LIBS = -levent
-EVENT_PTHREADS_CFLAGS = 
-EVENT_PTHREADS_LIBS = 
-EXEEXT = .exe
+EVENT_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+EVENT_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -levent
+EVENT_PTHREADS_CFLAGS = -D_THREAD_SAFE -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+EVENT_PTHREADS_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -levent_pthreads -levent
+EXEEXT = 
 FGREP = /bin/grep -F
-GCOV = /usr/bin/i686-w64-mingw32-gcov
+GCOV = /usr/bin/gcov
 GENHTML = 
-GENISOIMAGE = 
+GENISOIMAGE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/genisoimage
 GIT = /usr/bin/git
 GREP = /bin/grep
 HARDENED_CPPFLAGS =  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
 HARDENED_CXXFLAGS =  -Wstack-protector -fstack-protector-all
-HARDENED_LDFLAGS =  -Wl,--dynamicbase -Wl,--nxcompat
+HARDENED_LDFLAGS = 
 HAVE_CXX11 = 1
 HEXDUMP = /usr/bin/hexdump
-IMAGEMAGICK_CONVERT = 
+IMAGEMAGICK_CONVERT = /usr/bin/convert
 INSTALL = /usr/bin/install -c
-INSTALLNAMETOOL = 
+INSTALLNAMETOOL = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-install_name_tool
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 JAVA_COMPARISON_TOOL = 
 LCOV = 
-LD = /usr/bin/i686-w64-mingw32-ld
-LDFLAGS = -L/root/telos/depends/i686-w64-mingw32/share/../lib  -Wl,--large-address-aware
+LD = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ld
+LDFLAGS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib  -Wl,-headerpad_max_install_names -Wl,-dead_strip
 LEVELDB_CPPFLAGS =  $(am__append_1)
-LEVELDB_TARGET_FLAGS = TARGET_OS=OS_WINDOWS_CROSSCOMPILE
+LEVELDB_TARGET_FLAGS = TARGET_OS=Darwin
 LIBLEVELDB =  $(am__append_2)
 LIBMEMENV =  $(am__append_3)
 LIBOBJS = 
-LIBS = -lcrypto -lQt5PlatformSupport -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd 
+LIBS = -lcrypto 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS =  -all-static
-LIPO = 
+LIBTOOL_APP_LDFLAGS = 
+LIPO = x86_64-apple-darwin-lipo
 LN_S = ln -s
-LRELEASE = /root/telos/depends/i686-w64-mingw32/share/../native/bin/lrelease
+LRELEASE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/lrelease
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 LUPDATE = 
 MAINT = 
-MAKEINFO = ${SHELL} /root/telos/build-aux/missing makeinfo
-MAKENSIS = none
+MAKEINFO = ${SHELL} /root/cottoncoin/build-aux/missing makeinfo
+MAKENSIS = 
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = -DSTATICLIB -DMINIUPNP_STATICLIB
+MINIUPNPC_CPPFLAGS = 
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /root/telos/depends/i686-w64-mingw32/share/../native/bin/moc
-MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
-NM = i686-w64-mingw32-nm
-NMEDIT = 
-OBJCOPY = /usr/bin/i686-w64-mingw32-objcopy
-OBJCXX = i686-w64-mingw32-g++ -std=c++11
+MOC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/moc
+MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir) -DQ_OS_MAC
+NM = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-nm
+NMEDIT = x86_64-apple-darwin-nmedit
+OBJCOPY = /usr/bin/objcopy
+OBJCXX = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
-OBJCXXFLAGS = 
-OBJDUMP = i686-w64-mingw32-objdump
+OBJCXXFLAGS = -pipe -O2 
+OBJDUMP = objdump
 OBJEXT = o
-OTOOL = 
-OTOOL64 = 
+OTOOL = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-otool
+OTOOL64 = :
 PACKAGE = wealthsilo
 PACKAGE_BUGREPORT = www.wealthsilo.io
 PACKAGE_NAME = Wealthsilo Core
@@ -1493,74 +1493,74 @@ PACKAGE_TARNAME = wealthsilo
 PACKAGE_URL = 
 PACKAGE_VERSION = 1.0.0
 PATH_SEPARATOR = :
-PIC_FLAGS = 
-PIE_FLAGS = 
+PIC_FLAGS = -fPIC
+PIE_FLAGS = -fPIC
 PKG_CONFIG = /usr/bin/pkg-config --static
-PKG_CONFIG_LIBDIR = /root/telos/depends/i686-w64-mingw32/share/../lib/pkgconfig
-PKG_CONFIG_PATH = /root/telos/depends/i686-w64-mingw32/share/../share/pkgconfig
-PORT = 
-PROTOBUF_CFLAGS = 
-PROTOBUF_LIBS = -lprotobuf
-PROTOC = /root/telos/depends/i686-w64-mingw32/share/../native/bin/protoc
-PTHREAD_CC = i686-w64-mingw32-gcc
-PTHREAD_CFLAGS = -pthread
+PKG_CONFIG_LIBDIR = 
+PKG_CONFIG_PATH = /root/cottoncoin/depends/x86_64-apple-darwin/share/../share/pkgconfig:/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib/pkgconfig
+PORT = no
+PROTOBUF_CFLAGS = -D_THREAD_SAFE -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+PROTOBUF_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lprotobuf -D_THREAD_SAFE -lz
+PROTOC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/protoc
+PTHREAD_CC = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9
+PTHREAD_CFLAGS = -Qunused-arguments -pthread
 PTHREAD_LIBS = 
 PYTHON = /usr/bin/python3.5
-PYTHONPATH = /root/telos/depends/i686-w64-mingw32/share/../native/lib/python/dist-packages:
-QR_CFLAGS = 
-QR_LIBS = -lqrencode
+PYTHONPATH = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/lib/python/dist-packages:
+QR_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+QR_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lqrencode -lpthread
 QT4_CFLAGS = 
 QT4_LIBS = 
-QT5_CFLAGS = 
-QT5_LIBS = 
-QTPLATFORM_CFLAGS = 
-QTPLATFORM_LIBS = 
-QTPRINT_CFLAGS = 
-QTPRINT_LIBS = 
+QT5_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtNetwork -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT5_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Network -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework Security -lz -framework SystemConfiguration -framework CoreFoundation -framework CoreServices -lssl -lcrypto -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
+QTPLATFORM_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtPlatformSupport -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QTPLATFORM_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PlatformSupport -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -lz -framework AppKit -framework OpenGL -framework ApplicationServices -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
+QTPRINT_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtPrintSupport -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QTPRINT_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PrintSupport -lQt5Widgets -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework OpenGL -framework AGL -framework Carbon -lQt5Gui -lqtpng -lqtharfbuzzng -lQt5Core -lz -lqtpcre -lm -framework AppKit -framework OpenGL -framework AGL -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_DBUS_CFLAGS = 
-QT_DBUS_INCLUDES = 
-QT_DBUS_LIBS = -lQt5DBus -L/root/telos/depends/i686-w64-mingw32/share/../lib
-QT_INCLUDES = -I/root/telos/depends/i686-w64-mingw32/share/../include -I/root/telos/depends/i686-w64-mingw32/share/../include/QtCore -I/root/telos/depends/i686-w64-mingw32/share/../include/QtGui -I/root/telos/depends/i686-w64-mingw32/share/../include/QtWidgets -I/root/telos/depends/i686-w64-mingw32/share/../include/QtNetwork -I/root/telos/depends/i686-w64-mingw32/share/../include/QtTest -I/root/telos/depends/i686-w64-mingw32/share/../include/QtDBus
-QT_LDFLAGS =  -mwindows
-QT_LIBS = -lqwindows -lqminimal -lQt5Widgets -lQt5Network -lQt5Gui     -lQt5Core    -lqtharfbuzzng -lqtpcre -lqtpng -lz  -limm32  -L/root/telos/depends/i686-w64-mingw32/share/../lib -L/root/telos/depends/i686-w64-mingw32/share/../plugins/platforms
-QT_PIE_FLAGS = 
+QT_DBUS_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtDBus -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT_DBUS_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtDBus -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT_DBUS_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5DBus -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
+QT_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtNetwork -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT_LDFLAGS = 
+QT_LIBS = -lqcocoa -lqminimal -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PrintSupport -lQt5Widgets -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework OpenGL -framework AGL -framework Carbon -lQt5Gui -lqtpng -lqtharfbuzzng -lQt5Core -lz -lqtpcre -lm -framework AppKit -framework OpenGL -framework AGL -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PlatformSupport -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -lz -framework AppKit -framework OpenGL -framework ApplicationServices -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Network -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework Security -lz -framework SystemConfiguration -framework CoreFoundation -framework CoreServices -lssl -lcrypto -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../plugins/platforms -framework IOKit -framework Foundation -framework ApplicationServices -framework AppKit
+QT_PIE_FLAGS = -fPIC
 QT_SELECT = qt5
-QT_TEST_CFLAGS = 
-QT_TEST_INCLUDES = 
-QT_TEST_LIBS = -lQt5Test -L/root/telos/depends/i686-w64-mingw32/share/../lib
-QT_TRANSLATION_DIR = /root/telos/depends/i686-w64-mingw32/share/../translations
-RANLIB = /usr/bin/i686-w64-mingw32-ranlib
-RCC = /root/telos/depends/i686-w64-mingw32/share/../native/bin/rcc
-READELF = /usr/bin/i686-w64-mingw32-readelf
+QT_TEST_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtTest -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT_TEST_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtTest -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
+QT_TEST_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Test -framework Security -framework Foundation -framework ApplicationServices -framework IOKit -lQt5Core -framework DiskArbitration -lz -lqtpcre -lm -framework CoreServices -framework AppKit -framework CoreFoundation -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
+QT_TRANSLATION_DIR = /root/cottoncoin/depends/x86_64-apple-darwin/share/../translations
+RANLIB = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ranlib
+RCC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/rcc
+READELF = /usr/bin/readelf
 RELDFLAGS = 
-RSVG_CONVERT = 
+RSVG_CONVERT = /usr/bin/rsvg-convert
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
-SSL_CFLAGS = 
-SSL_LIBS = -lssl
-STRIP = /usr/bin/i686-w64-mingw32-strip
+SSL_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
+SSL_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lssl -lcrypto
+STRIP = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-strip
 TESTDEFS = 
-TIFFCP = 
-UIC = /root/telos/depends/i686-w64-mingw32/share/../native/bin/uic
+TIFFCP = /usr/bin/tiffcp
+UIC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/uic
 UNIVALUE_CFLAGS = -I$(srcdir)/univalue/include
 UNIVALUE_LIBS = univalue/libunivalue.la
 USE_QRCODE = 
 USE_UPNP = 
 VERSION = 1.0.0
-WINDOWS_BITS = 32
-WINDRES = /usr/bin/i686-w64-mingw32-windres
+WINDOWS_BITS = 
+WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
 XGETTEXT = 
-ZMQ_CFLAGS =  -DZMQ_STATIC
-ZMQ_LIBS = -lzmq
-abs_builddir = /root/telos/src
-abs_srcdir = /root/telos/src
-abs_top_builddir = /root/telos
-abs_top_srcdir = /root/telos
+ZMQ_CFLAGS = 
+ZMQ_LIBS = 
+abs_builddir = /root/cottoncoin/src
+abs_srcdir = /root/cottoncoin/src
+abs_top_builddir = /root/cottoncoin
+abs_top_srcdir = /root/cottoncoin
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_CXX = 
@@ -1584,15 +1584,15 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = i686-w64-mingw32
-host_alias = i686-w64-mingw32
-host_cpu = i686
-host_os = mingw32
-host_vendor = w64
+host = x86_64-apple-darwin
+host_alias = x86_64-apple-darwin
+host_cpu = x86_64
+host_os = darwin
+host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /root/telos/build-aux/install-sh
+install_sh = ${SHELL} /root/cottoncoin/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -1601,7 +1601,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local
+prefix = /
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
@@ -1639,7 +1639,7 @@ LIBBITCOIN_CRYPTO = crypto/libbitcoin_crypto.a
 LIBBITCOIN_ZEROCOIN = libzerocoin/libbitcoin_zerocoin.a
 LIBBITCOINQT = qt/libbitcoinqt.a
 LIBSECP256K1 = secp256k1/libsecp256k1.la
-LIBBITCOIN_ZMQ = libbitcoin_zmq.a
+#LIBBITCOIN_ZMQ = libbitcoin_zmq.a
 #LIBBITCOINCONSENSUS = libbitcoinconsensus.la
 LIBBITCOIN_WALLET = libbitcoin_wallet.a
 lib_LTLIBRARIES = $(LIBBITCOINCONSENSUS)
@@ -1795,12 +1795,12 @@ libbitcoin_server_a_SOURCES = \
   validationinterface.cpp \
   $(BITCOIN_CORE_H)
 
-libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-libbitcoin_zmq_a_SOURCES = \
-  zmq/zmqabstractnotifier.cpp \
-  zmq/zmqnotificationinterface.cpp \
-  zmq/zmqpublishnotifier.cpp
+#libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
+#libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+#libbitcoin_zmq_a_SOURCES = \
+#  zmq/zmqabstractnotifier.cpp \
+#  zmq/zmqnotificationinterface.cpp \
+#  zmq/zmqpublishnotifier.cpp
 
 
 # wallet: shared between wealthsilod and wealthsilo-qt, but only linked
@@ -8154,13 +8154,13 @@ qt/test/test_wealthsilo-qt.log: qt/test/test_wealthsilo-qt$(EXEEXT)
 	--log-file $$b.log --trs-file $$b.trs \
 	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
 	"$$tst" $(AM_TESTS_FD_REDIRECT)
-.test$(EXEEXT).log:
-	@p='$<'; \
-	$(am__set_b); \
-	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
-	--log-file $$b.log --trs-file $$b.trs \
-	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
-	"$$tst" $(AM_TESTS_FD_REDIRECT)
+#.test$(EXEEXT).log:
+#	@p='$<'; \
+#	$(am__set_b); \
+#	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
+#	--log-file $$b.log --trs-file $$b.trs \
+#	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
+#	"$$tst" $(AM_TESTS_FD_REDIRECT)
 
 distdir: $(DISTFILES)
 	@srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*]/\\\\&/g'`; \

@@ -235,10 +235,10 @@ QT_TRANSLATE_NOOP("wealthsilo-core", ""
 QT_TRANSLATE_NOOP("wealthsilo-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("wealthsilo-core", "(5595 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("wealthsilo-core", "(9595 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("wealthsilo-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("wealthsilo-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("wealthsilo-core", "(must be 5595 for mainnet)"),
+QT_TRANSLATE_NOOP("wealthsilo-core", "(must be 9595 for mainnet)"),
 QT_TRANSLATE_NOOP("wealthsilo-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("wealthsilo-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("wealthsilo-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

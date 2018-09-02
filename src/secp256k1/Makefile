@@ -90,7 +90,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = i686-w64-mingw32
+host_triplet = x86_64-apple-darwin
 noinst_PROGRAMS = $(am__EXEEXT_1) $(am__EXEEXT_2)
 am__append_1 = bench_verify bench_sign bench_inv
 #am__append_2 = tests
@@ -424,7 +424,7 @@ am__set_TESTS_bases = \
   bases=`echo $$bases`
 RECHECK_LOGS = $(TEST_LOGS)
 TEST_SUITE_LOG = test-suite.log
-TEST_EXTENSIONS = .exe .test
+TEST_EXTENSIONS =  .test
 LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)
 am__set_b = \
@@ -438,7 +438,7 @@ am__set_b = \
       b='$*';; \
   esac
 am__test_logs1 = $(TESTS:=.log)
-am__test_logs2 = $(am__test_logs1:.exe.log=.log)
+am__test_logs2 = $(am__test_logs1:.log=.log)
 TEST_LOGS = $(am__test_logs2:.test.log=.log)
 TEST_LOG_DRIVER = $(SHELL) $(top_srcdir)/build-aux/test-driver
 TEST_LOG_COMPILE = $(TEST_LOG_COMPILER) $(AM_TEST_LOG_FLAGS) \
@@ -473,31 +473,31 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /root/telos/src/secp256k1/build-aux/missing aclocal-1.15
+ACLOCAL = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /usr/bin/i686-w64-mingw32-ar
-AUTOCONF = ${SHELL} /root/telos/src/secp256k1/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /root/telos/src/secp256k1/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /root/telos/src/secp256k1/build-aux/missing automake-1.15
+AR = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ar
+AUTOCONF = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/missing automake-1.15
 AWK = gawk
-BREW = 
-CC = i686-w64-mingw32-gcc
+BREW = no
+CC = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9
 CCDEPMODE = depmode=gcc3
 CFLAGS = -pipe -O2  -W -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wno-unused-function
-CPP = i686-w64-mingw32-gcc -E
-CPPFLAGS = -I/root/telos/depends/i686-w64-mingw32/share/../include/ 
+CPP = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -E
+CPPFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/share/../include/ 
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = i686-w64-mingw32-dlltool
-DSYMUTIL = 
+DLLTOOL = false
+DSYMUTIL = x86_64-apple-darwin-dsymutil
 DUMPBIN = 
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
-EXEEXT = .exe
+EXEEXT = 
 FGREP = /bin/grep -F
 GREP = /bin/grep
 INSTALL = /usr/bin/install -c
@@ -505,24 +505,24 @@ INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
-LD = /usr/bin/i686-w64-mingw32-ld
-LDFLAGS = -L/root/telos/depends/i686-w64-mingw32/share/../lib 
+LD = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ld
+LDFLAGS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib 
 LIBOBJS = 
 LIBS = 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIPO = 
+LIPO = x86_64-apple-darwin-lipo
 LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-MAKEINFO = ${SHELL} /root/telos/src/secp256k1/build-aux/missing makeinfo
+MAKEINFO = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
-NM = i686-w64-mingw32-nm
-NMEDIT = 
-OBJDUMP = i686-w64-mingw32-objdump
+NM = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-nm
+NMEDIT = x86_64-apple-darwin-nmedit
+OBJDUMP = objdump
 OBJEXT = o
-OTOOL = 
-OTOOL64 = 
+OTOOL = x86_64-apple-darwin-otool
+OTOOL64 = :
 PACKAGE = libsecp256k1
 PACKAGE_BUGREPORT = 
 PACKAGE_NAME = libsecp256k1
@@ -532,10 +532,10 @@ PACKAGE_URL =
 PACKAGE_VERSION = 0.1
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config --static
-PKG_CONFIG_LIBDIR = /root/telos/depends/i686-w64-mingw32/share/../lib/pkgconfig
-PKG_CONFIG_PATH = /root/telos/depends/i686-w64-mingw32/share/../share/pkgconfig
-PORT = 
-RANLIB = /usr/bin/i686-w64-mingw32-ranlib
+PKG_CONFIG_LIBDIR = 
+PKG_CONFIG_PATH = /root/cottoncoin/depends/x86_64-apple-darwin/share/../share/pkgconfig:/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib/pkgconfig
+PORT = no
+RANLIB = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ranlib
 SECP_INCLUDES = 
 SECP_LIBS = 
 SECP_TEST_INCLUDES = 
@@ -543,13 +543,13 @@ SECP_TEST_LIBS =
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
-STRIP = /usr/bin/i686-w64-mingw32-strip
+STRIP = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-strip
 VERSION = 0.1
 YASM_BINFMT = 
-abs_builddir = /root/telos/src/secp256k1
-abs_srcdir = /root/telos/src/secp256k1
-abs_top_builddir = /root/telos/src/secp256k1
-abs_top_srcdir = /root/telos/src/secp256k1
+abs_builddir = /root/cottoncoin/src/secp256k1
+abs_srcdir = /root/cottoncoin/src/secp256k1
+abs_top_builddir = /root/cottoncoin/src/secp256k1
+abs_top_srcdir = /root/cottoncoin/src/secp256k1
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_DUMPBIN = 
@@ -570,15 +570,15 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = i686-w64-mingw32
-host_alias = i686-w64-mingw32
-host_cpu = i686
-host_os = mingw32
-host_vendor = w64
+host = x86_64-apple-darwin
+host_alias = x86_64-apple-darwin
+host_cpu = x86_64
+host_os = darwin
+host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /root/telos/src/secp256k1/build-aux/install-sh
+install_sh = ${SHELL} /root/cottoncoin/src/secp256k1/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -587,7 +587,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local
+prefix = /
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
@@ -1142,13 +1142,13 @@ tests.log: tests$(EXEEXT)
 	--log-file $$b.log --trs-file $$b.trs \
 	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
 	"$$tst" $(AM_TESTS_FD_REDIRECT)
-.test$(EXEEXT).log:
-	@p='$<'; \
-	$(am__set_b); \
-	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
-	--log-file $$b.log --trs-file $$b.trs \
-	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
-	"$$tst" $(AM_TESTS_FD_REDIRECT)
+#.test$(EXEEXT).log:
+#	@p='$<'; \
+#	$(am__set_b); \
+#	$(am__check_pre) $(TEST_LOG_DRIVER) --test-name "$$f" \
+#	--log-file $$b.log --trs-file $$b.trs \
+#	$(am__common_driver_flags) $(AM_TEST_LOG_DRIVER_FLAGS) $(TEST_LOG_DRIVER_FLAGS) -- $(TEST_LOG_COMPILE) \
+#	"$$tst" $(AM_TESTS_FD_REDIRECT)
 
 distdir: $(DISTFILES)
 	$(am__remove_distdir)

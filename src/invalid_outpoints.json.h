@@ -1570,7 +1570,7 @@ std::string LoadInvalidOutPoints()
             "    \"n\": 0\n"
             "  },\n"
             "  {\n"
-            "    \"txid\": \"40fdf22559523786d6d90bb20699f70c45f7ba26c97729a47ad33eb713d56211\",\n"
+            "    \"txid\": \"40fdf22959523786d6d90bb20699f70c45f7ba26c97729a47ad33eb713d56211\",\n"
             "    \"n\": 0\n"
             "  },\n"
             "  {\n"
