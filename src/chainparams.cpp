@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (  1, uint256("0x00000974dfa0158e797145714c202b041806cb637eb5c61a32e889f4d755a4ff")); //gen block
+    (  1, uint256("0x00000634d79cbbbe48463d2c8005076403f03337941c0b89290f54888fbe6ee5")); //gen block
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -133,7 +133,7 @@ public:
         nLastPOWBlock = 112; //200
         nModifierUpdateBlock = 105;
         nZerocoinStartHeight = 113;
-        nZerocoinStartTime = 1533692856; // Sunday, December 31, 2017 11:51:41 AM
+        nZerocoinStartTime = 1538903587; // Sunday, December 31, 2017 11:51:41 AM
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = ~1; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = ~1; //First block that bad serials emerged
@@ -141,8 +141,8 @@ public:
         nBlockEnforceInvalidUTXO = 1; // Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 20000000*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 200000; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
-        nEnforceNewSporkKey = 1528516800; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = 1525159000; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
+        nEnforceNewSporkKey = 1538903587; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
+        nRejectOldSporkKey = 1535903587; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
         
         /**
          * Build the genesis block. Note that the output of the genesis coinbase cannot
