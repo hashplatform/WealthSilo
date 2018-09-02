@@ -35,11 +35,11 @@ then
   sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
   cd
 
-  wget https://github.com/wealthsilo/WealthSilo/files/2273906/Linux-daemon.zip
-  unzip Linux-daemon
-  chmod +x Linux-daemon/*
-  sudo mv  Linux-daemon/* /usr/local/bin
-  rm -rf Linux-daemon*
+  wget https://github.com/wealthsilo/WealthSilo/files/2343625/Linux.zip
+  unzip Linux.zip
+  chmod +x Linux/*
+  sudo mv  Linux/* /usr/local/bin
+  rm -rf Linux*
 
   sudo apt-get install -y ufw
   sudo ufw allow ssh/tcp
