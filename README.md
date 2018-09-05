@@ -4,7 +4,7 @@ http://www.wealthsilo.io
 
 
 # Coin Specifications:
-Name: Wealth.Silo</br>
+Name: WEALTHSILO</br>
 Ticker: WEALTH</br>
 Algorithm: Quark</br>
 Maximum Supply: 21,000,000 WEALTH</br>

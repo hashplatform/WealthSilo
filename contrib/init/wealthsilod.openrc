@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-wealthsilo}
 BITCOIND_GROUP=${BITCOIND_GROUP:-wealthsilo}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/wealthsilod}
 
-name="WealthSilo Core Daemon"
-description="WealthSilo crypto-currency p2p network daemon"
+name="WEALTHSILO Core Daemon"
+description="WEALTHSILO crypto-currency p2p network daemon"
 
 command="/usr/bin/wealthsilod"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"WealthSilo Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"WEALTHSILO Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

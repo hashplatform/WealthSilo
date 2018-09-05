@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Kies het adres om munten naar toe te sturen</translation>
+        <translation>Kies het adres om naar te versturen</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Kies het adres om munten op te ontvangen</translation>
+        <translation>Kies het adres om op te ontvangen</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>Ontvangstadressen</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw WealthSilo adressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden van geld.</translation>
+        <source>These are your WEALTHSILO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw WEALTHSILOadressen om betalingen mee te verzenden. Controleer altijd zowel het bedrag als het ontvangstadres voor het verzenden.</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw WealthSilo adressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <source>These are your WEALTHSILO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw WEALTHSILOadressen waarop betalingen kunnen worden ontvangen. Het wordt aangeraden om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <translation>Een fout is opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
     </message>
 </context>
 <context>
@@ -117,27 +117,27 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoordzin dialoog</translation>
+        <translation>Wachtwoorddialoog</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Voer wachtwoordzin in</translation>
+        <translation>Voer wachtwoord in</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nieuwe wachtwoordzin</translation>
+        <translation>Nieuw wachtwoord</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Herhaal nieuwe wachtwoordzin</translation>
+        <translation>Herhaal nieuw wachtwoord</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
         <translation>Dient om de triviale sendmoney uit te schakelen wanneer het OS account in gevaar is gebracht. Geeft geen echte veiligheid.</translation>
     </message>
     <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Alleen voor anonimisering, automint en staking</translation>
+        <source>For anonymization and staking only</source>
+        <translation>Alleen voor anonimisering en staking</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -169,23 +169,23 @@
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Voer de oude en nieuwe wachtwoordzin in voor uw portemonnee.</translation>
+        <translation>Voer het oude en nieuwe wachtwoord voor uw portemonnee in.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>WealthSilo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHs from being stolen by malware infecting your computer.</source>
-        <translation>WealthSilo zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw WEALTH's kunnen stelen.</translation>
+        <source>WEALTHSILO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHSILOs from being stolen by malware infecting your computer.</source>
+        <translation>WEALTHSILO zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw WEALTHSILOs stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTH&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW WEALTH VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTHSILO&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW WEALTHSILO VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -193,7 +193,7 @@
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient te worden vervangen door het nieuwe gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
+        <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient te worden vervangen door het nieuw gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -205,7 +205,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>De opgegeven wachtwoordzinnen komen niet overeen.</translation>
+        <translation>De opgegeven wachtwoorden komen niet overeen.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -213,30 +213,19 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>De opgegeven wachtwoordzin voor de portemonnee ontsleuteling is niet correct.</translation>
+        <translation>Het opgegeven wachtwoord voor de portemonnee-ontsleuteling is niet correct.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Portemonnee ontsleuteling mislukt</translation>
+        <translation>Portemonnee-ontsleuteling mislukt</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Portemonnee wachtwoordzin is met succes gewijzigd.</translation>
+        <translation>Portemonneewachtwoord is met succes gewijzigd.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
-    </message>
-</context>
-<context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Verboden tot</translation>
     </message>
 </context>
 <context>
@@ -250,16 +239,16 @@
         <translation>&amp;BIP 38 Versleuteling</translation>
     </message>
     <message>
+        <source>Enter a WEALTHSILO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Voer een WEALTHSILO adres in dat u wilt versleutelen met BIP 38. Voer een wachtwoord in, in het middelste veld. Druk op versleutelen om de versleutelde geheime sleutel te berekenen.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>Enter a WealthSilo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Voer een WealthSilo adres in dat u wilt coderen met BIP 38. Voer een wachtwoordzin in in het middelste vak. Druk op versleutelen om de versleutelde privé sleutel te berekenen.</translation>
-    </message>
-    <message>
-        <source>The WealthSilo address to encrypt</source>
-        <translation>Het WealthSilo adres om te versleutelen</translation>
+        <source>The WEALTHSILO address to sign the message with</source>
+        <translation>Het WEALTHSILO adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,24 +279,16 @@
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this WealthSilo address</source>
-        <translation>Versleutel de privé sleutel voor dit WealthSilo adres</translation>
-    </message>
-    <message>
-        <source>Reset all fields</source>
-        <translation>Reset alle velden</translation>
-    </message>
-    <message>
-        <source>The encrypted private key</source>
-        <translation>De versleutelde privé sleutel</translation>
-    </message>
-    <message>
-        <source>Decrypt the entered key using the passphrase</source>
-        <translation>Decodeer de ingevoerde sleutel met behulp van de wachtwoordzin</translation>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het WEALTHSILO adres bezit</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
         <translation>Versleutel &amp;Sleutel</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Maak alle ondertekenvelden leeg</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -319,11 +300,23 @@
     </message>
     <message>
         <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
-        <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer de wachtwoordzin in, in het middelste veld. Druk op Ontsleutel Sleutel om de privé sleutel te berekenen.  Nadat de privé sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de privé sleutel toevoegen aan de portemonnee.</translation>
+        <translation>Voer de BIP 38 versleutelde geheime sleutel in. Voer het wachtwoord in, in het middelste veld. Druk op Ontsleutelen Sleutel om de geheime sleutel te berekenen.  Nadat de geheime sleutel is ontsleuteld, zal het klikken op 'Adres Importeren' de geheime sleutel toevoegen aan de portemonnee.</translation>
+    </message>
+    <message>
+        <source>The WEALTHSILO address the message was signed with</source>
+        <translation>Het WEALTHSILO adres waarmee het bericht was ondertekend</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified WEALTHSILO address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde WEALTHSILO adres</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
-        <translation>Ontsleutelen &amp;Sleutel</translation>
+        <translation>Ontsleutelen Sleutel</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Maak alle verifiëren van het bericht velden leeg</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -339,7 +332,7 @@
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>De ingevoerde wachtwoordzin is ongeldig.</translation>
+        <translation>Het ingevoerde wachtwoord is ongeldig.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -359,11 +352,11 @@
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee ontsleuteling is geannuleerd.</translation>
+        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privé sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
@@ -371,7 +364,7 @@
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Controleer de sleutel en de wachtwoordzin en probeer het opnieuw.</translation>
+        <translation>Controleer de sleutel en het wachtwoord en probeer het opnieuw.</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
@@ -395,7 +388,7 @@
     </message>
     <message>
         <source>Successfully Added Private Key To Wallet</source>
-        <translation>De privé sleutel is met succes toegevoegd aan de portemonnee</translation>
+        <translation>De geheime sleutel is toegevoegd aan de portemonnee</translation>
     </message>
 </context>
 <context>
@@ -433,12 +426,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zWEALTH</source>
-        <translation>Privacy Acties voor zWEALTH</translation>
-    </message>
-    <message>
         <source>E&amp;xit</source>
-        <translation>S&amp;luiten</translation>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <source>Quit application</source>
@@ -466,15 +455,15 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>$Versleutel portemonnee...</translation>
+        <translation>Versleutel portemonnee</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Versleutel de privé sleutels die bij uw portemonnee horen</translation>
+        <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
+        <translation>Backup Portemonnee...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -482,11 +471,11 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoordzin...</translation>
+        <translation>&amp;Wijzig Wachtwoord...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig de wachtwoordzin die gebruikt wordt voor uw portemonnee versleuteling</translation>
+        <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -566,7 +555,7 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst van gebruikte verzendadressen en labels</translation>
+        <translation>Toon de lijst van verzendadressen en labels</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -574,31 +563,7 @@
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst van gebruikte ontvangstadressen en labels</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Multisignature aanmaak...</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Creëer een nieuw multisignature adres en voeg het toe aan deze portemonnee</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Multisignature spenderen...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Besteden vanuit een multisignature adres</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>Ondertekenen van &amp;Multisignature...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Onderteken met een multisignature adres</translation>
+        <translation>Toon de lijst van ontvangstadressen en labels</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -610,19 +575,11 @@
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform></translation>
+        <translation><numerusform>%n blok van transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken van transactiegeschiedenis verwerkt.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Synchroniseren aanvullende gegevens: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 achter. Scannen van block %2</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;enkel voor anonimisering en staking</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -645,20 +602,24 @@
         <translation>Tabblad werkbalk</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Kern</translation>
     </message>
     <message>
-        <source>Send coins to a WealthSilo address</source>
-        <translation>Verstuur munten naar een WealthSilo adres</translation>
+        <source>Send coins to a WEALTHSILO address</source>
+        <translation>Verstuur munten naar een WEALTHSILO adres</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and wealthsilo: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en WealthSilo: URI's)</translation>
+        <translation>Vraag betaling aan (genereert QR-codes en WEALTHSILO: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
         <translation>&amp;Privacy</translation>
+    </message>
+    <message>
+        <source>Privacy Action for zWEALTH and Obfuscation</source>
+        <translation>Privacy Actie voor zWEALTH en verduistering</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -669,24 +630,24 @@
         <translation>Bekijk masternodes</translation>
     </message>
     <message>
-        <source>&amp;About WealthSilo Core</source>
-        <translation>&amp;Over WealthSilo Core</translation>
+        <source>&amp;About WEALTHSILO Core</source>
+        <translation>&amp;Over WEALTHSILO Kern</translation>
     </message>
     <message>
-        <source>Show information about WealthSilo Core</source>
-        <translation>Toon informatie over WealthSilo Kern</translation>
+        <source>Show information about WEALTHSILO Core</source>
+        <translation>Toon informatie over WEALTHSILO Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for WealthSilo</source>
-        <translation>Wijzig WealthSilo configuratie opties</translation>
+        <source>Modify configuration options for WEALTHSILO</source>
+        <translation>Wijzig WEALTHSILO configuratie opties</translation>
     </message>
     <message>
-        <source>Sign messages with your WealthSilo addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw WealthSilo adressen om te bewijzen dat deze adressen in uw bezit zijn</translation>
+        <source>Sign messages with your WEALTHSILO addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw WEALTHSILO adressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified WealthSilo addresses</source>
-        <translation>Controleer berichten om te verzekeren dat deze ondertekend zijn met de gespecificeerde WealthSilo adressen</translation>
+        <source>Verify messages to ensure they were signed with specified WEALTHSILO addresses</source>
+        <translation>Controleer berichten om te verifiëren dat deze ondertekend zijn met de gespecificeerde WEALTHSILO adressen</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -694,7 +655,7 @@
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
-        <translation>Versleutelen en ontsleutel privé sleutels door middel van een wachtwoordzin</translation>
+        <translation>Versleutelen en ontsleutelen door middel van een wachtwoord/wachtzin</translation>
     </message>
     <message>
         <source>&amp;MultiSend</source>
@@ -702,7 +663,7 @@
     </message>
     <message>
         <source>MultiSend Settings</source>
-        <translation>MultiSend instellingen</translation>
+        <translation>MultiSend intellingen</translation>
     </message>
     <message>
         <source>Open Wallet &amp;Configuration File</source>
@@ -717,8 +678,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a WealthSilo: URI or payment request</source>
-        <translation>Open een WealthSilo: URI of betaalverzoek</translation>
+        <source>Open a WEALTHSILO: URI or payment request</source>
+        <translation>Open een WEALTHSILO: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -729,16 +690,16 @@
         <translation>Block verkenner venster</translation>
     </message>
     <message>
-        <source>Show the WealthSilo Core help message to get a list with possible WealthSilo command-line options</source>
-        <translation>Toon het WealthSilo Core help bericht om een ​​lijst te krijgen met mogelijke WealthSilo command line opties</translation>
+        <source>Show the WEALTHSILO Core help message to get a list with possible WEALTHSILO command-line options</source>
+        <translation>Toon het WEALTHSILO Core help bericht om een ​​lijst te krijgen met mogelijke WEALTHSILO command line opties</translation>
     </message>
     <message>
-        <source>WealthSilo Core client</source>
-        <translation>WealthSilo Core client</translation>
+        <source>WEALTHSILO Core client</source>
+        <translation>WEALTHSILO Core client</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to WealthSilo network</source>
-        <translation><numerusform>%n actieve verbindingen met het WealthSilo netwerk</numerusform><numerusform>%n actieve connectie(s) naar WealthSilo netwerk</numerusform></translation>
+        <source>%n active connection(s) to WEALTHSILO network</source>
+        <translation><numerusform>%n actieve verbinding(en) naar het WEALTHSILO netwerk</numerusform><numerusform>%n actieve verbinding(en) naar het WEALTHSILO netwerk</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -761,24 +722,24 @@
         <translation>Bijgewerkt</translation>
     </message>
     <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n uren</numerusform><numerusform>%n uren</numerusform></translation>
-    </message>
-    <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n day</numerusform><numerusform>%n dagen</numerusform></translation>
+        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n weken</numerusform><numerusform>%n weken</numerusform></translation>
+        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
+        <translation>%1 en%2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n year</numerusform><numerusform>%n jaren</numerusform></translation>
+        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 achter</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -786,11 +747,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen block was %1 geleden gegenereerd.</translation>
+        <translation>Het laatst ontvangen block was %1 geleden gegenereerd.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties hierna zullen nog niet zichtbaar zijn.</translation>
+        <translation>Transacties hierna zijn nog niet zichtbaar.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -814,7 +775,7 @@
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Verzonden MultiSend transactie</translation>
+        <translation>Verzend MultiSend transactie</translation>
     </message>
     <message>
         <source>Date: %1
@@ -849,20 +810,16 @@ Multisend: %1</translation>
 MultiSend: %1</translation>
     </message>
     <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
-    </message>
-    <message>
-        <source>AutoMint is disabled</source>
-        <translation>AutoMint is uitgeschakeld</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
     </message>
     <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
+        <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;alleen voor anonimiteit en staking </translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Portemonnee is versleuteld &lt;/b&gt;en momenteel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
+        <translation>Portemonnee is &lt;b&gt;geëncrypteerd &lt;/b&gt;en momentel &lt;b&gt; vergrendeld&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -893,7 +850,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (wealthsilo.conf).</source>
-        <translation>Niet alle transacties zullen worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (wealthsilo.conf).</translation>
+        <translation>Niet alle transacties worden getoond. Om alle transacties te bekijken moet u txindex=1 instellen in het configuratie bestand (wealthsilo.conf).</translation>
     </message>
 </context>
 <context>
@@ -919,7 +876,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Bedrag:</translation>
+        <translation>Hoeveelheid:</translation>
     </message>
     <message>
         <source>Priority:</source>
@@ -927,7 +884,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Fee:</translation>
+        <translation>Kost:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
@@ -935,23 +892,23 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Dust:</translation>
+        <translation>Stof:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Na de fee:</translation>
+        <translation>Na de kost:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Wisselgeld:</translation>
+        <translation>Wijzig:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(de)selecteer alles</translation>
+        <translation>(on)selecteer alles</translation>
     </message>
     <message>
         <source>toggle lock state</source>
-        <translation>Schakel lock status</translation>
+        <translation>Schakel lock state</translation>
     </message>
     <message>
         <source>Tree mode</source>
@@ -959,15 +916,15 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Lijst modus</translation>
+        <translation>Lijstmodus</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 locked)</translation>
+        <translation>(1 opgesloten)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Bedrag</translation>
+        <translation>Hoeveelheid</translation>
     </message>
     <message>
         <source>Received with label</source>
@@ -976,10 +933,6 @@ MultiSend: %1</translation>
     <message>
         <source>Received with address</source>
         <translation>Ontvangen met adres</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Type</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1007,11 +960,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopieer bedrag</translation>
+        <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopieer transactie ID</translation>
+        <translation>Kopier transactie ID</translation>
     </message>
     <message>
         <source>Lock unspent</source>
@@ -1023,15 +976,15 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopieer kwantiteit</translation>
+        <translation>Kopieer kwanititeit</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopieer fee</translation>
+        <translation>Kopiëer kost</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopieer na fee</translation>
+        <translation>Kopiëer na kost</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -1051,7 +1004,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Schakel alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
+        <translation>Ga alsjeblieft over naar "Lijst modus" om deze functie te gebruiken.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -1068,6 +1021,10 @@ MultiSend: %1</translation>
     <message>
         <source>medium-high</source>
         <translation>medium-hoog</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>Kan variëren van +/-%1 duff(s) per invoer.</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1090,10 +1047,6 @@ MultiSend: %1</translation>
         <translation>laagst</translation>
     </message>
     <message>
-        <source>(%1 locked)</source>
-        <translation>(%1 vergrendeld)</translation>
-    </message>
-    <message>
         <source>none</source>
         <translation>geen</translation>
     </message>
@@ -1111,7 +1064,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Dit betekent dat een fee van minstens %1 per kB vereist is.</translation>
+        <translation>Dit betekent dat een honorarium van minstens %1 per kB vereist is.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
@@ -1119,7 +1072,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transacties met hogere prioriteit zullen waarschijnlijk eerder in een blok opgenomen worden.</translation>
+        <translation>Transacties met hogere prioriteit zullen waarschijnlijk in een blok opgenomen worden.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
@@ -1128,10 +1081,6 @@ MultiSend: %1</translation>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
         <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 uwealth per input.</source>
-        <translation>Kan +/-%1 uwealth per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1158,7 +1107,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Het label dat geassocieerd is met deze adreslijst invoer</translation>
+        <translation>Het label dat geassocieerd wordt met deze adreslijstinvoer</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -1166,7 +1115,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres geassocieerd met deze adreslijst invoer. Dit kan alleen worden gewijzigd voor verzend adressen.</translation>
+        <translation>Het adres geassocieerd met deze adreslijst vermelding. Dit kan alleen worden gewijzigd voor het verzenden van adressen.</translation>
     </message>
     <message>
         <source>New receiving address</source>
@@ -1174,7 +1123,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nieuw verzend adres</translation>
+        <translation>Nieuw verzendadres</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
@@ -1182,11 +1131,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Wijzig verzend adres</translation>
+        <translation>Wijzig verzendadres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid WealthSilo address.</source>
-        <translation>Het ingevoerde adres: "%1" is geen geldig WealthSilo adres.</translation>
+        <source>The entered address "%1" is not a valid WEALTHSILO address.</source>
+        <translation>Het ingevoerde adres: "%1" is geen geldig WEALTHSILO adres.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1205,7 +1154,7 @@ MultiSend: %1</translation>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Een nieuwe data directory zal worden aangemaakt.</translation>
+        <translation>Er wordt een nieuwe data map gemaakt.</translation>
     </message>
     <message>
         <source>name</source>
@@ -1213,7 +1162,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Map bestaat reeds. Voeg %1 toe als je van plan bent om hier een nieuwe map te creëren.</translation>
+        <translation>Map bestaat alreeds. Voeg %1 toe als je van plan bent om hier een nieuwe map te creëren.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
@@ -1231,16 +1180,16 @@ MultiSend: %1</translation>
         <translation>versie</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Kern</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About WealthSilo Core</source>
-        <translation>Over WealthSilo Core</translation>
+        <source>About WEALTHSILO Core</source>
+        <translation>Over WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1257,14 +1206,6 @@ MultiSend: %1</translation>
     <message>
         <source>UI Options:</source>
         <translation>UI Opties:</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Kies data directory bij opstarten (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Toon splash scherm bij opstarten (standaard: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1286,16 +1227,16 @@ MultiSend: %1</translation>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to WealthSilo Core.</source>
-        <translation>Welkom bij WealthSilo Core.</translation>
+        <source>Welcome to WEALTHSILO Core.</source>
+        <translation>Welkom bij WEALTHSILO Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where WealthSilo Core will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar WealthSilo Core zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where WEALTHSILO Core will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar WEALTHSILO Core zijn gegevens opslaat.</translation>
     </message>
     <message>
-        <source>WealthSilo Core will download and store a copy of the WealthSilo block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>WealthSilo Core zal een kopie van de WealthSilo blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>WEALTHSILO Core will download and store a copy of the WEALTHSILO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>WEALTHSILO Core zal een kopie van de WEALTHSILO blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee wordt ook in deze map opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1306,8 +1247,8 @@ MultiSend: %1</translation>
         <translation>Gebruik een aangepaste data directory:</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Kern</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1333,12 +1274,12 @@ MultiSend: %1</translation>
         <translation>Formulier</translation>
     </message>
     <message>
-        <source>MASTERNODES</source>
-        <translation>MASTERNODES</translation>
+        <source>My Masternodes</source>
+        <translation>Mijn Masternodes</translation>
     </message>
     <message>
         <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het 'Status' veld.</translation>
+        <translation>Opmerking: De status van uw masternodes in de lokale portemonnee kan mogelijk iets afwijken. &lt;br /&gt;Wacht altijd op de portemonnee om additionele data te synchroniseren en verifieer dit vanuit een andere node &lt;br /&gt;mocht de node nu aan het draaien zijn maar je ziet nog steeds 'MISSING' in het veld 'Status'.</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1378,7 +1319,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Start &amp;MISSING</source>
-        <translation>Start &amp;MISSING</translation>
+        <translation>Start &amp;ontbrekende</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
@@ -1437,7 +1378,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Enter whole numbers 1 - 100</source>
-        <translation>Geef volledige cijfers in 1 - 100</translation>
+        <translation>Geef volledige cijfers in 1-100</translation>
     </message>
     <message>
         <source>Enter % to Give (1-100)</source>
@@ -1445,17 +1386,17 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Enter Address to Send to</source>
-        <translation>Vul het adres in om naar te verzenden</translation>
+        <translation>Vul het verzendadres in</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other WealthSilo addresses after it matures.
-To Add: enter percentage to give and WealthSilo address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other WEALTHSILO addresses after it matures.
+To Add: enter percentage to give and WEALTHSILO address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend stelt je in staat om automatisch tot 100% van uw stake of masternode beloning automatisch te verzenden naar een lijst van andere WealthSilo adressen nadat het volwassen is. 
-Toevoegen: voer het te geven percentage in en WealthSilo adres om toe te voegen aan de MultiSend vector.
+        <translation>MultiSend stelt je in staat om automatisch 100% van uw inzet of masternode-beloning automatisch te verzenden naar een lijst van andere WEALTHSILO adressen nadat het volwassen is.
+Toevoegen: voer percentage in om te geven en WEALTHSILO adres om toe te voegen aan de MultiSend vector.
 Verwijderen: Voer adres in om te verwijderen en druk op delete.
-MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</translation>
+MultiSend wordt niet geactiveerd, tenzij je op Activeer hebt geklikt</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
@@ -1475,7 +1416,7 @@ MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</transl
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Kies een adres uit het adresboek</translation>
+        <translation>Kies een adres uit het adresgids</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1483,7 +1424,7 @@ MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</transl
     </message>
     <message>
         <source>Percentage of stake to send</source>
-        <translation>Staking percentage om te verzenden</translation>
+        <translation>Stakingspercentage om te verzenden</translation>
     </message>
     <message>
         <source>Percentage:</source>
@@ -1491,19 +1432,11 @@ MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</transl
     </message>
     <message>
         <source>Address to send portion of stake to</source>
-        <translation>Adres om een ​​deel van de stake te verzenden naar</translation>
+        <translation>Adres om een ​​deel van inzet te verzenden naar</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adres:</translation>
-    </message>
-    <message>
-        <source>Label:</source>
-        <translation>Label:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Voer een label in voor dit adres om het toe te voegen aan jouw adresboek</translation>
     </message>
     <message>
         <source>Delete Address From MultiSend Vector</source>
@@ -1531,15 +1464,11 @@ MultiSend zal niet worden geactiveerd tenzij je op Activeer hebt geklikt</transl
     </message>
     <message>
         <source>Send For Stakes</source>
-        <translation>Verstuur voor stakes</translation>
+        <translation>Verstuur voor inzetten</translation>
     </message>
     <message>
         <source>Send For Masternode Rewards</source>
         <translation>Verstuur voor Masternode beloningen</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
     </message>
     <message>
         <source>The entered address:
@@ -1556,18 +1485,11 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
     <message>
         <source>The total amount of your MultiSend vector is over 100% of your stake reward
 </source>
-        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je stake beloning
-</translation>
+        <translation>De totale hoeveelheid van je MultiSend vector is meer dan 100% van je inzet beloning</translation>
     </message>
     <message>
         <source>Please Enter 1 - 100 for percent.</source>
         <translation>Vul alsjeblieft 1 - 100 voor procent in.</translation>
-    </message>
-    <message>
-        <source>Saved the MultiSend to memory, but failed saving properties to the database.
-</source>
-        <translation>De MultiSend in het geheugen opgeslagen, maar mislukt om de eigenschappen op te slaan in de database.
-</translation>
     </message>
     <message>
         <source>MultiSend Vector
@@ -1584,177 +1506,6 @@ Controleer het adres alsjeblieft en probeer het opnieuw.</translation>
 </source>
         <translation>Kan het adres niet lokaliseren
 </translation>
-    </message>
-</context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Multisignature Address Interactions</source>
-        <translation>Multisignature Adres Interacties</translation>
-    </message>
-    <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Creëer MultiSignature &amp;Adres</translation>
-    </message>
-    <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Hoeveel mensen moeten ondertekenen om een transactie te verifiëren</translation>
-    </message>
-    <message>
-        <source>Enter the minimum number of signatures required to sign transactions</source>
-        <translation>Voer het minimale aantal vereiste ondertekeningen in om de transacties te ondertekenen</translation>
-    </message>
-    <message>
-        <source>Address Label:</source>
-        <translation>Adreslabel:</translation>
-    </message>
-    <message>
-        <source>Add another address that could sign to verify a transaction from the multisig address.</source>
-        <translation>Voeg een ander adres toe die kan ondertekenen om een transactie vanuit het multisig adres te verifiëren.</translation>
-    </message>
-    <message>
-        <source>&amp;Add Address / Key</source>
-        <translation>&amp;Voeg Adres / Sleutel toe</translation>
-    </message>
-    <message>
-        <source>Local addresses or public keys that can sign:</source>
-        <translation>Lokale adressen of publieke sleutels die kunnen ondertekenen:</translation>
-    </message>
-    <message>
-        <source>Create a new multisig address</source>
-        <translation>Creëer een nieuw multisig adres</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>C&amp;reëer</translation>
-    </message>
-    <message>
-        <source>Status:</source>
-        <translation>Status:</translation>
-    </message>
-    <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
-Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
-Please be patient after clicking import.</source>
-        <translation>Gebruik onderstaande om snel een adres te importeren door in te wisselen. Vergeet niet om een label toe te voegen voordat u op importeren klikt!
-Houd er rekening mee dat de portemonnee de blockchain opnieuw doorzoekt om transacties te vinden die het nieuwe adres bevatten.
-Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
-    </message>
-    <message>
-        <source>&amp;Import Redeem</source>
-        <translation>&amp;Importeer Inlossen</translation>
-    </message>
-    <message>
-        <source>&amp;Create MultiSignature Tx</source>
-        <translation>&amp;Creëer MultiSignature Tx</translation>
-    </message>
-    <message>
-        <source>Inputs:</source>
-        <translation>Inputs</translation>
-    </message>
-    <message>
-        <source>Coin Control</source>
-        <translation>Munt Controle</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Hoeveelheid geselecteerd:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Bedrag:</translation>
-    </message>
-    <message>
-        <source>Add an input to fund the outputs</source>
-        <translation>Voeg een invoer toe om de uitvoer te financieren</translation>
-    </message>
-    <message>
-        <source>Add a Raw Input</source>
-        <translation>Voer een Raw invoer in</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Adres / Bedrag:</translation>
-    </message>
-    <message>
-        <source>Add destinations to send WEALTH to</source>
-        <translation>Voeg bestemmingen toe om WEALTH naar te verzenden</translation>
-    </message>
-    <message>
-        <source>Add &amp;Destination</source>
-        <translation>Voeg &amp;Bestemming toe</translation>
-    </message>
-    <message>
-        <source>Create a transaction object using the given inputs to the given outputs</source>
-        <translation>Maak een transactie object aan met behulp van de gegeven invoer voor de gegeven uitvoer</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Cr&amp;eëer</translation>
-    </message>
-    <message>
-        <source>&amp;Sign MultiSignature Tx</source>
-        <translation>&amp;Onderteken MultiSignature Tx</translation>
-    </message>
-    <message>
-        <source>Transaction Hex:</source>
-        <translation>Transactie Hex:</translation>
-    </message>
-    <message>
-        <source>Sign the transaction from this wallet or from provided private keys</source>
-        <translation>Onderteken de transactie vanuit deze portemonnee of vanuit aangeboden privésleutels</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>O&amp;nderteken</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DISABLED until transaction has been signed enough times.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;UITGESCHAKELD totdat de transactie voldoende is ondertekend.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Co&amp;mmit</source>
-        <translation>&amp;Engageer</translation>
-    </message>
-    <message>
-        <source>Add private keys to sign the transaction with</source>
-        <translation>Voeg privésleutels toe om de transactie met te ondertekenen</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Voeg &amp;Privésleutel toe</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Onderteken met enkel privésleutels (Niet Aanbevolen)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Ongeldige Tx Hash.</translation>
-    </message>
-    <message>
-        <source>Vout position must be positive.</source>
-        <translation>Je positie moet positief zijn. </translation>
-    </message>
-    <message>
-        <source>Maximum possible addresses reached. (15)</source>
-        <translation>Maximale mogelijke adressen bereikt. (15)</translation>
-    </message>
-    <message>
-        <source>Vout Position: </source>
-        <translation>Jouw Positie:</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Hoeveelheid:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Maximum (15)</translation>
     </message>
 </context>
 <context>
@@ -1780,48 +1531,48 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 1000 WEALTH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 WEALTHSILO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 1000 WEALTH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 WEALTHSILO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 WEALTH om 1000 WEALTH te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 WEALTHSILO om 10000 WEALTHSILO te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 WEALTH om 1000 WEALTH te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 WEALTHSILO om 10000 WEALTHSILO te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 WEALTH per  10000 WEALTH you anonymize.</source>
-        <translation>je anonimiseert 0.1 WEALTH per  10000 WEALTH.</translation>
+        <source>0.1 WEALTHSILO per 10000 WEALTHSILO you anonymize.</source>
+        <translation>je anonimiseert 0,1 WEALTHSILO per 10000 WEALTHSILO.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Verduistering configuratie</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WealthSilo te openen.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op basic (%1 en 2 rondes). Je kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WEALTHSILO te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WealthSilo te openen.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 8 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WEALTHSILO te openen.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WealthSilo te openen.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Verduistering is succesvol ingesteld op hoog (%1 en 16 rondes). U kunt dit op elk gewenst moment wijzigen door het configuratiescherm van WEALTHSILO te openen.</translation>
     </message>
 </context>
 <context>
@@ -1882,8 +1633,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Als je de uitgaven van onbevestigde wijzigingen uitschakelt, de wijziging van een transactie&lt;br/&gt;kan niet worden gebruikt tot die transactie tenminste één bevestiging heeft.&lt;br/&gt;Dit beïnvloedt ook hoe uw saldo is berekend.</translation>
     </message>
     <message>
-        <source>Automatically open the WealthSilo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de WealthSilo client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
+        <source>Automatically open the WEALTHSILO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de WEALTHSILO client poort automatisch op de router. Dit werkt alleen als je router UPnP ondersteunt en het is ingeschakeld.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1902,16 +1653,16 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start WealthSilo after logging in to the system.</source>
-        <translation>WealthSilo automatisch opstarten na inloggen op het systeem.</translation>
+        <source>Automatically start WEALTHSILO after logging in to the system.</source>
+        <translation>WEALTHSILO automatisch opstarten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start WealthSilo on system login</source>
-        <translation>&amp;WealthSilo starten bij systeemlogin</translation>
+        <source>&amp;Start WEALTHSILO on system login</source>
+        <translation>&amp;WEALTHSILO starten bij systeemlogin</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Of je de muntcontrolefuncties wilt tonen of niet.</translation>
+        <translation>Of je de munteenheidsfuncties wilt tonen of niet.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1934,8 +1685,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting WealthSilo.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van WealthSilo.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting WEALTHSILO.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van WEALTHSILO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1948,36 +1699,24 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of WEALTH units to zWEALTH</source>
-        <translation>Schakel automatisch slaan van WEALTH-eenheden in op zWEALTH</translation>
-    </message>
-    <message>
-        <source>Enable zWEALTH Automint</source>
-        <translation>Schakel zWEALTH Automint in</translation>
-    </message>
-    <message>
-        <source>Percentage of incoming WEALTH which get automatically converted to zWEALTH via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende WEALTH die automatisch wordt omgezet naar zWEALTH via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming WEALTHSILO which get automatically converted to zWEALTH via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende WEALTHSILO die automatisch wordt omgezet naar zWEALTH via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zWEALTH</source>
         <translation>Percentage autominted zWEALTH</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough WEALTH for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg WEALTH voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough WEALTHSILO for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg WEALTHSILO voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
         <source>Preferred Automint zWEALTH Denomination</source>
         <translation>Gewenste Automint zWEALTH denominatie</translation>
     </message>
     <message>
-        <source>Stake split threshold:</source>
-        <translation>Inzet splitdrempel:</translation>
-    </message>
-    <message>
-        <source>Connect to the WealthSilo network through a SOCKS5 proxy.</source>
-        <translation>Maak verbinding met het WealthSilo netwerk via een SOCKS5 proxy.</translation>
+        <source>Connect to the WEALTHSILO network through a SOCKS5 proxy.</source>
+        <translation>Maak verbinding met het WEALTHSILO netwerk via een SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2040,10 +1779,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Decimale cijfers</translation>
     </message>
     <message>
-        <source>Hide empty balances</source>
-        <translation>Verberg lege saldi</translation>
-    </message>
-    <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>URL's van derden (bijvoorbeeld een blok verkenner) die in het tabblad transacties verschijnen als contextmenu items. %s in de URL wordt vervangen door transactie hash. Meerdere URL's worden gescheiden door verticale balk |.</translation>
     </message>
@@ -2057,7 +1792,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Reset alle client instellingen naar standaardinstellingen.</translation>
+        <translation>Reset alle client opties naar standaardinstellingen.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -2072,8 +1807,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>&amp;Annuleren</translation>
     </message>
     <message>
-        <source>Any</source>
-        <translation>een</translation>
+        <source>I don't care</source>
+        <translation>Het maakt me niet uit</translation>
     </message>
     <message>
         <source>default</source>
@@ -2103,14 +1838,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <source>The supplied proxy address is invalid.</source>
         <translation>Het opgegeven proxyadres is ongeldig.</translation>
     </message>
-    <message>
-        <source>The supplied proxy port is invalid.</source>
-        <translation>De meegeleverde proxy-poort is ongeldig.</translation>
-    </message>
-    <message>
-        <source>The supplied proxy settings are invalid.</source>
-        <translation>De geleverde proxy-instellingen zijn ongeldig.</translation>
-    </message>
 </context>
 <context>
     <name>OverviewPage</name>
@@ -2119,20 +1846,16 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Formulier</translation>
     </message>
     <message>
+        <source>WEALTHSILO Balances</source>
+        <translation>WEALTHSILO Saldi</translation>
+    </message>
+    <message>
         <source>Available:</source>
         <translation>Beschikbaar:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
         <translation>Uw huidige bestedingsruimte</translation>
-    </message>
-    <message>
-        <source>Total Balance, including all unavailable coins.</source>
-        <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
-    </message>
-    <message>
-        <source>WEALTH Balance</source>
-        <translation>WEALTH Saldi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2151,44 +1874,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Staked of masternode beloningen die nog niet volwassen zijn</translation>
     </message>
     <message>
-        <source>Current locked balance in watch-only addresses</source>
-        <translation>Huidige vergrendelde balans in alleen-lezen-adressen</translation>
-    </message>
-    <message>
-        <source>Your current WealthSilo balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige WealthSilo-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
-    </message>
-    <message>
-        <source>zWEALTH Balance</source>
-        <translation>zWEALTH-saldo</translation>
-    </message>
-    <message>
-        <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zWEALTH are spendable.</source>
-        <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
-Deze zPIB zijn besteedbaar.</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WealthSilo network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het WealthSilo netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
-    </message>
-    <message>
-        <source>OVERVIEW</source>
-        <translation>OVERZICHT</translation>
-    </message>
-    <message>
-        <source>Combined Balance (including unconfirmed and immature coins)</source>
-        <translation>Gecombineerde Saldi (inclusief onbevestigde en onvolwassen munten)</translation>
-    </message>
-    <message>
-        <source>Combined Balance</source>
-        <translation>Gecombineerde balans</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WEALTHSILO network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het WEALTHSILO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -2201,6 +1888,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
     <message>
         <source>Total:</source>
         <translation>Totaal:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Jouw huidige balanstotaal</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -2219,20 +1910,24 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked WEALTH or Masternode collaterals. These are excluded from zWEALTH minting.</source>
-        <translation>Vergrendelde WEALTH of Masternode onderpanden. Deze zijn uitgesloten van de zWEALTH muntage.</translation>
+        <source>Combined Balances (including immature coins)</source>
+        <translation>Gecombineerde Saldi (inclusief onvolwassen munten)</translation>
     </message>
     <message>
-        <source>Locked:</source>
-        <translation>Vergrendeld:</translation>
+        <source>WEALTHSILO:</source>
+        <translation>WEALTHSILO:</translation>
     </message>
     <message>
-        <source>Unconfirmed:</source>
-        <translation>Onbevestigd:</translation>
+        <source>zWEALTH:</source>
+        <translation>zWEALTH:</translation>
     </message>
     <message>
-        <source>Your current zWEALTH balance, unconfirmed and immature zWEALTH included.</source>
-        <translation>Uw huidige zWEALTH-saldo, onbevestigde en onvolgroeide zWEALTH inbegrepen.</translation>
+        <source>0 %</source>
+        <translation>0 %</translation>
+    </message>
+    <message>
+        <source>Zerocoin Balance</source>
+        <translation>Zerocoin saldo</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2241,28 +1936,6 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
     <message>
         <source>out of sync</source>
         <translation>niet gesynchroniseerd</translation>
-    </message>
-    <message>
-        <source>Current percentage of zWEALTH.
-If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
-</source>
-        <translation>Huidige percentage van zWEALTH
-Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
-</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently enabled and set to </source>
-        <translation>AutoMint is momenteel ingeschakeld en ingesteld op</translation>
-    </message>
-    <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in wealthsilo.conf.</source>
-        <translation>Om AutoMint uit te schakelen, voeg je 'enablezeromint=0' toe aan wealthsilo.conf.</translation>
-    </message>
-    <message>
-        <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in wealthsilo.conf</source>
-        <translation>AutoMint is momenteel uitgeschakeld.
-Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint=1' in wealthsilo.conf</translation>
     </message>
 </context>
 <context>
@@ -2292,8 +1965,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Kan wealthsilo niet starten: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid WealthSilo address or malformed URI parameters.</source>
-        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig WealthSilo adres of misvormde URL parameters.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid WEALTHSILO address or malformed URI parameters.</source>
+        <translation>URL kan niet ontleed worden! Dit kan worden veroorzaakt door een ongeldig WEALTHSILO adres of misvormde URL parameters.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2374,12 +2047,24 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
 <context>
     <name>PrivacyDialog</name>
     <message>
+        <source>WEALTHSILO which were anonymized via Zerocin Protocol</source>
+        <translation>WEALTHSILO die via het Zerocin Protocol geanonimiseerd werden</translation>
+    </message>
+    <message>
+        <source>Zerocoin WEALTHSILO (zWEALTH)</source>
+        <translation>Zerocoin WEALTHSILO (zWEALTH)</translation>
+    </message>
+    <message>
         <source>Zerocoin Actions:</source>
         <translation>Zerocoin Acties:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WealthSilo network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het WealthSilo netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WEALTHSILO network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Je portemonnee synchroniseert automatisch met het WEALTHSILO netwerk nadat een verbinding is opgezet, maar dit proces is nog niet afgerond.</translation>
+    </message>
+    <message>
+        <source>Enter an amount of Phr to convert to zPhr</source>
+        <translation>Vul de hoeveleheid in om Phr te converteren naar zPhr</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2394,16 +2079,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>zWEALTH</translation>
     </message>
     <message>
-        <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
-        <translation>Beschikbaar voor muntage zijn munten die bevestigd en niet vergrendeld of Masternode onderpanden zijn.</translation>
-    </message>
-    <message>
         <source>Available for Minting:</source>
         <translation>Beschikbaar voor minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 WEALTH</source>
-        <translation>0.000 000 00 WEALTH</translation>
+        <source>0.000 000 00 WEALTHSILO</source>
+        <translation>0.000 000 00 WEALTHSILO</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2438,20 +2119,12 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Status en/of Berichten van de laatste mint actie.</translation>
     </message>
     <message>
-        <source>PRIVACY</source>
-        <translation>PRIVACY</translation>
+        <source>zPhr Control</source>
+        <translation>zPhr controle</translation>
     </message>
     <message>
-        <source>Enter an amount of WEALTH to convert to zWEALTH</source>
-        <translation>Vul het aantal WEALTH in om te converteren naar zWEALTH</translation>
-    </message>
-    <message>
-        <source>zWEALTH Control</source>
-        <translation>zWEALTH Control</translation>
-    </message>
-    <message>
-        <source>zWEALTH Selected:</source>
-        <translation>zWEALTH geselecteerd:</translation>
+        <source>zPhr Selected:</source>
+        <translation>zPhr geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,20 +2139,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zWEALTH for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zWEALTH voor besteding</translation>
-    </message>
-    <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
-    </message>
-    <message>
-        <source>Available (mature and spendable) zWEALTH for spending
-
-zWEALTH are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zWEALTH voor besteding
-
-zWealth zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
         <source>0 zWEALTH</source>
@@ -2502,8 +2163,8 @@ zWealth zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The WealthSilo address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Het WealthSilo adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
+        <source>The WEALTHSILO address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Het WEALTHSILO adres om de betaling naar te verzenden. Maakt lokale betaling aan jezelf als je leeg bent.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2554,12 +2215,12 @@ zWealth zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zWEALTH</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zWEALTH</translation>
+        <source>Available Funds</source>
+        <translation>Beschikbare Fondsen</translation>
     </message>
     <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Totale Zerocoin Saldi:</translation>
+        <source>Available Zerocoin  Balance:</source>
+        <translation>Beschikbaar Zerocoin saldo:</translation>
     </message>
     <message>
         <source>Denominations with value 1:</source>
@@ -2568,73 +2229,6 @@ zWealth zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 
     <message>
         <source>Denom. with value 1:</source>
         <translation>Denom. met waarde 1:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed: less than 20 confirmations
-Immature: confirmed, but less than 1 mint of the same denomination after it was minted</source>
-        <translation>Onbevestigd: minder dan 20 bevestigingen
-Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
-    </message>
-    <message>
-        <source>Show the current status of automatic zWEALTH minting.
-
-To change the status (restart required):
-- enable: add 'enablezeromint=1' to wealthsilo.conf
-- disable: add 'enablezeromint=0' to wealthsilo.conf
-
-To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zWEALTH
-
-</source>
-        <translation>Toon de huidige status van automatische zWEALTH-markering.
-
-Om de status te wijzigen (opnieuw opstarten vereist): 
-- enable: voeg 'enablezeromint = 1' toe aan wealthsilo.conf
-- uitschakelen: voeg 'enablezeromint = 0' toe aan wealthsilo.conf
-
-Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zWEALTH
-</translation>
-    </message>
-    <message>
-        <source>AutoMint Status</source>
-        <translation>AutoMint-status</translation>
-    </message>
-    <message>
-        <source>Global Supply:</source>
-        <translation>Wereldwijde levering:</translation>
-    </message>
-    <message>
-        <source>Denom. 1:</source>
-        <translation>Denom. 1:</translation>
-    </message>
-    <message>
-        <source>Denom. 5:</source>
-        <translation>Denom. 5:</translation>
-    </message>
-    <message>
-        <source>Denom. 10:</source>
-        <translation>Denom. 10:</translation>
-    </message>
-    <message>
-        <source>Denom. 50:</source>
-        <translation>Denom. 50:</translation>
-    </message>
-    <message>
-        <source>Denom. 100:</source>
-        <translation>Denom. 100:</translation>
-    </message>
-    <message>
-        <source>Denom. 500:</source>
-        <translation>Denom. 500:</translation>
-    </message>
-    <message>
-        <source>Denom. 1000:</source>
-        <translation>Denom. 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. 5000:</source>
-        <translation>Denom. 5000:</translation>
     </message>
     <message>
         <source>0 x</source>
@@ -2697,12 +2291,12 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Denom. met waarde 5000:</translation>
     </message>
     <message>
-        <source>Priority:</source>
-        <translation>Prioriteit:</translation>
+        <source>Note: This hidden objects are used for communication between the 'Coin Control' dialog and its parent objects. We don't want to change/reimplement the existing Coin Control, so this objects must be here, even when we don't use them. No, we don't like this approach, either.</source>
+        <translation>Opmerking: Deze verborgen objecten worden gebruikt voor communicatie tussen de 'Munt Controle' dialoog en de  parent objecten. We willen de bestaande Munt Controle niet veranderen/opnieuw implementeren, dus deze objecten moeten hier zijn, zelfs als we ze niet gebruiken. Nee, we houden ook niet van deze aanpak.</translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <source>Priority:</source>
+        <translation>Prioriteit:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -2769,100 +2363,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
-        <source>zWEALTH Spend #: </source>
-        <translation>zWEALTH besteed #:</translation>
-    </message>
-    <message>
-        <source>zWEALTH Mint</source>
-        <translation>zWEALTH mint</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;ingeschakeld&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;disabled&lt;/b&gt;.</source>
-        <translation>&lt;b&gt;invalide&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source> Configured target percentage: &lt;b&gt;</source>
-        <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
-    </message>
-    <message>
-        <source>zWEALTH is currently disabled due to maintenance.</source>
-        <translation>zWEALTH is momenteel uitgeschakeld vanwege onderhoud.</translation>
-    </message>
-    <message>
-        <source>zWEALTH is currently undergoing maintenance.</source>
-        <translation>zWEALTH wordt momenteel onderhouden.</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt; 500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. with value &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. met waarde &lt;b&gt;5000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>AutoMint Status:</source>
-        <translation>AutoMint-status</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;10&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;10&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;50&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;50&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;100&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;100&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;500&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;500&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;1000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;1000&lt;/b&gt;:</translation>
-    </message>
-    <message>
-        <source>Denom. &lt;b&gt;5000&lt;/b&gt;:</source>
-        <translation>Denom. &lt;b&gt;5000&lt;/b&gt;:</translation>
+        <source>Zerocoin functionality is not enabled on the WEALTHSILO network yet.</source>
+        <translation>Zerocoin functionaliteit is nog niet ingeschakeld op het WEALTHSILO netwerk.</translation>
     </message>
     <message>
         <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
@@ -2891,7 +2393,7 @@ Om het percentage te wijzigen (geen herstart vereist):
 </translation>
     </message>
     <message>
-        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware. 
+        <source>Starting ResetMintZerocoin: rescanning complete blockchain, this will need up to 30 minutes depending on your hardware.
 Please be patient...</source>
         <translation>Start ResetMintZerocoin: rescanning complete blockchain, dit zal tot 30 minuten nodig hebben, afhankelijk van uw hardware.
 Wees alsjeblieft geduldig...</translation>
@@ -2915,8 +2417,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Geen 'Betaal aan' adres verstrekt, lokale betaling wordt gemaakt</translation>
     </message>
     <message>
-        <source>Invalid Wealthsilo Address</source>
-        <translation>Ongeldig Wealthsilo addres</translation>
+        <source>Invalid WEALTHSILO Address</source>
+        <translation>Ongeldig WEALTHSILO addres</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2935,7 +2437,7 @@ Wees alsjeblieft geduldig...</translation>
         <translation>naar adres</translation>
     </message>
     <message>
-        <source> to a newly generated (unused and therefore anonymous) local address &lt;br /&gt;</source>
+        <source> to a newly generated (unused and therefor anonymous) local address &lt;br /&gt;</source>
         <translation>naar een nieuw gegenereerd (ongebruikt en dus anoniem) lokaal adres&lt;br /&gt;</translation>
     </message>
     <message>
@@ -2948,49 +2450,20 @@ Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
         <source>Spending Zerocoin.
-Computationally expensive, might need several minutes depending on the selected Security Level and your hardware. 
+Computationally expensive, might need several minutes depending on the selected Security Level and your hardware.
 Please be patient...</source>
         <translation>Zerocoin besteden.
-Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je 
+Computationeel duur, zou mogelijk enkele minuten nodig hebben, afhankelijk van het geselecteerde beveiligingsniveau en je
 hardware.
 Wees alsjeblieft geduldig...</translation>
-    </message>
-    <message>
-        <source>Version 1 zWEALTH require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zWEALTH vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
-    </message>
-    <message>
-        <source>Failed to spend zWEALTH</source>
-        <translation>Mislukt om zWEALTH te besteden.</translation>
-    </message>
-    <message>
-        <source>Failed to fetch mint associated with serial hash</source>
-        <translation>Mislukt om de mint op te halen geassocieerd met de seriële hash</translation>
-    </message>
-    <message>
-        <source>Too much inputs (</source>
-        <translation>Teveel invoer (</translation>
-    </message>
-    <message>
-        <source>) needed. 
-Maximum allowed: </source>
-        <translation>) vereist.
-Maximaal toegestaan:</translation>
-    </message>
-    <message>
-        <source>
-Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
-        <translation>
-Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te besteden bedrag verminderen.</translation>
     </message>
     <message>
         <source>Spend Zerocoin failed with status = </source>
         <translation>Bestede Zerocoin mislukt met status =</translation>
     </message>
-    <message numerus="yes">
-        <source>PrivacyDialog</source>
-        <comment>Enter an amount of WEALTH to convert to zWEALTH</comment>
-        <translation><numerusform>PrivacyDialoog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
+    <message>
+        <source>zPhr Spend #: </source>
+        <translation>zPhr besteed #: </translation>
     </message>
     <message>
         <source>denomination: </source>
@@ -3013,6 +2486,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>adres:</translation>
     </message>
     <message>
+        <source>zPhr Mint</source>
+        <translation>zPhr Mint</translation>
+    </message>
+    <message>
         <source>Sending successful, return code: </source>
         <translation>Verzenden succesvol, retourcode:</translation>
     </message>
@@ -3032,8 +2509,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Hoeveelheid</translation>
     </message>
     <message>
-        <source>Enter a WealthSilo address (e.g. %1)</source>
-        <translation>Voer een WealthSilo adres in (b.v. %1)</translation>
+        <source>Enter a WEALTHSILO address (e.g. %1)</source>
+        <translation>Voer een WEALTHSILO adres in (b.v. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3170,8 +2647,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the WealthSilo debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het WealthSilo debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
+        <source>Open the WEALTHSILO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het WEALTHSILO debug log bestand uit de huidige data directory. Dit kan enkele seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3210,16 +2687,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>&amp;Peers</translation>
     </message>
     <message>
-        <source>Banned peers</source>
-        <translation>Verboden leeftijdsgenoten</translation>
-    </message>
-    <message>
         <source>Select a peer to view detailed information.</source>
         <translation>Selecteer een peer om gedetailleerde informatie te bekijken.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Whitelisted</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -3236,6 +2705,14 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Services</source>
         <translation>Diensten</translation>
+    </message>
+    <message>
+        <source>Starting Height</source>
+        <translation>Start hoogte</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Sync hoogte</translation>
     </message>
     <message>
         <source>Ban Score</source>
@@ -3270,48 +2747,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>&amp;Portemonnee herstel</translation>
     </message>
     <message>
-        <source>Delete local Blockchain Folders</source>
-        <translation>Verwijder lokale Blockchain Mappen</translation>
-    </message>
-    <message>
         <source>Wallet In Use:</source>
         <translation>Portemonnee in gebruik:</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Startblok</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Gesynchroniseerde headers</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Gesynchroniseerde blokken</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>De duur van een momenteel openstaande ping.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Ping wacht</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Tijdverschuiving</translation>
-    </message>
-    <message>
-        <source>Custom Backup Path:</source>
-        <translation>Aangepast back-up pad:</translation>
-    </message>
-    <message>
-        <source>Custom zWEALTH Backup Path:</source>
-        <translation>Aangepast zWEALTH back-up pad:</translation>
-    </message>
-    <message>
-        <source>Custom Backups Threshold:</source>
-        <translation>Aangepaste back-up drempel:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
@@ -3354,14 +2791,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Herstel blockchain index van huidige blk000??.dat bestanden.</translation>
     </message>
     <message>
-        <source>-resync:</source>
-        <translation>-resync:</translation>
-    </message>
-    <message>
-        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Verwijder alle lokale blockchain mappen zodat de portemonnee alles opnieuw kan hersynchroniseren.</translation>
-    </message>
-    <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
         <translation>De onderstaande knoppen zullen de portemonnee opnieuw opstarten met command line opties om de portemonnee te repareren, problemen op te lossen met corrupte blockchain bestanden of ontbrekende/verouderde transacties.</translation>
     </message>
@@ -3386,56 +2815,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Uit:</translation>
     </message>
     <message>
-        <source>Welcome to the WealthSilo RPC console.</source>
-        <translation>Welkom bij de WealthSilo RPC console.</translation>
-    </message>
-    <message>
-        <source>&amp;Disconnect Node</source>
-        <translation>&amp; Koppel Node los</translation>
-    </message>
-    <message>
-        <source>Ban Node for</source>
-        <translation>Ban Node voor</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;hour</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;day</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;year</translation>
-    </message>
-    <message>
-        <source>&amp;Unban Node</source>
-        <translation>&amp; Veel succes</translation>
-    </message>
-    <message>
-        <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Dit zal al jouw lokale blockchain mappen verwijderen en de portemonnee zal de blockchain helemaal opnieuw synchroniseren.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Dit vergt nogal wat tijd en downloadt veel data.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Uw transacties en tegoeden zijn opnieuw zichtbaar nadat het downloaden is voltooid.&lt;br /&gt;&lt;br /&gt;</translation>
-    </message>
-    <message>
-        <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Wil je verdergaan?</translation>
-    </message>
-    <message>
-        <source>Confirm resync Blockchain</source>
-        <translation>Bevestig hersynchronisering van Blockchain</translation>
+        <source>Welcome to the WEALTHSILO RPC console.</source>
+        <translation>Welkom bij de WEALTHSILO RPC console.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3462,10 +2843,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
-    </message>
-    <message>
         <source>via %1</source>
         <translation>via %1</translation>
     </message>
@@ -3482,16 +2859,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Uitgaande</translation>
     </message>
     <message>
-        <source>Yes</source>
-        <translation>ja</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nee</translation>
-    </message>
-    <message>
         <source>Unknown</source>
         <translation>Ongekend</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>Ophalen...</translation>
     </message>
 </context>
 <context>
@@ -3513,16 +2886,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the WealthSilo network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het WealthSilo netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the WEALTHSILO network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend. Opmerking: het bericht wordt niet verzonden met de betaling via het WEALTHSILO netwerk.</translation>
     </message>
     <message>
-        <source>RECEIVE</source>
-        <translation>ontvangen</translation>
-    </message>
-    <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the WealthSilo network.</source>
-        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het WealthSilo netwerk.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the WEALTHSILO network.</source>
+        <translation>Een optioneel bericht dat aan het betalingsverzoek wordt gehecht, dat wordt weergegeven wanneer het verzoek wordt geopend.&lt;br&gt;Opmerking: het bericht wordt niet verzonden met de betaling via het WEALTHSILO netwerk.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3678,10 +3047,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SEND</source>
-        <translation>STUREN</translation>
-    </message>
-    <message>
         <source>Coin Control Features</source>
         <translation>Munt controle kenmerken</translation>
     </message>
@@ -3750,8 +3115,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 WEALTH</source>
-        <translation>0 WEALTH</translation>
+        <source>0 WEALTHSILO</source>
+        <translation>0 WEALTHSILO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3790,10 +3155,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>(Smart fee nog niet geïnitialiseerd. Dit duurt meestal een paar blokken ...)</translation>
     </message>
     <message>
-        <source>SwiftX</source>
-        <translation>SwiftX</translation>
-    </message>
-    <message>
         <source>Confirmation time:</source>
         <translation>Bevestigingstijd:</translation>
     </message>
@@ -3806,16 +3167,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uWEALTHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHs in fee,&lt;br /&gt;while "at least" pays 1000 uWEALTHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uWEALTHs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uWEALTH's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uWEALTH's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uWEALTHSILOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHSILOs in fee,&lt;br /&gt;while "at least" pays 1000 uWEALTHSILOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uWEALTHSILOs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uWEALTHSILO's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uWEALTHSILO's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uWEALTHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHs in fee,&lt;br /&gt;while "total at least" pays 1000 uWEALTHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uWEALTHs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uWEALTH's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uWEALTH's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uWEALTHSILOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHSILOs in fee,&lt;br /&gt;while "total at least" pays 1000 uWEALTHSILOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uWEALTHSILOs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uWEALTHSILO's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uWEALTHSILO's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for WealthSilo transactions than the network can process.</source>
-        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar WealthSilo transacties dan het netwerk kan verwerken.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for WEALTHSILO transactions than the network can process.</source>
+        <translation>Alleen de minimale vergoeding betalen is prima, zolang er minder transactie volume is dan ruimte in de blokken. &lt;br /&gt;Maar wees ervan bewust dat dit kan leiden tot een nooit bevestigende transactie wanneer er meer vraag is naar WEALTHSILO transacties dan het netwerk kan verwerken.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3843,7 +3204,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>V&amp;erzenden</translation>
+        <translation>V&amp;erzonden</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -3862,8 +3223,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized WEALTH</source>
-        <translation>Geanonimiseerde WEALTH</translation>
+        <source>Anonymized WEALTHSILO</source>
+        <translation>Geanonimiseerde WEALTHSILO</translation>
+    </message>
+    <message>
+        <source>SwiftTX</source>
+        <translation>SwiftTX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -3910,8 +3275,24 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Het split block tool werkt niet met meerdere adressen. Probeer het nog eens.</translation>
     </message>
     <message>
-        <source>Warning: Invalid WealthSilo address</source>
-        <translation>Waarschuwing: Ongeldig WealthSilo adres</translation>
+        <source>using</source>
+        <translation>gebruikt</translation>
+    </message>
+    <message>
+        <source>anonymous funds</source>
+        <translation>anonieme financiën</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid WEALTHSILO address</source>
+        <translation>Waarschuwing: Ongeldig WEALTHSILO adres</translation>
+    </message>
+    <message>
+        <source>any available funds (not recommended)</source>
+        <translation>elke beschikbare fonds (niet aanbevolen)</translation>
+    </message>
+    <message>
+        <source>and SwiftTX</source>
+        <translation>en SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3939,15 +3320,11 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform></translation>
+        <translation><numerusform>Schatting om te beginnen met bevestiging in %n blok.</numerusform><numerusform>Schatting om te beginnen met bevestiging in %n blokken.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
         <translation>Het ontvangstadres is niet geldig, controleer deze.</translation>
-    </message>
-    <message>
-        <source>using SwiftX</source>
-        <translation>met SwiftX</translation>
     </message>
     <message>
         <source> split into %1 outputs using the UTXO splitter.</source>
@@ -4013,8 +3390,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Betaal &amp;Naar:</translation>
     </message>
     <message>
-        <source>The WealthSilo address to send the payment to</source>
-        <translation>Het WealthSilo adres om de betaling naar te verzenden</translation>
+        <source>The WEALTHSILO address to send the payment to</source>
+        <translation>Het WEALTHSILO adres om de betaling naar te verzenden</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4053,8 +3430,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the WealthSilo: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the WealthSilo network.</source>
-        <translation>Een bericht dat is gehecht aan de WealthSilo: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het WealthSilo netwerk.</translation>
+        <source>A message that was attached to the WEALTHSILO: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the WEALTHSILO network.</source>
+        <translation>Een bericht dat is gehecht aan de WEALTHSILO: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het WEALTHSILO netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4080,8 +3457,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>WealthSilo Core is shutting down...</source>
-        <translation>WealthSilo Core is aan het afsluiten...</translation>
+        <source>WEALTHSILO Core is shutting down...</source>
+        <translation>WEALTHSILO Core is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4103,8 +3480,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Je kunt berichten met je adressen ondertekenen om te bewijzen dat je ze bezit. Wees voorzichtig om niets vaags te ondertekenen, omdat phishing aanvallen je misschien kunnen proberen om je identiteit over te geven. Teken alleen volledig gedetailleerde verklaringen aan waar je mee akkoord gaat.</translation>
     </message>
     <message>
-        <source>The WealthSilo address to sign the message with</source>
-        <translation>Het WealthSilo adres om het bericht met te ondertekenen</translation>
+        <source>The WEALTHSILO address to sign the message with</source>
+        <translation>Het WEALTHSILO adres om het bericht met te ondertekenen</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4135,16 +3512,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this WealthSilo address</source>
-        <translation>Onderteken het bericht om te bewijzen dat u het WealthSilo adres bezit</translation>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Onderteken het bericht om te bewijzen dat u het WEALTHSILO adres bezit</translation>
     </message>
     <message>
-        <source>The WealthSilo address the message was signed with</source>
-        <translation>Het WealthSilo adres waarmee het bericht was ondertekend</translation>
+        <source>The WEALTHSILO address the message was signed with</source>
+        <translation>Het WEALTHSILO adres waarmee het bericht was ondertekend</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified WealthSilo address</source>
-        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde WealthSilo adres</translation>
+        <source>Verify the message to ensure it was signed with the specified WEALTHSILO address</source>
+        <translation>Controleer een bericht om te verifiëren dat het ondertekend is door het gespecificeerde WEALTHSILO adres</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -4230,8 +3607,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Kern</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Kern</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4246,8 +3623,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The WealthSilo Core developers</source>
-        <translation>De WealthSilo Kernontwikkelaars</translation>
+        <source>The WEALTHSILO Core developers</source>
+        <translation>De WEALTHSILO Kernontwikkelaars</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4265,7 +3642,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n meer blokken</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>Klaar voor %n blok extra</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4274,6 +3651,18 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>conflicted</source>
         <translation>conflicteert</translation>
+    </message>
+    <message>
+        <source>%1/offline (verified via swifttx)</source>
+        <translation>%1/offline (geverifieerd via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via swifttx)</source>
+        <translation>%1/bevestigd (geverifieerd via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via swifttx)</source>
+        <translation>%1 confirmaties (geverifieerd via swifttx)</translation>
     </message>
     <message>
         <source>%1/offline</source>
@@ -4288,35 +3677,19 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>%1 bevestigingen</translation>
     </message>
     <message>
-        <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (gecontroleerd via SwiftX)</translation>
+        <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/bevestigd (SwiftTX verificatie in uitvoering - %2 van %3 handtekeningen)</translation>
     </message>
     <message>
-        <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/bevestigd (gecontroleerd via swifttx)</translation>
+        <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 bevestigingen (SwiftTX verificatie in uitvoering - %2 van %3 handtekeningen)</translation>
     </message>
     <message>
-        <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 bevestigingen (gecontroleerd via swifttx)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (SwiftTX controle in uitvoering - %2 van %3 handtekeningen)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/bevestigd (SwiftTX controle in uitvoering - %2 van %3 handtekeningen)</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 bevestigingen (SwiftTX controle in uitvoering -%2 van %3 handtekeningen)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification failed)</source>
+        <source>%1/offline (SwiftTX verification failed)</source>
         <translation>%1/offline (SwiftTX verificatie mislukt)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftX verification failed)</source>
+        <source>%1/confirmed (SwiftTX verification failed)</source>
         <translation>%1/bevestigd (SwiftTX verificatie mislukt)</translation>
     </message>
     <message>
@@ -4329,7 +3702,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, uitgezonden via %n nodes</numerusform><numerusform>, uitgezonden via %n nodes</numerusform></translation>
+        <translation><numerusform>, uitgezonden via %n node</numerusform><numerusform>, uitgezonden via %n nodes</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -4373,7 +3746,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>maturiteit in %n meer blokken</numerusform><numerusform>maturiteit in %n meer blokken</numerusform></translation>
+        <translation><numerusform>matureit in %n blok meer</numerusform><numerusform>maturiteit in %n meer blokken</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
@@ -4475,7 +3848,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Klaar voor %n meer blokken</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
+        <translation><numerusform>Klaar voor %n blok extra</numerusform><numerusform>Klaar voor %n meer blokken</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
@@ -4526,14 +3899,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verkregen via verduistering</translation>
     </message>
     <message>
-        <source>WEALTH Stake</source>
-        <translation>WEALTH Stake</translation>
-    </message>
-    <message>
-        <source>zWEALTH Stake</source>
-        <translation>zWEALTH Stake</translation>
-    </message>
-    <message>
         <source>Obfuscation Denominate</source>
         <translation>Verduistering denominatie</translation>
     </message>
@@ -4550,34 +3915,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted WEALTH to zWEALTH</source>
-        <translation>Geconverteerde WEALTH naar zWEALTH</translation>
-    </message>
-    <message>
-        <source>Spent zWEALTH</source>
-        <translation>Bestede zWEALTH</translation>
-    </message>
-    <message>
-        <source>Received WEALTH from zWEALTH</source>
-        <translation>Ontvangen WEALTH van zWEALTH</translation>
-    </message>
-    <message>
-        <source>Minted Change as zWEALTH from zWEALTH Spend</source>
-        <translation>Gemint wisselgeld als zWEALTH van bestede zWEALTH</translation>
-    </message>
-    <message>
-        <source>Converted zWEALTH to WEALTH</source>
-        <translation>Geconverteerde zWEALTH naar WEALTH</translation>
-    </message>
-    <message>
-        <source>Anonymous (zWEALTH Transaction)</source>
-        <translation>Anonieme (zWEALTH transactie)</translation>
-    </message>
-    <message>
-        <source>Anonymous (zWEALTH Stake)</source>
-        <translation>Anonieme (zWEALTH stake)</translation>
-    </message>
-    <message>
         <source>Sent to</source>
         <translation>Verzenden naar</translation>
     </message>
@@ -4590,6 +3927,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Betaling naar jezelf</translation>
     </message>
     <message>
+        <source>Minted</source>
+        <translation>Minted</translation>
+    </message>
+    <message>
         <source>Mined</source>
         <translation>Mined</translation>
     </message>
@@ -4598,8 +3939,32 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verduisterd</translation>
     </message>
     <message>
+        <source>Converted Phr to zPhr</source>
+        <translation>Geconverteerde Phr naar zPhr</translation>
+    </message>
+    <message>
+        <source>Spent zPhr</source>
+        <translation>Uitgegeven zPhr</translation>
+    </message>
+    <message>
+        <source>Received Phr from zPhr</source>
+        <translation>Verkregen Phr van zPhr</translation>
+    </message>
+    <message>
+        <source>Minted Change as zPhr from zPhr Spend</source>
+        <translation>Minted wisselgeld als zPhr van uitgegeven zPhr</translation>
+    </message>
+    <message>
+        <source>Converted zPhr to Phr</source>
+        <translation>Geconverteerde zPhr naar Phr</translation>
+    </message>
+    <message>
         <source>watch-only</source>
         <translation>watch-only</translation>
+    </message>
+    <message>
+        <source>zPhr Accumulator</source>
+        <translation>zPhr Accumulator</translation>
     </message>
     <message>
         <source>(n/a)</source>
@@ -4673,6 +4038,26 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verzenden naar</translation>
     </message>
     <message>
+        <source>Obfuscated</source>
+        <translation>Verduisterd</translation>
+    </message>
+    <message>
+        <source>Obfuscation Make Collateral Inputs</source>
+        <translation>Verduistering maakt zijdelingse inputs</translation>
+    </message>
+    <message>
+        <source>Obfuscation Create Denominations</source>
+        <translation>Verduistering creëert denominaties</translation>
+    </message>
+    <message>
+        <source>Obfuscation Denominate</source>
+        <translation>Verduistering denominatie</translation>
+    </message>
+    <message>
+        <source>Obfuscation Collateral Payment</source>
+        <translation>Verduistering zijdelingse betaling</translation>
+    </message>
+    <message>
         <source>To yourself</source>
         <translation>Naar jezelf</translation>
     </message>
@@ -4689,12 +4074,20 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Masternode beloning</translation>
     </message>
     <message>
+        <source>Received Phr from zPhr</source>
+        <translation>Verkregen Phr van zPhr</translation>
+    </message>
+    <message>
         <source>Zerocoin Mint</source>
         <translation>Zerocoin Mint</translation>
     </message>
     <message>
         <source>Zerocoin Spend</source>
         <translation>Zerocoin uitgegeven</translation>
+    </message>
+    <message>
+        <source>Zerocoin Spend, Change in zPhr</source>
+        <translation>Zerocoin uitgegeven, wisselgeld in zPhr</translation>
     </message>
     <message>
         <source>Zerocoin Spend to Self</source>
@@ -4785,14 +4178,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received WEALTH from zWEALTH</source>
-        <translation>Ontvangen WEALTH van zWEALTH</translation>
-    </message>
-    <message>
-        <source>Zerocoin Spend, Change in zWEALTH</source>
-        <translation>Zerocoin besteed, wisselgeld in zWEALTH</translation>
-    </message>
-    <message>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>De transactiegeschiedenis is succesvol bewaard in %1.</translation>
     </message>
@@ -4826,16 +4211,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 WEALTH.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 WEALTH.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 WEALTHSILO.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 WEALTHSILO.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
-    <message>
-        <source>HISTORY</source>
-        <translation>GESCHIEDENIS</translation>
-    </message>
     <message>
         <source>&amp;Export</source>
         <translation>&amp;Exporteren</translation>
@@ -4856,12 +4237,28 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <source>Wallet Data (*.dat)</source>
         <translation>Portemonneegegevens (*.dat)</translation>
     </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Backup mislukt</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Er is een fout opgetreden om de portemonnee data op te slaan naar %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Backup Succesvol</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>De portemonneegegevens zijn succesvol opgeslagen op %1.</translation>
+    </message>
 </context>
 <context>
-    <name>ZWealthControlDialog</name>
+    <name>ZPhrControlDialog</name>
     <message>
-        <source>Select zWEALTH to Spend</source>
-        <translation>Selecteer zWEALTH om te besteden</translation>
+        <source>Select zPhr to Spend</source>
+        <translation>Selecteer zPhr om te spenderen</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4872,8 +4269,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>0</translation>
     </message>
     <message>
-        <source>zWEALTH</source>
-        <translation>zWEALTH</translation>
+        <source>zPhr</source>
+        <translation>zPhr</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4895,6 +4292,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Sta JSON-RPC connecties toe van de opgegeven bron. Geldig voor&lt;ip&gt;zijn een enkel IP (bijvoorbeeld 1.2.3.4), een netwerk/netmask (bijvoorbeeld 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijvoorbeeld 1.2.3.4/24). Deze optie kan meerdere keren worden opgegeven</translation>
     </message>
     <message>
+        <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
+        <translation>Er is een fout opgetreden tijdens het instellen van het RPC adres %s poort %u voor het luisteren: %s</translation>
+    </message>
+    <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind naar het gegeven adres en luister er altijd naar. Gebruik [host]:poort notatie voor IPv6</translation>
     </message>
@@ -4911,8 +4312,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Het berekende accumulatie controlepunt is niet wat wordt geregistreerd door de blokindex</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. WealthSilo Core is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. WealthSilo Core loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. WEALTHSILO Core is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. WEALTHSILO Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4931,28 +4332,20 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verwijder alle portemonnee transacties en herstel alleen die delen van de blockchain via -rescan bij opstarten</translation>
     </message>
     <message>
-        <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Verwijder alle bestede Zerocoin en mints die zijn geregistreerd in de blockchain database en her-indexeer ze (0-1, standaard: %u)</translation>
+        <source>Disable all WEALTHSILO specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Schakel alle WEALTHSILO specifieke functionaliteit uit (Masternodes, Verduistering, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zWEALTH minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zWEALTH (0-1, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Enable or disable staking functionality for WEALTH inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor WEALTH inputs (0-1, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Enable or disable staking functionality for zWEALTH inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zWEALTH inputs (0-1, standaard: %u)</translation>
-    </message>
-    <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
         <translation>Activeer de spork administratie functionaliteit met de juiste private sleutel.</translation>
+    </message>
+    <message>
+        <source>Enable swifttx, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>Schakel swifttx in, laat bevestigingen zien voor gesloten transacties (bool, standaard: %s)</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
@@ -4961,10 +4354,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>Fout: het luisteren naar inkomende verbindingen is mislukt (luister terug fout %s)</translation>
-    </message>
-    <message>
-        <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
-        <translation>Fout: de transactie is groter dan de maximaal toegestane transactiegrootte!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -4983,12 +4372,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in WEALTH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in WEALTH/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in WEALTHSILO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in WEALTHSILO/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in WEALTH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in WEALTH/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in WEALTHSILO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in WEALTHSILO/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5005,10 +4394,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
         <translation>In deze modus controleert -genproclimit hoeveel blokken er onmiddellijk worden gegenereerd.</translation>
-    </message>
-    <message>
-        <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Onvoldoende of onvoldoende bevestigd geld, u moet mogelijk een paar minuten wachten en het opnieuw proberen.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
@@ -5083,24 +4468,52 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Ondersteun filteren van blokken en transactie met bloom filters (standaard: %u)</translation>
     </message>
     <message>
+        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftTX vereist inputs met tenminste 6 bevestigingen, je dient wellicht een paar minuten te wachten en probeer het opnieuw.</translation>
+    </message>
+    <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. WealthSilo Core is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. WealthSilo Core loopt waarschijnlijk al.</translation>
+        <source>To use wealthsilod, or the -server option to wealthsilo-qt, you must set an rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=wealthsilorpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "WEALTHSILO Alert" admin@foo.com
+</source>
+        <translation>Om wealthsilod of de -server optie om wealthsilo-qt te gebruiken, moet je een rpcpassword instellen in het configuratiebestand:
+%s
+Het is aan te raden het volgende willekeurige wachtwoord te gebruiken:
+rpcuser=wealthsilorpc
+rpcpassword=%s
+(je hoeft dit wachtwoord niet te onthouden)
+De gebruikersnaam en het wachtwoord MOETEN NIET hetzelfde zijn.
+Als het bestand niet bestaat, creëer het dan met owner-readable-only bestandsrechten.
+Het is ook aan te raden om alertnotify in te stellen, zodat je van problemen op de hoogte wordt gebracht;
+bijvoorbeeld: alertnotify = echo %%s | mail -s "WEALTHSILO Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. WEALTHSILO Core is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. WEALTHSILO Core loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 1000 WEALTH.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 1000 WEALTH.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 WEALTHSILO.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 WEALTHSILO.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 WEALTH.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 1000 WEALTH.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 WEALTHSILO.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 WEALTHSILO.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5115,8 +4528,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong WealthSilo Core will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt WealthSilo Core niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong WEALTHSILO Core will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt WEALTHSILO Core niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5147,8 +4560,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Je moet een masternodeprivkey opgeven in de configuratie. Raadpleeg de documentatie voor hulp.</translation>
     </message>
     <message>
-        <source>(9595 could be used only on mainnet)</source>
-        <translation>(9595 kan alleen op mainnet worden gebruikt)</translation>
+        <source>(45595 could be used only on mainnet)</source>
+        <translation>(45595 kan alleen op mainnet worden gebruikt)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5159,8 +4572,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>(standaard: 1)</translation>
     </message>
     <message>
-        <source>(must be 9595 for mainnet)</source>
-        <translation>(moet 9595 voor mainnet zijn)</translation>
+        <source>(must be 45595 for mainnet)</source>
+        <translation>(moet 45595 voor mainnet zijn)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
@@ -5173,6 +4586,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Accepteer publieke REST verzoeken (standaard: %u)</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>Acceptabele ciphers (standaard: %s)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
@@ -5267,12 +4684,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The WealthSilo Core Developers</source>
-        <translation>Copyright (C) 2015-%i The WealthSilo Kernontwikkelaars</translation>
+        <source>Copyright (C) 2015-%i The WEALTHSILO Core Developers</source>
+        <translation>Copyright (C) 2015-%i The WEALTHSILO Kernontwikkelaars</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
         <translation>Corrupte block database gedetecteerd</translation>
+    </message>
+    <message>
+        <source>Could not parse -rpcbind value %s as network address</source>
+        <translation>Kan -rpcbind value %s niet parsen als een netwerk adres</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
@@ -5281,10 +4702,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Debugging/Test opties:</translation>
-    </message>
-    <message>
-        <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Verwijder blockchain mappen en hersynchroniseer alles opnieuw</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
@@ -5313,14 +4730,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Enable automatic Zerocoin minting (0-1, default: %u)</source>
         <translation>Zet automatische Zerocoin minting aan (0-1, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie hash transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Activeer publicatie raw transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -5355,8 +4764,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of WealthSilo Core</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van WealthSilo Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of WEALTHSILO Core</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5399,10 +4808,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Fout: U heeft al entries in afwachting in de verduistering pool</translation>
     </message>
     <message>
-        <source>Failed to calculate accumulator checkpoint</source>
-        <translation>Kon het controlepunt van de accumulator niet berekenen</translation>
-    </message>
-    <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Niet gelukt om te luisteren op een poort. Gebruik -listen=0 als je dit wilt.</translation>
     </message>
@@ -5411,8 +4816,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in WEALTH/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in WEALTH/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in WEALTHSILO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in WEALTHSILO/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5471,8 +4876,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. WealthSilo Core is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. WealthSilo Core wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. WEALTHSILO Core is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. WEALTHSILO Core wordt afgesloten.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5489,6 +4894,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
         <translation>Ongeldig -onion adres of hostnaam: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address or hostname: '%s'</source>
+        <translation>Ongeldig -proxy adres of hostnaam: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -5539,30 +4948,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Ongeldige script gedetecteerd.</translation>
     </message>
     <message>
-        <source>Percentage of automatically minted Zerocoin  (1-100, default: %u)</source>
-        <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the WEALTH and zWEALTH money supply statistics</source>
-        <translation>Indexeer de WEALTH- en zWEALTH-geldvoorraadstatistieken opnieuw</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin database...</source>
-        <translation>Her-indexeren Zerocoin database...</translation>
-    </message>
-    <message>
-        <source>Reindexing zerocoin failed</source>
-        <translation>Her-indexeren Zerocoin database mislukt</translation>
-    </message>
-    <message>
-        <source>Selected coins value is less than payment target</source>
-        <translation>Geselecteerde munt waarde is minder dan het betalingsdoel</translation>
-    </message>
-    <message>
-        <source>SwiftX options:</source>
-        <translation>SwiftTX opties:</translation>
-    </message>
-    <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
         <translation>Dit is een pre-release test build - gebruik op eigen risico - niet gebruiken voor staking of handel applicaties!</translation>
     </message>
@@ -5583,14 +4968,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
 </translation>
     </message>
     <message>
-        <source>Disable all WealthSilo specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Schakel alle specifieke WealthSilo functionaliteit uit (Masternodes, Zerocoin, SwiftTX, Budgeting) (0-1, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Schakel SwiftX in, toon bevestigingen voor vergrendelde transacties (bool, standaard: %s)</translation>
-    </message>
-    <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
         <translation>Fout: De transactie is afgewezen! Dit kan gebeuren als sommige munten in je portemonnee al waren uitgegeven, bijvoorbeeld als je een kopie van wallet.dat gebruikt en munten in de kopie waren besteed maar hier niet als zodanig gemarkeerd.</translation>
     </message>
@@ -5603,32 +4980,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Fout: Niet ondersteund argument -checklevel gevonden. Checklevel moet niveau 4 zijn.</translation>
     </message>
     <message>
-        <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Voer het commando uit als het beste blok verandert en de grootte ervan voorbij is (%s in cmd wordt vervangen door blokhash, %d met de blokgrootte)</translation>
-    </message>
-    <message>
-        <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>Het is niet gelukt om muntstukken te vinden onder de aangehouden munten met minder dan max. Aantal uitgaven</translation>
-    </message>
-    <message>
-        <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>In zeldzame gevallen overschrijdt een besteding met 7 munten uw maximaal toegestane transactiegrootte. Probeer het opnieuw met 6 of minder munten</translation>
-    </message>
-    <message>
         <source>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</source>
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any automatic zWEALTH backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zWEALTH back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
-    </message>
-    <message>
-        <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke portemonnee back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand.</translation>
-    </message>
-    <message>
-        <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftTX vereist invoer van tenminste 6 bevestigingen, je dient wellicht een paar minuten te wachten en het opnieuw proberen.</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -5637,10 +4990,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
         <translation>Poging om blockchain corruptie herstel te forceren</translation>
-    </message>
-    <message>
-        <source>CoinSpend: Accumulator witness does not verify</source>
-        <translation>CoinSpend: Accumulator witness controleert niet</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
@@ -5655,6 +5004,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Activeer publicatie hash blok in &lt;address&gt;</translation>
     </message>
     <message>
+        <source>Enable publish hash transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Activeer publicatie hash transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+    </message>
+    <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
         <translation>Activeer publicatie has transactie in &lt;address&gt;</translation>
     </message>
@@ -5663,44 +5016,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Activeer publicatie raw block in &lt;address&gt;</translation>
     </message>
     <message>
+        <source>Enable publish raw transaction (locked via SwiftTX) in &lt;address&gt;</source>
+        <translation>Activeer publicatie raw transactie (vergrendeld via SwiftTX) in &lt;address&gt;</translation>
+    </message>
+    <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
         <translation>Activeer publicatie raw transactie in &lt;address&gt;</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
         <translation>Activeer staking functionaliteit (0-1, standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fout: Er is een fatale interne fout opgetreden, zie debug.log voor meer informatie</translation>
-    </message>
-    <message>
-        <source>Error: No valid utxo!</source>
-        <translation>Fout: geen geldige utxo!</translation>
-    </message>
-    <message>
-        <source>Failed to create mint</source>
-        <translation>Het is niet gelukt om mint te maken</translation>
-    </message>
-    <message>
-        <source>Failed to deserialize</source>
-        <translation>Kan deserialiseren niet</translation>
-    </message>
-    <message>
-        <source>Failed to find Zerocoins in wallet.dat</source>
-        <translation>Niet gelukt om Zerocoins in wallet.dat te vinden.</translation>
-    </message>
-    <message>
-        <source>Failed to select a zerocoin</source>
-        <translation>Het is niet gelukt om een zerocoin te selecteren</translation>
-    </message>
-    <message>
-        <source>Failed to wipe zerocoinDB</source>
-        <translation>Mislukt om zerocoinDB te legen.</translation>
-    </message>
-    <message>
-        <source>Failed to write coin serial number into wallet</source>
-        <translation>Het serienummer van het muntstuk kan niet in de portemonnee worden geschreven</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -5713,6 +5038,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Last successful Obfuscation action was too recent.</source>
         <translation>Laatste succesvolle verduistering actie was te recent.</translation>
+    </message>
+    <message>
+        <source>Less than 3 mints added, unable to create spend</source>
+        <translation>Minder dan 3 mints toegevoegd, niet in staat om uitgave te creëren</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
@@ -5736,7 +5065,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Blockindex laden...</translation>
+        <translation>Block index laden...</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
@@ -5763,20 +5092,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee aan het laden...</translation>
     </message>
     <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Locatie van de auth cookie (standaard: data dir)</translation>
-    </message>
-    <message>
         <source>Lock is already in place.</source>
         <translation>Vergrendeling is al uitgevoerd.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
         <translation>Masternodes vergrendelen van masternode configuratiebestand (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Lookup (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -5803,20 +5124,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Maximaal per connectie verstuur buffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
     </message>
     <message>
-        <source>Mint did not make it into blockchain</source>
-        <translation>Mint heeft de blockchain niet gehaald</translation>
-    </message>
-    <message>
         <source>Missing input transaction information.</source>
         <translation>Ontbrekende invoer transactie informatie ontbreekt.</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
         <translation>Bezig met mixen...</translation>
-    </message>
-    <message>
-        <source>Need address because change is not exact</source>
-        <translation>Noodzaak van adres omdat wijziging niet exact is</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
@@ -5863,10 +5176,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Aantal automatische portemonnee backups (standaard: 10)</translation>
     </message>
     <message>
-        <source>Number of custom location backups to retain (default: %d)</source>
-        <translation>Aantal aangepaste locatie back-ups om te behouden (standaard: %d)</translation>
-    </message>
-    <message>
         <source>Obfuscation is idle.</source>
         <translation>Verduistering is inactief.</translation>
     </message>
@@ -5895,12 +5204,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Wachtwoord voor JSON-RPC connecties</translation>
     </message>
     <message>
-        <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): ongeldig -proxy-adres of hostnaam: '%s'</translation>
-    </message>
-    <message>
-        <source>Preparing for resync...</source>
-        <translation>Voorbereiden van hersynchronisatie...</translation>
+        <source>Percentage of automatically minted Zerocoin  (10-100, default: %u)</source>
+        <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
@@ -5911,8 +5216,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Print versie en verlaat</translation>
     </message>
     <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL opties: (zie de Bitcoin Wiki voor SSL setup instructies)</translation>
+    </message>
+    <message>
         <source>RPC server options:</source>
         <translation>RPC server opties:</translation>
+    </message>
+    <message>
+        <source>RPC support for HTTP persistent connections (default: %d)</source>
+        <translation>RPC ondersteuning voor HTTP aanhoudende verbindingen (standaard: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
@@ -5929,10 +5242,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
         <translation>Ontvang en laat P2P netwerkmeldingen zien (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Reindex the accumulator database</source>
-        <translation>Herindexeer de verzameldatabase</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
@@ -5971,6 +5280,14 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Zend transacties als zero fee transacties indien mogelijk (standaard: %u)</translation>
     </message>
     <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>Server certificaat bestand (standaard: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Server privé sleutel (default: %s)</translation>
+    </message>
+    <message>
         <source>Session not complete!</source>
         <translation>Sessie niet voltooid!</translation>
     </message>
@@ -5997,10 +5314,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Stel minimale block grootte in bytes in (default: %u)</translation>
-    </message>
-    <message>
-        <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Stel de Maximale reorg diepte in (standaard: %u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
@@ -6063,10 +5376,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Specificeer je eigen publieke addres</translation>
     </message>
     <message>
-        <source>Spend Valid</source>
-        <translation>Besteed geldig</translation>
-    </message>
-    <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
         <translation>Onbevestigd wisselgeld besteden bij het verzenden van transacties (standaard: %u)</translation>
     </message>
@@ -6089,6 +5398,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
         <translation>Ingediend naar masternode, wachten in de wachtrij %s</translation>
+    </message>
+    <message>
+        <source>SwiftTX options:</source>
+        <translation>SwiftTX opties:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -6119,26 +5432,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zWEALTH wallet...</source>
-        <translation>Synchroniseren zWEALTH portemonnee...</translation>
-    </message>
-    <message>
-        <source>The coin spend has been used</source>
-        <translation>De muntuitgaven zijn gebruikt</translation>
-    </message>
-    <message>
-        <source>The new spend coin transaction did not verify</source>
-        <translation>De nieuwe uitgave voor uitgavengeld heeft niet geverifieerd</translation>
-    </message>
-    <message>
-        <source>The selected mint coin is an invalid coin</source>
-        <translation>De geselecteerde muntmunt is een ongeldige munt</translation>
-    </message>
-    <message>
-        <source>The transaction did not verify</source>
-        <translation>De transactie heeft niet geverifieerd</translation>
-    </message>
-    <message>
         <source>This help message</source>
         <translation>Dit help bericht</translation>
     </message>
@@ -6159,24 +5452,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Drempel voor het verbreken van misdragende peers (standaard: %u)</translation>
     </message>
     <message>
-        <source>Too many spends needed</source>
-        <translation>Te veel uitgaven nodig</translation>
-    </message>
-    <message>
         <source>Tor control port password (default: empty)</source>
         <translation>Tor controle poort wachtwoord (standaard: leeg)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Tor controle poort om te gebruiken als onion listening geactiveerd is (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Transaction Created</source>
-        <translation>Transactie gemaakt</translation>
-    </message>
-    <message>
-        <source>Transaction Mint Started</source>
-        <translation>Transactie startte met Mint</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
@@ -6211,28 +5492,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verzending van de definitieve transactie.</translation>
     </message>
     <message>
-        <source>Try to spend with a higher security level to include more coins</source>
-        <translation>Probeer te spenderen met een hoger beveiligingsniveau om meer munten op te nemen</translation>
-    </message>
-    <message>
-        <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Probeer een reeds bestaand serienummer nog een keer uit te geven, probeer het opnieuw.</translation>
-    </message>
-    <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Niet mogelijk te binden aan %s op deze computer (bind stuurt fout %s terug)</translation>
     </message>
     <message>
-        <source>Unable to find transaction containing mint</source>
-        <translation>Kan transactie met mint niet vinden</translation>
-    </message>
-    <message>
         <source>Unable to sign spork message, wrong key?</source>
         <translation>Kan sporkbericht niet tekenen, verkeerde sleutel?</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Kan HTTP-server niet starten. Zie foutopsporingslog voor details.</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
@@ -6247,6 +5512,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Upgrade portemonnee naar nieuwste formaat</translation>
     </message>
     <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Gebruik OpenSSL (https) voor JSON-RPC verbindingen</translation>
+    </message>
+    <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: %u)</translation>
     </message>
@@ -6255,20 +5524,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Gebruik UPnP om de luisterpoort te mappen (standaard: 1 bij het luisteren)</translation>
     </message>
     <message>
-        <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Gebruik een aangepaste max chain reorganisatie diepte (standaard: %u)</translation>
-    </message>
-    <message>
         <source>Use the test network</source>
         <translation>Gebruik het test netwerk</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
-    </message>
-    <message>
-        <source>Value is below the smallest available denomination (= 1) of zWEALTH</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zWEALTH</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6283,10 +5544,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
-        <source>Version 1 zWEALTH require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zWEALTH vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
-    </message>
-    <message>
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
     </message>
@@ -6295,8 +5552,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee is vergrendeld.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart WealthSilo Core to complete</source>
-        <translation>Wallet moest worden herschreven: start WealthSilo Core opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart WEALTHSILO Core to complete</source>
+        <translation>Wallet moest worden herschreven: start WEALTHSILO Core opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -6327,10 +5584,6 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Zal het opnieuw proberen...</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Je hebt niet genoeg Zerocoins in je portemonnee</translation>
-    </message>
-    <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
         <translation>Je moet de database herbouwen met -reindex om -txindex te wijzigen</translation>
     </message>
@@ -6353,6 +5606,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     <message>
         <source>Zerocoin options:</source>
         <translation>Zerocoin opties:</translation>
+    </message>
+    <message>
+        <source>failed to validate zerocoin</source>
+        <translation>mislukt om zerocoin te valideren</translation>
     </message>
     <message>
         <source>on startup</source>

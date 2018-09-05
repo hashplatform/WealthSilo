@@ -1,6 +1,4 @@
 // Copyright (c) 2012-2014 The Bitcoin developers
-// Copyright (c) 2016-2017 The PIVX developers
-// Copyright (c) 2016-2017 The WealthSilo developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +13,7 @@
  * for both wealthsilod and wealthsilo-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("WealthSilo Core");
+const std::string CLIENT_NAME("WEALTHSILO Core");
 
 /**
  * Client version number
@@ -46,8 +44,8 @@ const std::string CLIENT_NAME("WealthSilo Core");
 
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives.
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "cbcb549"
-#define GIT_COMMIT_DATE "Tue, 9 Feb 2016 16:54:57 -0500"
+#define GIT_COMMIT_ID "c9cf0fa"
+#define GIT_COMMIT_DATE "Wed Jul 18 14:59:24 2018 +0200"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \
@@ -93,8 +91,8 @@ std::string FormatFullVersion()
     return CLIENT_BUILD;
 }
 
-/** 
- * Format the subversion field according to BIP 14 spec (https://github.com/bitcoin/bips/blob/master/bip-0014.mediawiki) 
+/**
+ * Format the subversion field according to BIP 14 spec (https://github.com/bitcoin/bips/blob/master/bip-0014.mediawiki)
  */
 std::string FormatSubVersion(const std::string& name, int nClientVersion, const std::vector<std::string>& comments)
 {

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend WEALTHs received on particular addresses,
+# Use the raw transactions API to spend WEALTHSILOs received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the wealthsilo data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/WealthSilo/")
+        return os.path.expanduser("~/Library/Application Support/WEALTHSILO/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "WealthSilo")
+        return os.path.join(os.environ['APPDATA'], "WEALTHSILO")
     return os.path.expanduser("~/.wealthsilo")
 
 def read_bitcoin_config(dbdir):
@@ -67,7 +67,7 @@ def connect_JSON(config):
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
-        config['rpcport'] = 45586 if testnet else 45596
+        config['rpcport'] = 38843 if testnet else 5520
     connect = "http://%s:%s@127.0.0.1:%s"%(config['rpcuser'], config['rpcpassword'], config['rpcport'])
     try:
         result = ServiceProxy(connect)
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get WEALTHs from")
+                      help="addresses to get WEALTHSILOs from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send WEALTHs to")
+                      help="address to get send WEALTHSILOs to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

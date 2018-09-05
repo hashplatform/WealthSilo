@@ -109,9 +109,6 @@
     </message>
     </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>Address:</source>
@@ -163,9 +160,6 @@
         <source>Address:</source>
         <translation>アドレス：</translation>
     </message>
-    </context>
-<context>
-    <name>MultisigDialog</name>
     </context>
 <context>
     <name>ObfuscationConfig</name>
@@ -269,7 +263,7 @@
     </message>
     </context>
 <context>
-    <name>ZWealthControlDialog</name>
+    <name>ZPhrControlDialog</name>
     </context>
 <context>
     <name>wealthsilo-core</name>

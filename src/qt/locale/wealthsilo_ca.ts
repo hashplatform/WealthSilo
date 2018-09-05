@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les teves adreces WealthSilo per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
+        <source>These are your WEALTHSILO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les teves adreces WEALTHSILO per fer enviar pagaments. Sempre comprova l'import i l'adreça de recepció abans d'enviar les monedes.</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les teves adreces WealthSilo per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
+        <source>These are your WEALTHSILO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les teves adreces WEALTHSILO per rebre pagaments. Es recomana utilitzar noves adreces de recepció per cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -168,16 +168,16 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>WealthSilo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHs from being stolen by malware infecting your computer.</source>
-        <translation>WealthSilo es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus WEALTH de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
+        <source>WEALTHSILO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHSILOs from being stolen by malware infecting your computer.</source>
+        <translation>WEALTHSILO es tancarà per finalitzar el procés d'encriptació. Recorda que encriptant el teu moneder no protegeix els teus WEALTHSILO de ser robats si el teu ordinador està infectat amb programari maliciós.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Estàs segur que vols encriptar el moneder?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTH&lt;/b&gt;!</source>
-        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES WEALTHS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTHSILO&lt;/b&gt;!</source>
+        <translation>Avís: Si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES WEALTHSILOS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -207,9 +207,6 @@
         <source>Wallet passphrase was successfully changed.</source>
         <translation>La contrasenya del moneder ha estat canviada amb èxit.</translation>
     </message>
-    </context>
-<context>
-    <name>BanTableModel</name>
     </context>
 <context>
     <name>Bip38ToolDialog</name>
@@ -421,12 +418,12 @@
         <translation>A&amp;juda</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
-        <source>Send coins to a WealthSilo address</source>
-        <translation>Envia monedes a una adreça WealthSilo</translation>
+        <source>Send coins to a WEALTHSILO address</source>
+        <translation>Envia monedes a una adreça WEALTHSILO</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -437,8 +434,8 @@
         <translation>&amp;Masternodes</translation>
     </message>
     <message>
-        <source>&amp;About WealthSilo Core</source>
-        <translation>&amp;Sobre WealthSilo Core</translation>
+        <source>&amp;About WEALTHSILO Core</source>
+        <translation>&amp;Sobre WEALTHSILO Core</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -461,8 +458,12 @@
         <translation>Obre el fitxer de configuració del Masternode</translation>
     </message>
     <message>
-        <source>WealthSilo Core client</source>
-        <translation>Client WealthSilo core</translation>
+        <source>WEALTHSILO Core client</source>
+        <translation>Client WEALTHSILO core</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to WEALTHSILO network</source>
+        <translation><numerusform>%n connexió activa a la xarxa WEALTHSILO</numerusform><numerusform>%n connexions actives a la xarxa WEALTHSILO</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -472,9 +473,25 @@
         <source>Up to date</source>
         <translation>Actualitzat</translation>
     </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n hores</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dia</numerusform><numerusform>%n dies</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n setmana</numerusform><numerusform>%n setmanes</numerusform></translation>
+    </message>
     <message>
         <source>%1 and %2</source>
         <translation>%1 i %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n any</numerusform><numerusform>%n anys</numerusform></translation>
     </message>
     <message>
         <source>Error</source>
@@ -618,10 +635,6 @@
         <translation>Rebut amb l'adreça</translation>
     </message>
     <message>
-        <source>Type</source>
-        <translation>Tipus</translation>
-    </message>
-    <message>
         <source>Date</source>
         <translation>Data</translation>
     </message>
@@ -754,10 +767,6 @@
         <translation>Aquesta etiqueta es posa vermella si la prioritat és més petita que "mitjana"</translation>
     </message>
     <message>
-        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Aquesta etiqueta es posa vermella si algun destinatari rep un import inferior a l' %1.</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(sense etiqueta)</translation>
     </message>
@@ -805,8 +814,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid WealthSilo address.</source>
-        <translation>L'adreça introduïda "%1" no és una adreça WealthSilo vàlida.</translation>
+        <source>The entered address "%1" is not a valid WEALTHSILO address.</source>
+        <translation>L'adreça introduïda "%1" no és una adreça WEALTHSILO vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,16 +860,16 @@
         <translation>versió</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About WealthSilo Core</source>
-        <translation>Sobre WealthSilo Core</translation>
+        <source>About WEALTHSILO Core</source>
+        <translation>Sobre WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -906,12 +915,12 @@
         <translation>Benvingut</translation>
     </message>
     <message>
-        <source>Welcome to WealthSilo Core.</source>
-        <translation>Benvingut a WealthSilo Core.</translation>
+        <source>Welcome to WEALTHSILO Core.</source>
+        <translation>Benvingut a WEALTHSILO Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where WealthSilo Core will store its data.</source>
-        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del WealthSilo Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where WEALTHSILO Core will store its data.</source>
+        <translation>Al ser el primer cop que s'inicia el programa, pots escollir on es desaran les dades del WEALTHSILO Core.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -922,8 +931,8 @@
         <translation>Usar una carpeta de dades personalitzada:</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -947,6 +956,10 @@
     <message>
         <source>Form</source>
         <translation>Formulari</translation>
+    </message>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Els meus Masternodes</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1080,10 +1093,6 @@
         <translation>Activa</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(sense etiqueta)</translation>
-    </message>
-    <message>
         <source>The entered address:
 </source>
         <translation>L'adreça introduïda:
@@ -1111,21 +1120,6 @@
     </message>
 </context>
 <context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Status:</source>
-        <translation>Estat:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Import:</translation>
-    </message>
-    </context>
-<context>
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
@@ -1148,24 +1142,24 @@
         <translation>Si us plau, selecciona un nivell de privacitat.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 1000 WEALTH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Utilitza 2 masternodes diferents per mesclar fons de fins a 10000 WEALTHSILO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 1000 WEALTH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Utilitza 8 masternodes diferents per mesclar fons de fins a 10000 WEALTHSILO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utilitza 16 masternodes diferents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 WEALTH per anonimitzar 1000 WEALTH</translation>
+        <source>This option is the quickest and will cost about ~0.025 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Aquesta opció és la més ràpida i té un cost d'uns ~0.025 WEALTHSILO per anonimitzar 10000 WEALTHSILO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 WEALTH per anonimitzar 1000 WEALTH</translation>
+        <source>This option is moderately fast and will cost about 0.05 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Aquesta opció és moderadament ràpida i té un cost d'uns 0.05 WEALTHSILO per anonimitzar 10000 WEALTHSILO</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1214,8 +1208,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start WealthSilo after logging in to the system.</source>
-        <translation>Inicia WealthSilo automàticament després d'identificar-te en el sistema.</translation>
+        <source>Automatically start WEALTHSILO after logging in to the system.</source>
+        <translation>Inicia WEALTHSILO automàticament després d'identificar-te en el sistema.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1277,6 +1271,18 @@
         <translation>Total:</translation>
     </message>
     <message>
+        <source>WEALTHSILO:</source>
+        <translation>WEALTHSILO:</translation>
+    </message>
+    <message>
+        <source>zWEALTH:</source>
+        <translation>zWEALTH:</translation>
+    </message>
+    <message>
+        <source>0 %</source>
+        <translation>0 %</translation>
+    </message>
+    <message>
         <source>Recent transactions</source>
         <translation>Transaccions recents</translation>
     </message>
@@ -1298,6 +1304,10 @@
 <context>
     <name>PrivacyDialog</name>
     <message>
+        <source>Zerocoin WEALTHSILO (zWEALTH)</source>
+        <translation>Zerocoin WEALTHSILO (zWEALTH)</translation>
+    </message>
+    <message>
         <source>0</source>
         <translation>0</translation>
     </message>
@@ -1306,8 +1316,8 @@
         <translation>zWEALTH</translation>
     </message>
     <message>
-        <source>0.000 000 00 WEALTH</source>
-        <translation>0.000 000 00 WEALTH</translation>
+        <source>0.000 000 00 WEALTHSILO</source>
+        <translation>0.000 000 00 WEALTHSILO</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1340,10 +1350,6 @@
     <message>
         <source>Priority:</source>
         <translation>Prioritat:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>EtiquetaDeText</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1624,7 +1630,7 @@
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Amb comissió:</translation>
+        <translation>Després de la comissió:</translation>
     </message>
     <message>
         <source>Change:</source>
@@ -1713,8 +1719,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>WealthSilo Core is shutting down...</source>
-        <translation>WealthSilo Core s'està tancant...</translation>
+        <source>WEALTHSILO Core is shutting down...</source>
+        <translation>WEALTHSILO Core s'està tancant...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1779,8 +1785,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -1886,6 +1892,10 @@
         <translation>Aquest any</translation>
     </message>
     <message>
+        <source>Obfuscated</source>
+        <translation>Ofuscat</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Copia l'adreça</translation>
     </message>
@@ -1959,7 +1969,7 @@
     </message>
     </context>
 <context>
-    <name>ZWealthControlDialog</name>
+    <name>ZPhrControlDialog</name>
     <message>
         <source>Quantity</source>
         <translation>Quantitat</translation>
@@ -1969,8 +1979,8 @@
         <translation>0</translation>
     </message>
     <message>
-        <source>zWEALTH</source>
-        <translation>zWEALTH</translation>
+        <source>zPhr</source>
+        <translation>zPhr</translation>
     </message>
     </context>
 <context>

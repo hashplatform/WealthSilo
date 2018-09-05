@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy wealthsilod.init to /etc/init.d/wealthsilod. Test by running "service wealthsilod start".
 
 Using this script, you can adjust the path and flags to the wealthsilod program by
-setting the wealthsilod and FLAGS environment variables in the file
+setting the WEALTHSILOD and FLAGS environment variables in the file
 /etc/sysconfig/wealthsilod. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

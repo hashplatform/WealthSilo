@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços WealthSilo para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your WEALTHSILO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços WEALTHSILO para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your WealthSilo addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços WealthSilo para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your WEALTHSILO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços WEALTHSILO para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -132,12 +132,8 @@
         <translation>Repita a nova palavra-chave</translation>
     </message>
     <message>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Server irá desabilitar o sendmoney trivial quando a conta do sistema operacional for comprometido. Não oferece segurança real.</translation>
-    </message>
-    <message>
-        <source>For anonymization, automint, and staking only</source>
-        <translation>Somente para anonimização, automint e staking</translation>
+        <source>For anonymization and staking only</source>
+        <translation>Para anonimização e staking somente</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -176,16 +172,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>WealthSilo will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHs from being stolen by malware infecting your computer.</source>
-        <translation>WealthSilo vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas WEALTHs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>WEALTHSILO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your WEALTHSILOs from being stolen by malware infecting your computer.</source>
+        <translation>WEALTHSILO vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas WEALTHSILOs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTH&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS WEALTH&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTHSILO&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS WEALTHSILO&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -229,17 +225,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Proibido até</translation>
-    </message>
-</context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -250,12 +235,16 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
+        <source>Enter a WEALTHSILO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
+    </message>
+    <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a WealthSilo Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
+        <source>The WEALTHSILO address to sign the message with</source>
+        <translation>O endereço WEALTHSILO para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -286,20 +275,36 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço WEALTHSILO</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Chave encriptada:</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Reiniciar todos os campos de mensagem</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>&amp;BIP 38 Decrypt</source>
-        <translation>&amp;Descriptografar BIP 38</translation>
+        <source>The WEALTHSILO address the message was signed with</source>
+        <translation>O endereço WEALTHSILO que assinou a mensagem</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified WEALTHSILO address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço WEALTHSILO especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
         <translation>Descriptografar &amp;Chave</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Reiniciar todos os campos de mensagem</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -407,10 +412,6 @@
     <message>
         <source>Browse transaction history</source>
         <translation>Olhar histórico de transação</translation>
-    </message>
-    <message>
-        <source>Privacy Actions for zWEALTH</source>
-        <translation>Ações privadas para zWEALTH</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -553,30 +554,6 @@
         <translation>Mostrar a lista de endereços de recebimento e rótulos utilizados</translation>
     </message>
     <message>
-        <source>&amp;Multisignature creation...</source>
-        <translation>&amp;Criação de multiassinaturas</translation>
-    </message>
-    <message>
-        <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Crie um novo endereço multiassinatura e adicione à esta carteira</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Gasto multiassinatura...</translation>
-    </message>
-    <message>
-        <source>Spend from a multisignature address</source>
-        <translation>Gastar de um endereço multiassinatura</translation>
-    </message>
-    <message>
-        <source>&amp;Multisignature signing...</source>
-        <translation>&amp;Assinando multiassinatura...</translation>
-    </message>
-    <message>
-        <source>Sign with a multisignature address</source>
-        <translation>Assinar com um endereço multiassinatura</translation>
-    </message>
-    <message>
         <source>Open &amp;URI...</source>
         <translation>Abrir &amp;URI...</translation>
     </message>
@@ -587,10 +564,6 @@
     <message>
         <source>Synchronizing additional data: %p%</source>
         <translation>Sincronizando informação adicional: %p%</translation>
-    </message>
-    <message>
-        <source>%1 behind. Scanning block %2</source>
-        <translation>%1 atrás. Escaneado bloco %2</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -613,20 +586,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
-        <source>Send coins to a WealthSilo address</source>
-        <translation>Enviar moedas para um endereço WealthSilo</translation>
+        <source>Send coins to a WEALTHSILO address</source>
+        <translation>Enviar moedas para um endereço WEALTHSILO</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and wealthsilo: URIs)</source>
         <translation>Requisitar pagamentos (gera códigos QR e wealthsilo: URIs)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Privacidade</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -637,24 +606,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About WealthSilo Core</source>
-        <translation>&amp;Sobre o WealthSilo Core</translation>
+        <source>&amp;About WEALTHSILO Core</source>
+        <translation>&amp;Sobre o WEALTHSILO Core</translation>
     </message>
     <message>
-        <source>Show information about WealthSilo Core</source>
-        <translation>Mostra informação sobre o WealthSilo Core</translation>
+        <source>Show information about WEALTHSILO Core</source>
+        <translation>Mostra informação sobre o WEALTHSILO Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for WealthSilo</source>
-        <translation>Modificar opções de configuração para WealthSilo</translation>
+        <source>Modify configuration options for WEALTHSILO</source>
+        <translation>Modificar opções de configuração para WEALTHSILO</translation>
     </message>
     <message>
-        <source>Sign messages with your WealthSilo addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços WealthSilo para provar que você os detém</translation>
+        <source>Sign messages with your WEALTHSILO addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços WEALTHSILO para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified WealthSilo addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços WealthSilo especificados</translation>
+        <source>Verify messages to ensure they were signed with specified WEALTHSILO addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços WEALTHSILO especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +654,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a WealthSilo: URI or payment request</source>
-        <translation>Abrir um WealthSilo: URI ou requisição de pagamento</translation>
+        <source>Open a WEALTHSILO: URI or payment request</source>
+        <translation>Abrir um WEALTHSILO: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -697,12 +666,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the WealthSilo Core help message to get a list with possible WealthSilo command-line options</source>
-        <translation>Mostra a ajuda da WealthSilo Core para receber uma lista com possíveis opções de linha de comando WealthSilo</translation>
+        <source>Show the WEALTHSILO Core help message to get a list with possible WEALTHSILO command-line options</source>
+        <translation>Mostra a ajuda da WEALTHSILO Core para receber uma lista com possíveis opções de linha de comando WEALTHSILO</translation>
     </message>
     <message>
-        <source>WealthSilo Core client</source>
-        <translation>Cliente Core WealthSilo</translation>
+        <source>WEALTHSILO Core client</source>
+        <translation>Cliente Core WEALTHSILO</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -727,6 +696,10 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 e %2</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 atrás</translation>
     </message>
     <message>
         <source>Catching up...</source>
@@ -806,6 +779,10 @@ MultiSend: %1</translation>
         <translation>A Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
     </message>
     <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
+        <translation>A Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt; somente para anonimização e staking</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>A carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;travada&lt;/b&gt;</translation>
     </message>
@@ -815,14 +792,6 @@ MultiSend: %1</translation>
     <message>
         <source>Blockchain Explorer</source>
         <translation>Explorador Blockchain</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Voltar</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>Avançar</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
@@ -843,10 +812,6 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
-    <message>
-        <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Desconhecido: %5)</translation>
-    </message>
     <message>
         <source>Network Alert</source>
         <translation>Alerta de rede</translation>
@@ -917,10 +882,6 @@ MultiSend: %1</translation>
     <message>
         <source>Received with address</source>
         <translation>Recebido no endereço</translation>
-    </message>
-    <message>
-        <source>Type</source>
-        <translation>Tipo</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1005,6 +966,10 @@ MultiSend: %1</translation>
     <message>
         <source>medium-high</source>
         <translation>médio-alto</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 duff(s) per input.</source>
+        <translation>pode variar entre +/-%1 duff(s) por input</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1118,8 +1083,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid WealthSilo address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de WealthSilo</translation>
+        <source>The entered address "%1" is not a valid WEALTHSILO address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de WEALTHSILO</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1164,16 +1129,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About WealthSilo Core</source>
-        <translation>Sobre o WealthSilo Core</translation>
+        <source>About WEALTHSILO Core</source>
+        <translation>Sobre o WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1186,14 +1151,6 @@ MultiSend: %1</translation>
     <message>
         <source>command-line options</source>
         <translation>opções de linha de comando</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Opções de UI:</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Escolher diretório de informações ao inicializar (padrão: %u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -1215,16 +1172,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to WealthSilo Core.</source>
-        <translation>Bem-vindo ao WealthSilo Core.</translation>
+        <source>Welcome to WEALTHSILO Core.</source>
+        <translation>Bem-vindo ao WEALTHSILO Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where WealthSilo Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde WealthSilo Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where WEALTHSILO Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde WEALTHSILO Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>WealthSilo Core will download and store a copy of the WealthSilo block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>WealthSilo Core vai baixar e armazenar uma cópia da blockchain WealthSilo. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>WEALTHSILO Core will download and store a copy of the WEALTHSILO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>WEALTHSILO Core vai baixar e armazenar uma cópia da blockchain WEALTHSILO. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1235,8 +1192,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1260,6 +1217,10 @@ MultiSend: %1</translation>
     <message>
         <source>Form</source>
         <translation>Formulário</translation>
+    </message>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Meus Masternodes</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1292,10 +1253,6 @@ MultiSend: %1</translation>
     <message>
         <source>S&amp;tart alias</source>
         <translation>iniciar apelido</translation>
-    </message>
-    <message>
-        <source>Start &amp;all</source>
-        <translation>Iniciar &amp;todos</translation>
     </message>
     <message>
         <source>&amp;Update status</source>
@@ -1397,10 +1354,6 @@ MultiSend: %1</translation>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Coloque uma etiqueta neste endereço para adicioná-lo à lista de contatos</translation>
-    </message>
-    <message>
         <source>Delete Address From MultiSend Vector</source>
         <translation>Deleta endereço do vetor MultiSend</translation>
     </message>
@@ -1431,10 +1384,6 @@ MultiSend: %1</translation>
     <message>
         <source>Send For Masternode Rewards</source>
         <translation>Enviar para recompensas de Masternode</translation>
-    </message>
-    <message>
-        <source>(no label)</source>
-        <translation>(sem rótulo)</translation>
     </message>
     <message>
         <source>The entered address:
@@ -1477,81 +1426,6 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Create MultiSignature &amp;Address</source>
-        <translation>Criar &amp;Endereço multiassinatura</translation>
-    </message>
-    <message>
-        <source>How many people must sign to verify a transaction</source>
-        <translation>Quantas pessoas devem assinar para verificar uma transação</translation>
-    </message>
-    <message>
-        <source>Address Label:</source>
-        <translation>Rótulo do endereço:</translation>
-    </message>
-    <message>
-        <source>Create a new multisig address</source>
-        <translation>Criar um novo endereço multisig</translation>
-    </message>
-    <message>
-        <source>C&amp;reate</source>
-        <translation>C&amp;riar</translation>
-    </message>
-    <message>
-        <source>Status:</source>
-        <translation>Situação:</translation>
-    </message>
-    <message>
-        <source>Inputs:</source>
-        <translation>Inputs:</translation>
-    </message>
-    <message>
-        <source>Quantity Selected:</source>
-        <translation>Quantia selecionada:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantia:</translation>
-    </message>
-    <message>
-        <source>Address / Amount:</source>
-        <translation>Endereço / Quantia:</translation>
-    </message>
-    <message>
-        <source>Cr&amp;eate</source>
-        <translation>Cr&amp;iar</translation>
-    </message>
-    <message>
-        <source>S&amp;ign</source>
-        <translation>A&amp;ssinar</translation>
-    </message>
-    <message>
-        <source>Add Private &amp;Key</source>
-        <translation>Adicionar &amp;Chave Privada</translation>
-    </message>
-    <message>
-        <source>Sign with only private keys (Not Recommened)</source>
-        <translation>Assinar somente com chaves privadas (Não Recomendado)</translation>
-    </message>
-    <message>
-        <source>Invalid Tx Hash.</source>
-        <translation>Tx Hash inválido.</translation>
-    </message>
-    <message>
-        <source>Amount: </source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>Maximum (15)</source>
-        <translation>Máximo (15)</translation>
-    </message>
-</context>
-<context>
     <name>ObfuscationConfig</name>
     <message>
         <source>Configure Obfuscation</source>
@@ -1574,48 +1448,48 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Favor selecionar o nível de privacidade.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 1000 WEALTH</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 WEALTHSILO</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 WEALTH</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 1000 WEALTH</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 WEALTHSILO</source>
+        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 WEALTHSILO</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Use 16 masternodes separados</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 WEALTH para anonimizar 1000 WEALTH</translation>
+        <source>This option is the quickest and will cost about ~0.025 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 WEALTHSILO para anonimizar 10000 WEALTHSILO</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 WEALTH to anonymize 1000 WEALTH</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 WEALTH para anonimizar 1000 WEALTH</translation>
+        <source>This option is moderately fast and will cost about 0.05 WEALTHSILO to anonymize 10000 WEALTHSILO</source>
+        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 WEALTHSILO para anonimizar 10000 WEALTHSILO</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
     </message>
     <message>
-        <source>0.1 WEALTH per  10000 WEALTH you anonymize.</source>
-        <translation>0.1 WEALTH por  10000 WEALTH que deixar anônima.</translation>
+        <source>0.1 WEALTHSILO per 10000 WEALTHSILO you anonymize.</source>
+        <translation>0.1 WEALTHSILO por 10000 WEALTHSILO que deixar anônima.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WealthSilo's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WEALTHSILO's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WealthSilo's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WEALTHSILO's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening WealthSilo's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WealthSilo's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening WEALTHSILO's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela WEALTHSILO's.</translation>
     </message>
 </context>
 <context>
@@ -1668,8 +1542,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the WealthSilo client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente WealthSilo no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the WEALTHSILO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente WEALTHSILO no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1688,12 +1562,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start WealthSilo after logging in to the system.</source>
-        <translation>Iniciar automaticamente WealthSilo depois de logar no sistema.</translation>
+        <source>Automatically start WEALTHSILO after logging in to the system.</source>
+        <translation>Iniciar automaticamente WEALTHSILO depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start WealthSilo on system login</source>
-        <translation>&amp;Iniciar WealthSilo ao logar no sistema</translation>
+        <source>&amp;Start WEALTHSILO on system login</source>
+        <translation>&amp;Iniciar WEALTHSILO ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1708,8 +1582,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting WealthSilo.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do WealthSilo.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting WEALTHSILO.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do WEALTHSILO.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1718,8 +1592,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</so
 https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</translation>
     </message>
     <message>
-        <source>Connect to the WealthSilo network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede WealthSilo através de um proxy SOCKS5</translation>
+        <source>Connect to the WEALTHSILO network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede WEALTHSILO através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1825,7 +1699,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <source>The supplied proxy address is invalid.</source>
         <translation>O endereço proxy fornecido é inválido.</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>OverviewPage</name>
     <message>
@@ -1853,8 +1727,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WealthSilo network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede WealthSilo após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WEALTHSILO network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede WEALTHSILO após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1863,6 +1737,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Total:</source>
         <translation>Total:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>Seu saldo total atual</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
@@ -1877,14 +1755,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Disponível:</translation>
     </message>
     <message>
-        <source>Locked:</source>
-        <translation>Travado:</translation>
-    </message>
-    <message>
-        <source>Unconfirmed:</source>
-        <translation>Não confirmado:</translation>
-    </message>
-    <message>
         <source>Recent transactions</source>
         <translation>Transações recentes</translation>
     </message>
@@ -1892,7 +1762,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <source>out of sync</source>
         <translation>fora de sincronia</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1946,24 +1816,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
 <context>
     <name>PrivacyDialog</name>
     <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Ações Zerocoin:</translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WealthSilo network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede WealthSilo após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WEALTHSILO network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede WEALTHSILO após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>0</source>
         <translation>0</translation>
-    </message>
-    <message>
-        <source>zWEALTH</source>
-        <translation>zWEALTH</translation>
-    </message>
-    <message>
-        <source>0.000 000 00 WEALTH</source>
-        <translation>0.000 000 00 WEALTH</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1978,28 +1836,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Quantia:</translation>
     </message>
     <message>
-        <source>Quantity Selected:</source>
-        <translation>Quantia selecionada:</translation>
-    </message>
-    <message>
-        <source>Available Balance:</source>
-        <translation>Saldo disponível:</translation>
-    </message>
-    <message>
-        <source>Security Level:</source>
-        <translation>Nível de Segurança:</translation>
-    </message>
-    <message>
-        <source>Security Level 1 - 100 (default: 42)</source>
-        <translation>Nível de segurança 1 - 100 (padrão: 42)</translation>
-    </message>
-    <message>
         <source>Pay &amp;To:</source>
         <translation>Pagar &amp;Para:</translation>
-    </message>
-    <message>
-        <source>The WealthSilo address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço WealthSilo para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2030,56 +1868,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Quantia:</translation>
     </message>
     <message>
-        <source>Information about the available Zerocoin funds.</source>
-        <translation>Informação sobre os fundos disponíveis em Zerocoin.</translation>
-    </message>
-    <message>
-        <source>Zerocoin Stats:</source>
-        <translation>Estatísticas zerocoin:</translation>
-    </message>
-    <message>
-        <source>Total Balance including unconfirmed and immature zWEALTH</source>
-        <translation>Balanço Total incluindo não confirmadas e imaturas zWEALTH</translation>
-    </message>
-    <message>
-        <source>Total Zerocoin  Balance:</source>
-        <translation>Balanço Total Zerocoin:</translation>
-    </message>
-    <message>
-        <source>0 x</source>
-        <translation>0 x</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Denominações com valor 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Denominações com valor 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Denominações com valor 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Denominações com valor 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Denominações com valor 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Denominações com valor 5000:</translation>
-    </message>
-    <message>
         <source>Priority:</source>
         <translation>Prioridade:</translation>
-    </message>
-    <message>
-        <source>TextLabel</source>
-        <translation>Rótulo</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -2106,10 +1896,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Funções do Controle de Moedas</translation>
     </message>
     <message>
-        <source>Amount After Fee:</source>
-        <translation>Quantia depois da taxa:</translation>
-    </message>
-    <message>
         <source>Change:</source>
         <translation>Troco:</translation>
     </message>
@@ -2126,46 +1912,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Copiar quantia</translation>
     </message>
     <message>
-        <source>Error: Your wallet is locked. Please enter the wallet passphrase first.</source>
-        <translation>Erro: Sua carteira está travada. Favor inserir a palavra-chave da carteira primeiro.</translation>
-    </message>
-    <message>
-        <source>Message: Enter an amount &gt; 0.</source>
-        <translation>Mensagem: Insira uma quantia &gt; 0.</translation>
-    </message>
-    <message>
-        <source>Confirm additional Fees</source>
-        <translation>Confirmar Taxas adicionais</translation>
-    </message>
-    <message>
-        <source> to address </source>
-        <translation>para o endereço</translation>
-    </message>
-    <message>
         <source>Confirm send coins</source>
         <translation>Confirmar envio de moedas</translation>
     </message>
-    <message>
-        <source>denomination: </source>
-        <translation>denominação:</translation>
-    </message>
-    <message>
-        <source>address: </source>
-        <translation>endereço:</translation>
-    </message>
-    <message>
-        <source>Sending successful, return code: </source>
-        <translation>Enviado com sucesso, código de retorno:</translation>
-    </message>
-    <message>
-        <source>txid: </source>
-        <translation>txid:</translation>
-    </message>
-    <message>
-        <source>fee: </source>
-        <translation>taxa:</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QObject</name>
     <message>
@@ -2173,8 +1923,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a WealthSilo address (e.g. %1)</source>
-        <translation>Insira um endereço WealthSilo (e.g. %1)</translation>
+        <source>Enter a WEALTHSILO address (e.g. %1)</source>
+        <translation>Insira um endereço WEALTHSILO (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2351,6 +2101,14 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Serviços</translation>
     </message>
     <message>
+        <source>Starting Height</source>
+        <translation>Altura de início</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Altura da sincronização</translation>
+    </message>
+    <message>
         <source>Connection Time</source>
         <translation>Tempo de conexão</translation>
     </message>
@@ -2379,18 +2137,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>&amp;Reparo da Carteira</translation>
     </message>
     <message>
-        <source>Delete local Blockchain Folders</source>
-        <translation>Excluir pastas locais Blockchain</translation>
-    </message>
-    <message>
-        <source>Wallet In Use:</source>
-        <translation>Carteiro em uso:</translation>
-    </message>
-    <message>
-        <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Tentar recuperar chaves privadas de um wallet.dat corrompido.</translation>
-    </message>
-    <message>
         <source>Rescan blockchain files</source>
         <translation>Reescanear os arquivos da blockchain</translation>
     </message>
@@ -2405,10 +2151,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Upgrade wallet format</source>
         <translation>Atualizar formato da carteira</translation>
-    </message>
-    <message>
-        <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Deleta todos os arquivos locais da blockchain para que a carteira sincronize do zero.</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
@@ -2431,12 +2173,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the WealthSilo RPC console.</source>
-        <translation>Bem-vindo ao console da WealthSilo RPC</translation>
-    </message>
-    <message>
-        <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Você deseja continuar?.&lt;br /&gt;</translation>
+        <source>Welcome to the WEALTHSILO RPC console.</source>
+        <translation>Bem-vindo ao console da WEALTHSILO RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2473,6 +2211,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Unknown</source>
         <translation>Desconhecido</translation>
+    </message>
+    <message>
+        <source>Fetching...</source>
+        <translation>buscando...</translation>
     </message>
 </context>
 <context>
@@ -2547,10 +2289,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Copy &amp;URI</source>
         <translation>Copiar &amp;URI</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Address</source>
-        <translation>Copiar &amp;Endereço</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
@@ -2687,8 +2425,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 WEALTH</source>
-        <translation>0 WEALTH</translation>
+        <source>0 WEALTHSILO</source>
+        <translation>0 WEALTHSILO</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2723,20 +2461,16 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>(Smart fee não inicializada ainda. Isso geralmente leva alguns blocos...)</translation>
     </message>
     <message>
-        <source>SwiftX</source>
-        <translation>SwiftX</translation>
-    </message>
-    <message>
         <source>Confirmation time:</source>
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uWEALTHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHs in fee,&lt;br /&gt;while "at least" pays 1000 uWEALTHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uWEALTHs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uWEALTHs em taxa,&lt;br /&gt; pagará pelo menos 1000 uWEALTHs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uWEALTHSILOs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uWEALTHSILOs in fee,&lt;br /&gt;while "at least" pays 1000 uWEALTHSILOs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uWEALTHSILOs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uWEALTHSILOs em taxa,&lt;br /&gt; pagará pelo menos 1000 uWEALTHSILOs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for WealthSilo transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de WealthSilo do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for WEALTHSILO transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de WEALTHSILO do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2763,10 +2497,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Confirma a ação de envio</translation>
     </message>
     <message>
-        <source>S&amp;end</source>
-        <translation>E&amp;nviar</translation>
-    </message>
-    <message>
         <source>Clear all fields of the form.</source>
         <translation>Limpa todos os campos do formulário.</translation>
     </message>
@@ -2783,8 +2513,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Adicionar &amp;Recipiente</translation>
     </message>
     <message>
-        <source>Anonymized WEALTH</source>
-        <translation>WEALTH anonimizadas</translation>
+        <source>SwiftTX</source>
+        <translation>SwiftTX</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -2819,8 +2549,24 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Copiar troco</translation>
     </message>
     <message>
-        <source>Warning: Invalid WealthSilo address</source>
-        <translation>Aviso: endereço WealthSilo inválido</translation>
+        <source>using</source>
+        <translation>usando</translation>
+    </message>
+    <message>
+        <source>anonymous funds</source>
+        <translation>fundos anônimos</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid WEALTHSILO address</source>
+        <translation>Aviso: endereço WEALTHSILO inválido</translation>
+    </message>
+    <message>
+        <source>any available funds (not recommended)</source>
+        <translation>quaisquer fundos disponíveis (não recomendado)</translation>
+    </message>
+    <message>
+        <source>and SwiftTX</source>
+        <translation>e SwiftTX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2906,8 +2652,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The WealthSilo address to send the payment to</source>
-        <translation>O endereço WealthSilo para enviar o pagamento</translation>
+        <source>The WEALTHSILO address to send the payment to</source>
+        <translation>O endereço WEALTHSILO para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2969,8 +2715,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>WealthSilo Core is shutting down...</source>
-        <translation>WealthSilo Core está desligando...</translation>
+        <source>WEALTHSILO Core is shutting down...</source>
+        <translation>WEALTHSILO Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2988,8 +2734,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The WealthSilo address to sign the message with</source>
-        <translation>O endereço WealthSilo para assinar a mensagem</translation>
+        <source>The WEALTHSILO address to sign the message with</source>
+        <translation>O endereço WEALTHSILO para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3020,16 +2766,16 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this WealthSilo address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço WealthSilo</translation>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço WEALTHSILO</translation>
     </message>
     <message>
-        <source>The WealthSilo address the message was signed with</source>
-        <translation>O endereço WealthSilo que assinou a mensagem</translation>
+        <source>The WEALTHSILO address the message was signed with</source>
+        <translation>O endereço WEALTHSILO que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified WealthSilo address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço WealthSilo especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified WEALTHSILO address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço WEALTHSILO especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3111,8 +2857,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>WealthSilo Core</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3127,8 +2873,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The WealthSilo Core developers</source>
-        <translation>Os desenvolvedores do WealthSilo Core</translation>
+        <source>The WEALTHSILO Core developers</source>
+        <translation>Os desenvolvedores do WEALTHSILO Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3153,6 +2899,18 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>conflitou</translation>
     </message>
     <message>
+        <source>%1/offline (verified via swifttx)</source>
+        <translation>%1/offline (verificado via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1/confirmed (verified via swifttx)</source>
+        <translation>%1/confirmado (verificado via swifttx)</translation>
+    </message>
+    <message>
+        <source>%1 confirmations (verified via swifttx)</source>
+        <translation>%1 confirmações (verificado via swifttx)</translation>
+    </message>
+    <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
     </message>
@@ -3165,36 +2923,24 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>%1 confirmações</translation>
     </message>
     <message>
-        <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (verificado via SwiftX)</translation>
+        <source>%1/offline (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1/offline (verificação SwiftTX em progresso - %2 de %3 assinaturas)</translation>
     </message>
     <message>
-        <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/confirmado (verificado via SwiftX)</translation>
+        <source>%1/confirmed (SwiftTX verification in progress - %2 of %3 signatures )</source>
+        <translation>%1/confirmado (verificação SwiftTX em progresso - %2 de %3 assinaturas)</translation>
     </message>
     <message>
-        <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 confirmações (verificado via SwiftX)</translation>
+        <source>%1 confirmations (SwiftTX verification in progress - %2 of %3 signatures)</source>
+        <translation>%1 confirmações (verificação SwiftTX em progresso - %2 de %3 assinaturas)</translation>
     </message>
     <message>
-        <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (verificação SwiftX  em progresso - %2 de %3 assinaturas)</translation>
+        <source>%1/offline (SwiftTX verification failed)</source>
+        <translation>%1/offline (verificação SwiftTX falhou)</translation>
     </message>
     <message>
-        <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/confirmado (verificação SwiftX  em progresso - %2 de %3 assinaturas )</translation>
-    </message>
-    <message>
-        <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 confirmações ( verificação SwiftX  em progresso - %2 de %3 assinaturas)</translation>
-    </message>
-    <message>
-        <source>%1/offline (SwiftX verification failed)</source>
-        <translation>%1/offline ( verificação SwiftX falhou)</translation>
-    </message>
-    <message>
-        <source>%1/confirmed (SwiftX verification failed)</source>
-        <translation>%1/confirmado (verificação SwiftX falhou)</translation>
+        <source>%1/confirmed (SwiftTX verification failed)</source>
+        <translation>%1/confirmado (verificação SwiftTX falhou)</translation>
     </message>
     <message>
         <source>Status</source>
@@ -3287,10 +3033,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Merchant</source>
         <translation>Vendedor</translation>
-    </message>
-    <message>
-        <source>Debug information</source>
-        <translation>Informação de depuração</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -3387,12 +3129,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Enviado para</translation>
     </message>
     <message>
-        <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Bloco órfão - Gerado, porém não aceito. Isto não impacta seus fundos.</translation>
-    </message>
-    <message>
         <source>Payment to yourself</source>
         <translation>Pagamento para si mesmo</translation>
+    </message>
+    <message>
+        <source>Minted</source>
+        <translation>Cunhado</translation>
     </message>
     <message>
         <source>Mined</source>
@@ -3476,6 +3218,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Sent to</source>
         <translation>Enviado para</translation>
+    </message>
+    <message>
+        <source>Obfuscated</source>
+        <translation>Ofuscado</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3610,7 +3356,11 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <source>Send Coins</source>
         <translation>Enviar Moedas</translation>
     </message>
-    </context>
+    <message>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 WEALTHSILO.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 WEALTHSILO.</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
     <message>
@@ -3633,24 +3383,28 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <source>Wallet Data (*.dat)</source>
         <translation>Wallet Data (.dat)</translation>
     </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Backup falhou</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Aconteceu um erro na tentativa de salvar os dados da carteira em %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Backup com sucesso</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Os dados da carteira foram salvos em %1 com sucesso.</translation>
+    </message>
 </context>
 <context>
-    <name>ZWealthControlDialog</name>
-    <message>
-        <source>Quantity</source>
-        <translation>Quantia</translation>
-    </message>
+    <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
-    </message>
-    <message>
-        <source>zWEALTH</source>
-        <translation>zWEALTH</translation>
-    </message>
-    <message>
-        <source>Select/Deselect All</source>
-        <translation>Selecionar/Deselecionar todos</translation>
     </message>
     </context>
 <context>
@@ -3658,6 +3412,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
+    </message>
+    <message>
+        <source>Disable all WEALTHSILO specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas WEALTHSILO (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3672,12 +3430,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in WEALTH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em WEALTH/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in WEALTHSILO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em WEALTHSILO/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in WEALTH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em WEALTH/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in WEALTHSILO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em WEALTHSILO/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3696,8 +3454,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Define o tamanho máximo de transações de alta prioridade/taxa baixa em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 WEALTH.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 1000 WEALTH.</translation>
+        <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 WEALTHSILO.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 WEALTHSILO.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3712,8 +3474,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong WealthSilo Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core WealthSilo não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong WEALTHSILO Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core WEALTHSILO não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3728,8 +3490,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(9595 could be used only on mainnet)</source>
-        <translation>(9595 could be used only on mainnet)</translation>
+        <source>(45595 could be used only on mainnet)</source>
+        <translation>(45595 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3740,8 +3502,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 9595 for mainnet)</source>
-        <translation>(deve ser 9595 para mainnet)</translation>
+        <source>(must be 45595 for mainnet)</source>
+        <translation>(deve ser 45595 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
@@ -3792,20 +3554,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The WealthSilo Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do WealthSilo Core</translation>
+        <source>Copyright (C) 2015-%i The WEALTHSILO Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
         <translation>database de blocos corrompida</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>Opções de depuração/teste:</translation>
-    </message>
-    <message>
-        <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Desabilitar notificações OS para transações chegando (padrão: %u)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
@@ -3852,8 +3606,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of WealthSilo Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da WealthSilo Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of WEALTHSILO Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da WEALTHSILO Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3888,16 +3642,12 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Erro: Você já possui entradas pendentes na pool de Ofuscação</translation>
     </message>
     <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Falhou em escutar qualquer porta. Use -listen=0 se você quiser isso.</translation>
-    </message>
-    <message>
         <source>Failed to read block</source>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in WEALTH/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em WEALTH/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in WEALTHSILO/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em WEALTHSILO/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3948,10 +3698,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>O input não é válido.</translation>
     </message>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Fundos insuficientes</translation>
-    </message>
-    <message>
         <source>Insufficient funds.</source>
         <translation>Fundos insuficientes.</translation>
     </message>
@@ -3980,10 +3726,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Quantia inválida para -reservebalance=&lt;quantidade&gt;</translation>
     </message>
     <message>
-        <source>Invalid amount</source>
-        <translation>quantia inválida</translation>
-    </message>
-    <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
         <translation>masternodeprivkey inválido. Favor conferir o manual.</translation>
     </message>
@@ -4002,20 +3744,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Invalid script detected.</source>
         <translation>Script inválido detectado.</translation>
-    </message>
-    <message>
-        <source>SwiftX options:</source>
-        <translation>opções SwiftX:</translation>
-    </message>
-    <message>
-        <source> unconfirmed transactions removed
-</source>
-        <translation>transações não confirmadas removidas
-</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; pode ser:</translation>
     </message>
     <message>
         <source>Last Obfuscation was too recent.</source>
@@ -4138,8 +3866,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Senha para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Preparing for resync...</source>
-        <translation>Preparando para ressincronizar... </translation>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções de SSL RPC (veja a Bitcoin Wiki para instruções na configuração do SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -4156,6 +3884,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
         <translation>Enviar transações com taxa zero se possível (padrão: %u)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>Chave privada do servidor (padrão: %s)</translation>
     </message>
     <message>
         <source>Session not complete!</source>
@@ -4226,10 +3958,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Especifique seu próprio endereço público</translation>
     </message>
     <message>
-        <source>Staking options:</source>
-        <translation>Opções de staking:</translation>
-    </message>
-    <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
         <translation>Parar de rodar depois de importar blocos do disco (padrão: %u)</translation>
     </message>
@@ -4244,6 +3972,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
         <translation>Enviado ao masternode, aguardando na fila %s</translation>
+    </message>
+    <message>
+        <source>SwiftTX options:</source>
+        <translation>opções SwiftTX:</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
@@ -4318,6 +4050,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Atualize a carteira para o último formato</translation>
     </message>
     <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Usar OpenSSL (https) para conexões JSON-RPC</translation>
+    </message>
+    <message>
         <source>Use the test network</source>
         <translation>Use a rede de testes</translation>
     </message>
@@ -4342,8 +4078,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart WealthSilo Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o WealthSilo Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart WEALTHSILO Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o WEALTHSILO Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
@@ -4388,10 +4124,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</tr
     <message>
         <source>Zapping all transactions from wallet...</source>
         <translation>Eliminando todas as transações da carteira...</translation>
-    </message>
-    <message>
-        <source>Zerocoin options:</source>
-        <translation>opções Zerocoin:</translation>
     </message>
     <message>
         <source>on startup</source>

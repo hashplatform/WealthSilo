@@ -22,15 +22,15 @@ Build-Depends: debhelper,
  libqrencode-dev,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
-Homepage: http://www.wealthsilo.io
-Vcs-Git: git://github.com/wealthsilo-coin/WealthSilo.git
-Vcs-Browser: https://github.com/wealthsilo-coin/WealthSilo
+Homepage: http://www.wealthsilo.org
+Vcs-Git: git://github.com/wealthsiloproject/WEALTHSILO.git
+Vcs-Browser: http://github.com/wealthsiloproject/WEALTHSILO
 
 Package: wealthsilod
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- WealthSilo is a free open source peer-to-peer electronic cash system that
+ WEALTHSILO is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -46,7 +46,7 @@ Package: wealthsilo-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- WealthSilo is a free open source peer-to-peer electronic cash system that
+ WEALTHSILO is a free open source peer-to-peer electronic cash system that
  is completely decentralized, without the need for a central server or
  trusted parties.  Users hold the crypto keys to their own money and
  transact directly with each other, with the help of a P2P network to
@@ -55,4 +55,4 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Full transaction history is stored locally at each client.  This
  requires 1+ GB of space, slowly growing.
  .
- This package provides Wealthsilo-Qt, a GUI for WealthSilo based on Qt.
+ This package provides WEALTHSILO-Qt, a GUI for WEALTHSILO based on Qt.

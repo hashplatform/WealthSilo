@@ -1,8 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
-// Copyright (c) 2018 The WealthSilo developers
+// Copyright (c) 2015-2017 The PIVX developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,10 +14,8 @@
 #include <set>
 #include <stdint.h>
 
-#include <boost/algorithm/string/case_conv.hpp> // for to_lower()
-#include <univalue.h>
-
 using namespace std;
+using namespace json_spirit;
 
 class CRPCConvertParam
 {
@@ -73,7 +70,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"listunspent", 0},
         {"listunspent", 1},
         {"listunspent", 2},
-        {"listunspent", 3},
         {"getblock", 1},
         {"getblockheader", 1},
         {"gettransaction", 1},
@@ -83,7 +79,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"signrawtransaction", 1},
         {"signrawtransaction", 2},
         {"sendrawtransaction", 1},
-        {"sendrawtransaction", 2},
         {"gettxout", 1},
         {"gettxout", 2},
         {"lockunspent", 0},
@@ -98,8 +93,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"estimatepriority", 0},
         {"prioritisetransaction", 1},
         {"prioritisetransaction", 2},
-        {"setban", 2},
-        {"setban", 3},
         {"spork", 1},
         {"mnbudget", 3},
         {"mnbudget", 4},
@@ -126,7 +119,6 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"listspentzerocoins", 0},
         {"listzerocoinamounts", 0},
         {"mintzerocoin", 0},
-        {"mintzerocoin", 1},
         {"spendzerocoin", 0},
         {"spendzerocoin", 1},
         {"spendzerocoin", 2},
@@ -134,14 +126,7 @@ static const CRPCConvertParam vRPCConvertParams[] =
         {"importzerocoins", 0},
         {"exportzerocoins", 0},
         {"exportzerocoins", 1},
-        {"resetmintzerocoin", 0},
-        {"getspentzerocoinamount", 1},
-        {"generatemintlist", 0},
-        {"generatemintlist", 1},
-        {"searchdzwealth", 0},
-        {"searchdzwealth", 1},
-        {"searchdzwealth", 2},
-        {"getfeeinfo", 0}
+        {"resetmintzerocoin", 0}
     };
 
 class CRPCConvertTable
@@ -171,32 +156,25 @@ CRPCConvertTable::CRPCConvertTable()
 
 static CRPCConvertTable rpcCvtTable;
 
-/** Non-RFC4627 JSON parser, accepts internal values (such as numbers, true, false, null)
- * as well as objects and arrays.
- */
-UniValue ParseNonRFCJSONValue(const std::string& strVal)
-{
-    UniValue jVal;
-    if (!jVal.read(std::string("[")+strVal+std::string("]")) ||
-        !jVal.isArray() || jVal.size()!=1)
-        throw runtime_error(string("Error parsing JSON:")+strVal);
-    return jVal[0];
-}
-
 /** Convert strings to command-specific RPC representation */
-UniValue RPCConvertValues(const std::string &strMethod, const std::vector<std::string> &strParams)
+Array RPCConvertValues(const std::string& strMethod, const std::vector<std::string>& strParams)
 {
-    UniValue params(UniValue::VARR);
+    Array params;
 
     for (unsigned int idx = 0; idx < strParams.size(); idx++) {
         const std::string& strVal = strParams[idx];
 
+        // insert string value directly
         if (!rpcCvtTable.convert(strMethod, idx)) {
-            // insert string value directly
             params.push_back(strVal);
-        } else {
-            // parse string as JSON, insert bool/number/object/etc. value
-            params.push_back(ParseNonRFCJSONValue(strVal));
+        }
+
+        // parse string as JSON, insert bool/number/object/etc. value
+        else {
+            Value jVal;
+            if (!read_string(strVal, jVal))
+                throw runtime_error(string("Error parsing JSON:") + strVal);
+            params.push_back(jVal);
         }
     }
 

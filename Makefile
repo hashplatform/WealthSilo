@@ -19,7 +19,6 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 
-
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -92,7 +91,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 build_triplet = x86_64-pc-linux-gnu
-host_triplet = x86_64-apple-darwin
+host_triplet = i686-w64-mingw32
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/build-aux/m4/ax_boost_base.m4 \
@@ -111,7 +110,6 @@ am__aclocal_m4_deps = $(top_srcdir)/build-aux/m4/ax_boost_base.m4 \
 	$(top_srcdir)/build-aux/m4/bitcoin_find_bdb48.m4 \
 	$(top_srcdir)/build-aux/m4/bitcoin_qt.m4 \
 	$(top_srcdir)/build-aux/m4/bitcoin_subdir_to_include.m4 \
-	$(top_srcdir)/build-aux/m4/l_atomic.m4 \
 	$(top_srcdir)/build-aux/m4/libtool.m4 \
 	$(top_srcdir)/build-aux/m4/ltoptions.m4 \
 	$(top_srcdir)/build-aux/m4/ltsugar.m4 \
@@ -129,8 +127,7 @@ mkinstalldirs = $(install_sh) -d
 CONFIG_HEADER = $(top_builddir)/src/config/wealthsilo-config.h
 CONFIG_CLEAN_FILES = share/setup.nsi share/qt/Info.plist \
 	src/test/buildenv.py qa/pull-tester/run-bitcoind-for-test.sh \
-	qa/pull-tester/tests-config.sh contrib/devtools/split-debug.sh \
-	doc/Doxyfile
+	qa/pull-tester/tests-config.sh contrib/devtools/split-debug.sh
 CONFIG_CLEAN_VPATH_FILES =
 SCRIPTS = $(dist_noinst_SCRIPTS)
 AM_V_P = $(am__v_P_$(V))
@@ -160,35 +157,6 @@ am__can_run_installinfo = \
     n|no|NO) false;; \
     *) (install-info --version) >/dev/null 2>&1;; \
   esac
-am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
-am__vpath_adj = case $$p in \
-    $(srcdir)/*) f=`echo "$$p" | sed "s|^$$srcdirstrip/||"`;; \
-    *) f=$$p;; \
-  esac;
-am__strip_dir = f=`echo $$p | sed -e 's|^.*/||'`;
-am__install_max = 40
-am__nobase_strip_setup = \
-  srcdirstrip=`echo "$(srcdir)" | sed 's/[].[^$$\\*|]/\\\\&/g'`
-am__nobase_strip = \
-  for p in $$list; do echo "$$p"; done | sed -e "s|$$srcdirstrip/||"
-am__nobase_list = $(am__nobase_strip_setup); \
-  for p in $$list; do echo "$$p $$p"; done | \
-  sed "s| $$srcdirstrip/| |;"' / .*\//!s/ .*/ ./; s,\( .*\)/[^/]*$$,\1,' | \
-  $(AWK) 'BEGIN { files["."] = "" } { files[$$2] = files[$$2] " " $$1; \
-    if (++n[$$2] == $(am__install_max)) \
-      { print $$2, files[$$2]; n[$$2] = 0; files[$$2] = "" } } \
-    END { for (dir in files) print dir, files[dir] }'
-am__base_list = \
-  sed '$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g' | \
-  sed '$$!N;$$!N;$$!N;$$!N;s/\n/ /g'
-am__uninstall_files_from_dir = { \
-  test -z "$$files" \
-    || { test ! -d "$$dir" && test ! -f "$$dir" && test ! -r "$$dir"; } \
-    || { echo " ( cd '$$dir' && rm -f" $$files ")"; \
-         $(am__cd) "$$dir" && rm -f $$files; }; \
-  }
-am__installdirs = "$(DESTDIR)$(pkgconfigdir)"
-DATA = $(pkgconfig_DATA)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 am__recursive_targets = \
@@ -226,7 +194,6 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/build-aux/ltmain.sh \
 	$(top_srcdir)/build-aux/missing \
 	$(top_srcdir)/contrib/devtools/split-debug.sh.in \
-	$(top_srcdir)/doc/Doxyfile.in \
 	$(top_srcdir)/qa/pull-tester/run-bitcoind-for-test.sh.in \
 	$(top_srcdir)/qa/pull-tester/tests-config.sh.in \
 	$(top_srcdir)/share/qt/Info.plist.in \
@@ -271,208 +238,195 @@ am__relativize = \
   done; \
   reldir="$$dir2"
 DIST_ARCHIVES = $(distdir).tar.gz
-GZIP_ENV = --best
 DIST_TARGETS = dist-gzip
 distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /root/cottoncoin/build-aux/missing aclocal-1.15
+ACLOCAL = ${SHELL} /root/wealthsilocoin/build-aux/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
-AR = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ar
-ARFLAGS = cr
-AUTOCONF = ${SHELL} /root/cottoncoin/build-aux/missing autoconf
-AUTOHEADER = ${SHELL} /root/cottoncoin/build-aux/missing autoheader
-AUTOMAKE = ${SHELL} /root/cottoncoin/build-aux/missing automake-1.15
+AR = /usr/bin/i686-w64-mingw32-ar
+AUTOCONF = ${SHELL} /root/wealthsilocoin/build-aux/missing autoconf
+AUTOHEADER = ${SHELL} /root/wealthsilocoin/build-aux/missing autoheader
+AUTOMAKE = ${SHELL} /root/wealthsilocoin/build-aux/missing automake-1.15
 AWK = gawk
-BDB_CFLAGS = 
 BDB_CPPFLAGS = 
 BDB_LIBS = -ldb_cxx-4.8
 BITCOIN_CLI_NAME = wealthsilo-cli
 BITCOIN_DAEMON_NAME = wealthsilod
 BITCOIN_GUI_NAME = wealthsilo-qt
 BITCOIN_TX_NAME = wealthsilo-tx
-BOOST_CHRONO_LIB = -lboost_chrono-mt
-BOOST_CPPFLAGS = -DBOOST_SP_USE_STD_ATOMIC -DBOOST_AC_USE_STD_ATOMIC -pthread -I/root/cottoncoin/depends/x86_64-apple-darwin/share/../include
-BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt
-BOOST_LDFLAGS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib
-BOOST_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib -lboost_system-mt -lboost_filesystem-mt -lboost_program_options-mt -lboost_thread-mt -lboost_chrono-mt
-BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt
-BOOST_SYSTEM_LIB = -lboost_system-mt
-BOOST_THREAD_LIB = -lboost_thread-mt
+BOOST_CHRONO_LIB = -lboost_chrono-mt-s
+BOOST_CPPFLAGS = -mthreads -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include
+BOOST_FILESYSTEM_LIB = -lboost_filesystem-mt-s
+BOOST_LDFLAGS = -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib
+BOOST_LIBS = -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib -lboost_system-mt-s -lboost_filesystem-mt-s -lboost_program_options-mt-s -lboost_thread_win32-mt-s -lboost_chrono-mt-s
+BOOST_PROGRAM_OPTIONS_LIB = -lboost_program_options-mt-s
+BOOST_SYSTEM_LIB = -lboost_system-mt-s
+BOOST_THREAD_LIB = -lboost_thread_win32-mt-s
 BOOST_UNIT_TEST_FRAMEWORK_LIB = 
-BREW = no
+BREW = 
 BUILD_QT = qt
 BUILD_TEST = 
 BUILD_TEST_QT = 
-CC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9
-CCACHE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache
+CC = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/ccache i686-w64-mingw32-gcc
+CCACHE = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/ccache
 CCDEPMODE = depmode=gcc3
 CFLAGS = -pipe -O2 
 CLIENT_VERSION_BUILD = 0
 CLIENT_VERSION_IS_RELEASE = true
 CLIENT_VERSION_MAJOR = 1
-CLIENT_VERSION_MINOR = 0
+CLIENT_VERSION_MINOR = 3
 CLIENT_VERSION_REVISION = 0
 COMPARISON_TOOL_REORG_TESTS = 0
-COPYRIGHT_YEAR = 2018
-CPP = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -E
-CPPFILT = /usr/bin/c++filt
-CPPFLAGS = -Qunused-arguments -I/root/cottoncoin/depends/x86_64-apple-darwin/share/../include/  -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -DMAC_OSX -DHAVE_QT5
-CRYPTO_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-CRYPTO_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lcrypto
-CXX = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/ccache /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11
-CXXCPP = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11 -E
+COPYRIGHT_YEAR = 2017
+CPP = i686-w64-mingw32-gcc -E
+CPPFILT = /usr/bin/i686-w64-mingw32-c++filt
+CPPFLAGS = -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/  -DBOOST_SPIRIT_THREADSAFE -DHAVE_BUILD_INFO -D__STDC_FORMAT_MACROS -D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -D_FILE_OFFSET_BITS=64  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -DHAVE_QT5
+CRYPTO_CFLAGS = 
+CRYPTO_LIBS = -lcrypto
+CXX = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/ccache i686-w64-mingw32-g++ -std=c++11
+CXXCPP = i686-w64-mingw32-g++ -std=c++11 -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -pipe -O2 
+CXXFLAGS = -pipe -O2   -Wstack-protector -fstack-protector-all -fvisibility=hidden
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-DLLTOOL = false
-DSYMUTIL = x86_64-apple-darwin-dsymutil
+DLLTOOL = i686-w64-mingw32-dlltool
+DSYMUTIL = 
 DUMPBIN = 
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 EGREP = /bin/grep -E
-ERROR_CXXFLAGS = 
-EVENT_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-EVENT_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -levent
-EVENT_PTHREADS_CFLAGS = -D_THREAD_SAFE -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-EVENT_PTHREADS_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -levent_pthreads -levent
-EXEEXT = 
+EVENT_CFLAGS = 
+EVENT_LIBS = -levent
+EVENT_PTHREADS_CFLAGS = 
+EVENT_PTHREADS_LIBS = 
+EXEEXT = .exe
 FGREP = /bin/grep -F
-GCOV = /usr/bin/gcov
+GCOV = /usr/bin/i686-w64-mingw32-gcov
 GENHTML = 
-GENISOIMAGE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/genisoimage
+GENISOIMAGE = 
 GIT = /usr/bin/git
 GREP = /bin/grep
-HARDENED_CPPFLAGS =  -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2
-HARDENED_CXXFLAGS =  -Wstack-protector -fstack-protector-all
-HARDENED_LDFLAGS = 
 HAVE_CXX11 = 1
 HEXDUMP = /usr/bin/hexdump
-IMAGEMAGICK_CONVERT = /usr/bin/convert
+IMAGEMAGICK_CONVERT = 
 INSTALL = /usr/bin/install -c
-INSTALLNAMETOOL = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-install_name_tool
+INSTALLNAMETOOL = 
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
+JAVA = 
 JAVA_COMPARISON_TOOL = 
 LCOV = 
-LD = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ld
-LDFLAGS = -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib  -Wl,-headerpad_max_install_names -Wl,-dead_strip
+LD = /usr/bin/i686-w64-mingw32-ld
+LDFLAGS = -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib  -Wl,--large-address-aware  -Wl,--dynamicbase -Wl,--nxcompat
 LEVELDB_CPPFLAGS = 
-LEVELDB_TARGET_FLAGS = TARGET_OS=Darwin
+LEVELDB_TARGET_FLAGS = TARGET_OS=OS_WINDOWS_CROSSCOMPILE
 LIBLEVELDB = 
 LIBMEMENV = 
 LIBOBJS = 
-LIBS = -lcrypto 
+LIBS = -lcrypto -lQt5PlatformSupport -lssp -lcrypt32 -liphlpapi -lshlwapi -lmswsock -lws2_32 -ladvapi32 -lrpcrt4 -luuid -loleaut32 -lole32 -lcomctl32 -lshell32 -lwinmm -lwinspool -lcomdlg32 -lgdi32 -luser32 -lkernel32 -lmingwthrd 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_APP_LDFLAGS = 
-LIPO = x86_64-apple-darwin-lipo
+LIBTOOL_APP_LDFLAGS =  -all-static
+LIPO = 
 LN_S = ln -s
-LRELEASE = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/lrelease
+LRELEASE = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/lrelease
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 LUPDATE = 
 MAINT = 
-MAKEINFO = ${SHELL} /root/cottoncoin/build-aux/missing makeinfo
-MAKENSIS = 
+MAKEINFO = ${SHELL} /root/wealthsilocoin/build-aux/missing makeinfo
+MAKENSIS = none
 MANIFEST_TOOL = :
-MINIUPNPC_CPPFLAGS = 
+MINIUPNPC_CPPFLAGS = -DSTATICLIB -DMINIUPNP_STATICLIB
 MINIUPNPC_LIBS = -lminiupnpc
 MKDIR_P = /bin/mkdir -p
-MOC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/moc
-MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir) -DQ_OS_MAC
-NM = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-nm
-NMEDIT = x86_64-apple-darwin-nmedit
-OBJCOPY = /usr/bin/objcopy
-OBJCXX = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang++ -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9 -stdlib=libc++ -std=c++11
+MOC = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/moc
+MOC_DEFS = -DHAVE_CONFIG_H -I$(srcdir)
+NM = i686-w64-mingw32-nm
+NMEDIT = 
+OBJCOPY = /usr/bin/i686-w64-mingw32-objcopy
+OBJCXX = i686-w64-mingw32-g++ -std=c++11
 OBJCXXDEPMODE = depmode=gcc3
-OBJCXXFLAGS = -pipe -O2 
-OBJDUMP = objdump
+OBJCXXFLAGS = -pipe -O2   -Wstack-protector -fstack-protector-all
+OBJDUMP = i686-w64-mingw32-objdump
 OBJEXT = o
-OTOOL = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-otool
-OTOOL64 = :
+OTOOL = 
+OTOOL64 = 
 PACKAGE = wealthsilo
-PACKAGE_BUGREPORT = www.wealthsilo.io
-PACKAGE_NAME = Wealthsilo Core
-PACKAGE_STRING = Wealthsilo Core 1.0.0
+PACKAGE_BUGREPORT = www.wealthsilo.org
+PACKAGE_NAME = WEALTHSILO Core
+PACKAGE_STRING = WEALTHSILO Core 1.3.0
 PACKAGE_TARNAME = wealthsilo
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0.0
+PACKAGE_VERSION = 1.3.0
 PATH_SEPARATOR = :
-PIC_FLAGS = -fPIC
-PIE_FLAGS = -fPIC
 PKG_CONFIG = /usr/bin/pkg-config --static
 PKG_CONFIG_LIBDIR = 
-PKG_CONFIG_PATH = /root/cottoncoin/depends/x86_64-apple-darwin/share/../share/pkgconfig:/root/cottoncoin/depends/x86_64-apple-darwin/share/../lib/pkgconfig
-PORT = no
-PROTOBUF_CFLAGS = -D_THREAD_SAFE -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-PROTOBUF_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lprotobuf -D_THREAD_SAFE -lz
-PROTOC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/protoc
-PTHREAD_CC = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/clang -target x86_64-apple-darwin -mmacosx-version-min=10.8 --sysroot /root/cottoncoin/depends/SDKs/MacOSX10.11.sdk -mlinker-version=253.9
-PTHREAD_CFLAGS = -Qunused-arguments -pthread
+PKG_CONFIG_PATH = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../share/pkgconfig:/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib/pkgconfig
+PORT = 
+PROTOBUF_CFLAGS = 
+PROTOBUF_LIBS = -lprotobuf
+PROTOC = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/protoc
+PTHREAD_CC = i686-w64-mingw32-gcc
+PTHREAD_CFLAGS = -pthread
 PTHREAD_LIBS = 
-PYTHON = /usr/bin/python3.5
-PYTHONPATH = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/lib/python/dist-packages:
-QR_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-QR_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lqrencode -lpthread
-QT4_CFLAGS = 
-QT4_LIBS = 
-QT5_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtNetwork -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT5_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Network -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework Security -lz -framework SystemConfiguration -framework CoreFoundation -framework CoreServices -lssl -lcrypto -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
-QTPLATFORM_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtPlatformSupport -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QTPLATFORM_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PlatformSupport -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -lz -framework AppKit -framework OpenGL -framework ApplicationServices -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
-QTPRINT_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtPrintSupport -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QTPRINT_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PrintSupport -lQt5Widgets -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework OpenGL -framework AGL -framework Carbon -lQt5Gui -lqtpng -lqtharfbuzzng -lQt5Core -lz -lqtpcre -lm -framework AppKit -framework OpenGL -framework AGL -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
+PYTHON = /usr/bin/python3
+PYTHONPATH = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/lib/python/dist-packages:
+QR_CFLAGS = 
+QR_LIBS = -lqrencode
+QTPLATFORM_CFLAGS = 
+QTPLATFORM_LIBS = 
+QTPRINT_CFLAGS = 
+QTPRINT_LIBS = 
 QTXCBQPA_CFLAGS = 
 QTXCBQPA_LIBS = 
-QT_DBUS_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtDBus -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT_DBUS_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtDBus -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT_DBUS_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5DBus -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
-QT_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtNetwork -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtWidgets -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtGui -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT_LDFLAGS = 
-QT_LIBS = -lqcocoa -lqminimal -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PrintSupport -lQt5Widgets -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework OpenGL -framework AGL -framework Carbon -lQt5Gui -lqtpng -lqtharfbuzzng -lQt5Core -lz -lqtpcre -lm -framework AppKit -framework OpenGL -framework AGL -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5PlatformSupport -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -lz -framework AppKit -framework OpenGL -framework ApplicationServices -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Network -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework Security -lz -framework SystemConfiguration -framework CoreFoundation -framework CoreServices -lssl -lcrypto -lQt5Widgets -lQt5Gui -framework DiskArbitration -framework IOKit -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -lqtpng -lqtharfbuzzng -framework OpenGL -framework AGL -lQt5Core -lz -lqtpcre -lm -framework AppKit -lz -framework Carbon -framework OpenGL -framework AGL -lQt5Gui -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -framework AppKit -framework Foundation -lqtpng -lqtharfbuzzng -framework ApplicationServices -lz -framework OpenGL -framework AGL -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation -L/root/cottoncoin/depends/x86_64-apple-darwin/share/../plugins/platforms -framework IOKit -framework Foundation -framework ApplicationServices -framework AppKit
-QT_PIE_FLAGS = -fPIC
+QT_CFLAGS = 
+QT_DBUS_CFLAGS = 
+QT_DBUS_INCLUDES = 
+QT_DBUS_LIBS = -lQt5DBus -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib
+QT_INCLUDES = -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtCore -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtGui -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtWidgets -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtNetwork -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtTest -I/root/wealthsilocoin/depends/i686-w64-mingw32/share/../include/QtDBus
+QT_LDFLAGS =  -mwindows
+QT_LIBS = -lqwindows -lQt5Widgets -lQt5Network -lQt5Gui     -lQt5Core    -lqtharfbuzzng -lqtpcre -lqtpng -lz  -limm32  -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../plugins/platforms
+QT_PIE_FLAGS = 
 QT_SELECT = qt5
-QT_TEST_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtTest -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT_TEST_INCLUDES = -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtTest -I/root/cottoncoin/depends/x86_64-apple-darwin/include/QtCore
-QT_TEST_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lQt5Test -framework Security -framework Foundation -framework ApplicationServices -framework IOKit -lQt5Core -framework DiskArbitration -lz -lqtpcre -lm -framework CoreServices -framework AppKit -framework CoreFoundation -lQt5Core -framework DiskArbitration -framework IOKit -lz -lqtpcre -lm -framework Foundation -framework CoreServices -framework AppKit -framework ApplicationServices -framework CoreFoundation
-QT_TRANSLATION_DIR = /root/cottoncoin/depends/x86_64-apple-darwin/share/../translations
-RANLIB = /root/cottoncoin/depends/x86_64-apple-darwin/native/bin/x86_64-apple-darwin-ranlib
-RCC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/rcc
-READELF = /usr/bin/readelf
-RELDFLAGS = 
-RSVG_CONVERT = /usr/bin/rsvg-convert
+QT_TEST_CFLAGS = 
+QT_TEST_INCLUDES = 
+QT_TEST_LIBS = -lQt5Test -L/root/wealthsilocoin/depends/i686-w64-mingw32/share/../lib
+QT_TRANSLATION_DIR = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../translations
+RANLIB = /usr/bin/i686-w64-mingw32-ranlib
+RCC = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/rcc
+READELF = /usr/bin/i686-w64-mingw32-readelf
+RELDFLAGS = -Wl,--exclude-libs,ALL
+RSVG_CONVERT = 
 SED = /bin/sed
 SET_MAKE = 
 SHELL = /bin/bash
-SSL_CFLAGS = -I/root/cottoncoin/depends/x86_64-apple-darwin/include
-SSL_LIBS = -L/root/cottoncoin/depends/x86_64-apple-darwin/lib -lssl -lcrypto
-STRIP = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/x86_64-apple-darwin-strip
+SSL_CFLAGS = 
+SSL_LIBS = -lssl
+STRIP = /usr/bin/i686-w64-mingw32-strip
 TESTDEFS = 
-TIFFCP = /usr/bin/tiffcp
-UIC = /root/cottoncoin/depends/x86_64-apple-darwin/share/../native/bin/uic
-UNIVALUE_CFLAGS = -I$(srcdir)/univalue/include
-UNIVALUE_LIBS = univalue/libunivalue.la
+TIFFCP = 
+UIC = /root/wealthsilocoin/depends/i686-w64-mingw32/share/../native/bin/uic
 USE_QRCODE = 
 USE_UPNP = 
-VERSION = 1.0.0
-WINDOWS_BITS = 
-WINDRES = 
+VERSION = 1.3.0
+WINDOWS_BITS = 32
+WINDRES = /usr/bin/i686-w64-mingw32-windres
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
 XGETTEXT = 
-ZMQ_CFLAGS = 
-ZMQ_LIBS = 
-abs_builddir = /root/cottoncoin
-abs_srcdir = /root/cottoncoin
-abs_top_builddir = /root/cottoncoin
-abs_top_srcdir = /root/cottoncoin
+ZMQ_CFLAGS =  -DZMQ_STATIC
+ZMQ_LIBS = -lzmq
+abs_builddir = /root/wealthsilocoin
+abs_srcdir = /root/wealthsilocoin
+abs_top_builddir = /root/wealthsilocoin
+abs_top_srcdir = /root/wealthsilocoin
 ac_ct_AR = 
 ac_ct_CC = 
 ac_ct_CXX = 
@@ -496,15 +450,15 @@ datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host = x86_64-apple-darwin
-host_alias = x86_64-apple-darwin
-host_cpu = x86_64
-host_os = darwin
-host_vendor = apple
+host = i686-w64-mingw32
+host_alias = i686-w64-mingw32
+host_cpu = i686
+host_os = mingw32
+host_vendor = w64
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /root/cottoncoin/build-aux/install-sh
+install_sh = ${SHELL} /root/wealthsilocoin/build-aux/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -513,14 +467,14 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /
+prefix = /usr/local
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
 srcdir = .
-subdirs =  src/univalue src/secp256k1
+subdirs =  src/secp256k1
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = 
@@ -528,15 +482,14 @@ top_builddir = .
 top_srcdir = .
 ACLOCAL_AMFLAGS = -I build-aux/m4
 SUBDIRS = src
-#pkgconfigdir = $(libdir)/pkgconfig
-#pkgconfig_DATA = libbitcoinconsensus.pc
+GZIP_ENV = "-9n"
 BITCOIND_BIN = $(top_builddir)/src/$(BITCOIN_DAEMON_NAME)$(EXEEXT)
 BITCOIN_QT_BIN = $(top_builddir)/src/qt/$(BITCOIN_GUI_NAME)$(EXEEXT)
 BITCOIN_CLI_BIN = $(top_builddir)/src/$(BITCOIN_CLI_NAME)$(EXEEXT)
 BITCOIN_WIN_INSTALLER = $(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 empty := 
 space := $(empty) $(empty)
-OSX_APP = Wealthsilo-Qt.app
+OSX_APP = WEALTHSILO-Qt.app
 OSX_VOLNAME = $(subst $(space),-,$(PACKAGE_NAME))
 OSX_DMG = $(OSX_VOLNAME).dmg
 OSX_BACKGROUND_SVG = background.svg
@@ -567,7 +520,7 @@ COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
 
 OSX_APP_BUILT = $(OSX_APP)/Contents/PkgInfo $(OSX_APP)/Contents/Resources/empty.lproj \
   $(OSX_APP)/Contents/Resources/bitcoin.icns $(OSX_APP)/Contents/Info.plist \
-  $(OSX_APP)/Contents/MacOS/Wealthsilo-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
+  $(OSX_APP)/Contents/MacOS/WEALTHSILO-Qt $(OSX_APP)/Contents/Resources/Base.lproj/InfoPlist.strings
 
 APP_DIST_DIR = $(top_builddir)/dist
 APP_DIST_EXTRAS = $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE) $(APP_DIST_DIR)/.DS_Store $(APP_DIST_DIR)/Applications
@@ -638,8 +591,6 @@ qa/pull-tester/tests-config.sh: $(top_builddir)/config.status $(top_srcdir)/qa/p
 	cd $(top_builddir) && $(SHELL) ./config.status $@
 contrib/devtools/split-debug.sh: $(top_builddir)/config.status $(top_srcdir)/contrib/devtools/split-debug.sh.in
 	cd $(top_builddir) && $(SHELL) ./config.status $@
-doc/Doxyfile: $(top_builddir)/config.status $(top_srcdir)/doc/Doxyfile.in
-	cd $(top_builddir) && $(SHELL) ./config.status $@
 
 mostlyclean-libtool:
 	-rm -f *.lo
@@ -649,27 +600,6 @@ clean-libtool:
 
 distclean-libtool:
 	-rm -f libtool config.lt
-install-pkgconfigDATA: $(pkgconfig_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(pkgconfig_DATA)'; test -n "$(pkgconfigdir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(pkgconfigdir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(pkgconfigdir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(pkgconfigdir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(pkgconfigdir)" || exit $$?; \
-	done
-
-uninstall-pkgconfigDATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(pkgconfig_DATA)'; test -n "$(pkgconfigdir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(pkgconfigdir)'; $(am__uninstall_files_from_dir)
 
 # This directory's subdirectories are mostly independent; you can cd
 # into them and run 'make' without going through this Makefile.
@@ -962,12 +892,9 @@ distuninstallcheck:
 	        exit 1; } >&2
 check-am: all-am
 check: check-recursive
-all-am: Makefile $(SCRIPTS) $(DATA)
+all-am: Makefile $(SCRIPTS)
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(pkgconfigdir)"; do \
-	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
-	done
 install: install-recursive
 install-exec: install-exec-recursive
 install-data: install-data-recursive
@@ -1021,7 +948,7 @@ info: info-recursive
 
 info-am:
 
-install-data-am: install-pkgconfigDATA
+install-data-am:
 
 install-dvi: install-dvi-recursive
 
@@ -1067,7 +994,7 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-pkgconfigDATA
+uninstall-am:
 
 .MAKE: $(am__recursive_targets) install-am install-strip
 
@@ -1082,17 +1009,15 @@ uninstall-am: uninstall-pkgconfigDATA
 	install-data install-data-am install-dvi install-dvi-am \
 	install-exec install-exec-am install-html install-html-am \
 	install-info install-info-am install-man install-pdf \
-	install-pdf-am install-pkgconfigDATA install-ps install-ps-am \
-	install-strip installcheck installcheck-am installdirs \
-	installdirs-am maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic mostlyclean-libtool pdf pdf-am \
-	ps ps-am tags tags-am uninstall uninstall-am \
-	uninstall-pkgconfigDATA
+	install-pdf-am install-ps install-ps-am install-strip \
+	installcheck installcheck-am installdirs installdirs-am \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-generic mostlyclean-libtool pdf pdf-am ps ps-am \
+	tags tags-am uninstall uninstall-am
 
 .PRECIOUS: Makefile
 
 .PHONY: deploy FORCE
-
 export PYTHONPATH
 
 dist-hook:
@@ -1133,7 +1058,7 @@ $(OSX_APP)/Contents/Resources/bitcoin.icns: $(OSX_INSTALLER_ICONS)
 	$(MKDIR_P) $(@D)
 	$(INSTALL_DATA) $< $@
 
-$(OSX_APP)/Contents/MacOS/Wealthsilo-Qt: $(BITCOIN_QT_BIN)
+$(OSX_APP)/Contents/MacOS/WEALTHSILO-Qt: $(BITCOIN_QT_BIN)
 	$(MKDIR_P) $(@D)
 	STRIPPROG="$(STRIP)" $(INSTALL_STRIP_PROGRAM)  $< $@
 
@@ -1160,7 +1085,7 @@ $(APP_DIST_DIR)/Applications:
 	@rm -f $@
 	@cd $(@D); $(LN_S) /Applications $(@F)
 
-$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Wealthsilo-Qt
+$(APP_DIST_EXTRAS): $(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/WEALTHSILO-Qt
 
 $(OSX_DMG): $(APP_DIST_EXTRAS)
 	$(GENISOIMAGE) -no-cache-inodes -D -l -probe -V "$(OSX_VOLNAME)" -no-pad -r -dir-mode 0755 -apple -o $@ dist
@@ -1174,14 +1099,14 @@ $(APP_DIST_DIR)/.background/$(OSX_BACKGROUND_IMAGE): $(OSX_BACKGROUND_IMAGE_DPIF
 $(APP_DIST_DIR)/.DS_Store: $(OSX_DSSTORE_GEN)
 	$(PYTHON) $< "$@" "$(OSX_VOLNAME)"
 
-$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/Wealthsilo-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
+$(APP_DIST_DIR)/$(OSX_APP)/Contents/MacOS/WEALTHSILO-Qt: $(OSX_APP_BUILT) $(OSX_PACKAGING)
 	INSTALLNAMETOOL=$(INSTALLNAMETOOL)  OTOOL=$(OTOOL) STRIP=$(STRIP) $(PYTHON) $(OSX_DEPLOY_SCRIPT) $(OSX_APP) -translations-dir=$(QT_TRANSLATION_DIR) -add-qt-tr $(OSX_QT_TRANSLATIONS) -verbose 2
 
 deploydir: $(APP_DIST_EXTRAS)
 
-appbundle: $(OSX_APP_BUILT)
-deploy: $(OSX_DMG)
-#deploy: $(BITCOIN_WIN_INSTALLER)
+#appbundle: $(OSX_APP_BUILT)
+#deploy: $(OSX_DMG)
+deploy: $(BITCOIN_WIN_INSTALLER)
 
 $(BITCOIN_QT_BIN): FORCE
 	$(MAKE) -C src qt/$(@F)

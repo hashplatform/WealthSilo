@@ -5,8 +5,8 @@ connections, inter-process communication, and shared-memory,
 providing various message-oriented semantics such as publish/subscribe,
 request/reply, and push/pull.
 
-The WealthSilo Core daemon can be configured to act as a trusted "border
-router", implementing the wealthsilo wire protocol and relay, making
+The WEALTHSILO Core daemon can be configured to act as a trusted "border
+router", implementing the wealthsilo wealthsilo protocol and relay, making
 consensus decisions, maintaining the local blockchain database,
 broadcasting locally generated transactions into the network, and
 providing a queryable RPC interface to interact on a polled basis for
@@ -33,7 +33,7 @@ buffering or reassembly.
 
 ## Prerequisites
 
-The ZeroMQ feature in WealthSilo Core requires ZeroMQ API version 4.x or
+The ZeroMQ feature in WEALTHSILO Core requires ZeroMQ API version 4.x or
 newer. Typically, it is packaged by distributions as something like
 *libzmq3-dev*. The C++ wrapper for ZeroMQ is *not* needed.
 

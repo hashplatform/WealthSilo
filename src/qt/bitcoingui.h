@@ -1,6 +1,4 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2017-2018 The WealthSilo developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -85,7 +83,6 @@ private:
 
     UnitDisplayStatusBarControl* unitDisplayControl;
     QLabel* labelStakingIcon;
-    QPushButton* labelAutoMintIcon;
     QPushButton* labelEncryptionIcon;
     QPushButton* labelConnectionsIcon;
     QLabel* labelBlocksIcon;
@@ -183,10 +180,9 @@ public slots:
     */
     void message(const QString& title, const QString& message, unsigned int style, bool* ret = NULL);
 
-#ifdef ENABLE_WALLET
     void setStakingStatus();
-    void setAutoMintStatus();
 
+#ifdef ENABLE_WALLET
     /** Set the encryption status as shown in the UI.
        @param[in] status            current encryption status
        @see WalletModel::EncryptionStatus
@@ -275,7 +271,7 @@ private:
 
     /** Shows context menu with Display Unit options by the mouse coordinates */
     void onDisplayUnitsClicked(const QPoint& point);
-    /** Creates context menu, its actions, and wires up all the relevant signals for mouse events. */
+    /** Creates context menu, its actions, and wealthsilos up all the relevant signals for mouse events. */
     void createContextMenu();
 
 private slots:

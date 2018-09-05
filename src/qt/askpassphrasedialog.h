@@ -1,11 +1,9 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
-// Copyright (c) 2017-2018 The PIVX developers
-// Copyright (c) 2017-2018 The WealthSilo developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_QT_ASKPASSPHRASEDIALOG_H
-#define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#ifndef BITCOIN_QT_ASKPASSWEALTHSILOASEDIALOG_H
+#define BITCOIN_QT_ASKPASSWEALTHSILOASEDIALOG_H
 
 #include <QDialog>
 
@@ -23,7 +21,7 @@ class AskPassphraseDialog : public QDialog
     Q_OBJECT
 
 public:
-    enum class Mode {
+    enum Mode {
         Encrypt,         /**< Ask passphrase twice and encrypt */
         UnlockAnonymize, /**< Ask passphrase and unlock only for anonymization */
         Unlock,          /**< Ask passphrase and unlock */
@@ -31,23 +29,7 @@ public:
         Decrypt          /**< Ask passphrase and decrypt wallet */
     };
 
-    // Context from where / for what the passphrase dialog was called to set the status of the checkbox
-    // Partly redundant to Mode above, but offers more flexibility for future enhancements
-    enum class Context {
-        Unlock_Menu,    /** Unlock wallet from menu     */
-        Unlock_Full,    /** Wallet needs to be fully unlocked */
-        Encrypt,        /** Encrypt unencrypted wallet */
-        ToggleLock,     /** Toggle wallet lock state */
-        ChangePass,     /** Change passphrase */
-        Send_WEALTH,       /** Send WEALTH */
-        Send_zWEALTH,      /** Send zWEALTH */
-        Mint_zWEALTH,      /** Mint zWEALTH */
-        BIP_38,         /** BIP38 menu */
-        Multi_Sig,      /** Multi-Signature dialog */
-        Sign_Message    /** Sign/verify message dialog */
-    };
-
-    explicit AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel* model, Context context);
+    explicit AskPassphraseDialog(Mode mode, QWidget* parent, WalletModel* model);
     ~AskPassphraseDialog();
 
     void accept();
@@ -56,7 +38,6 @@ private:
     Ui::AskPassphraseDialog* ui;
     Mode mode;
     WalletModel* model;
-    Context context;
     bool fCapsLock;
 
 private slots:
@@ -67,4 +48,4 @@ protected:
     bool eventFilter(QObject* object, QEvent* event);
 };
 
-#endif // BITCOIN_QT_ASKPASSPHRASEDIALOG_H
+#endif // BITCOIN_QT_ASKPASSWEALTHSILOASEDIALOG_H

@@ -1,6 +1,4 @@
 // Copyright (c) 2014 The Bitcoin developers
-// Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2017 The WealthSilo developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between wealthsilo-cli and wealthsilod)
- * of a given instance of the Wealthsilo system.
+ * of a given instance of the WEALTHSILO system.
  */
 class CBaseChainParams
 {

@@ -108,6 +108,10 @@
         <translation>Powtórz nowe hasło</translation>
     </message>
     <message>
+        <source>For anonymization and staking only</source>
+        <translation>Tylko dla anonimizacji i stakingu</translation>
+    </message>
+    <message>
         <source>Encrypt wallet</source>
         <translation>Zakoduj portfel</translation>
     </message>
@@ -144,8 +148,8 @@
         <translation>Czy na pewno chcesz zakodować portfel?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTH&lt;/b&gt;!</source>
-        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE WEALTH!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WEALTHSILO&lt;/b&gt;!</source>
+        <translation>Ostrzeżenie: Jeżeli zakodujesz portfel i stracisz do niego hasło , UTRACISZ WSZYSTKIE WEALTHSILO!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -185,9 +189,6 @@
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
-    </context>
-<context>
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
@@ -226,6 +227,10 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres WEALTHSILO jest w twoim posiadaniu</translation>
+    </message>
+    <message>
         <source>Encrypt &amp;Key</source>
         <translation>Kodowanie &amp;klucz</translation>
     </message>
@@ -236,6 +241,10 @@
     <message>
         <source>&amp;BIP 38 Decrypt</source>
         <translation>&amp;BIP 38 Zakoduj</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Resetuj wszystkie zweryfikowane pola tekstowe</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -509,12 +518,12 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>&amp;Rdzeń WealthSilo</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>&amp;Rdzeń WEALTHSILO</translation>
     </message>
     <message>
-        <source>Send coins to a WealthSilo address</source>
-        <translation>Wyślij monety do adresu WealthSilo</translation>
+        <source>Send coins to a WEALTHSILO address</source>
+        <translation>Wyślij monety do adresu WEALTHSILO</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and wealthsilo: URIs)</source>
@@ -529,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About WealthSilo Core</source>
+        <source>&amp;About WEALTHSILO Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about WealthSilo Core</source>
+        <source>Show information about WEALTHSILO Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for WealthSilo</source>
-        <translation>Modyfikuj opcje konfiguracji WealthSilo</translation>
+        <source>Modify configuration options for WEALTHSILO</source>
+        <translation>Modyfikuj opcje konfiguracji WEALTHSILO</translation>
     </message>
     <message>
-        <source>Sign messages with your WealthSilo addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami WealthSilo, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your WEALTHSILO addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami WEALTHSILO, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified WealthSilo addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu WealthSilo</translation>
+        <source>Verify messages to ensure they were signed with specified WEALTHSILO addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu WEALTHSILO</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -573,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a WealthSilo: URI or payment request</source>
-        <translation>Otwórz WealthSilo: URI i żądanie zapłaty</translation>
+        <source>Open a WEALTHSILO: URI or payment request</source>
+        <translation>OtwórzWEALTHX: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -585,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the WealthSilo Core help message to get a list with possible WealthSilo command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia WealthSilo, aby dostać listę możliwych opcji WealthSilo command-line</translation>
+        <source>Show the WEALTHSILO Core help message to get a list with possible WEALTHSILO command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia WEALTHSILO, aby dostać listę możliwych opcji WEALTHSILO command-line</translation>
     </message>
     <message>
-        <source>WealthSilo Core client</source>
-        <translation>Rdzeń WealthSilo klient</translation>
+        <source>WEALTHSILO Core client</source>
+        <translation>Rdzeń WEALTHSILO klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -679,6 +688,10 @@ MultiWysyłlka: %1</translation>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portfel jest 1Zakodowany1 i obecnie 2Odblokowany2</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
+        <translation>Portfel jest 1Zakodowany1 i obecnie 2Odblokowany2 tylko dla anonimizacji i stakingu</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
@@ -899,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>&amp;Rdzeń WealthSilo</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>&amp;Rdzeń WEALTHSILO</translation>
     </message>
     </context>
 <context>
@@ -914,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>&amp;Rdzeń WealthSilo</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>&amp;Rdzeń WEALTHSILO</translation>
     </message>
     <message>
         <source>Error</source>
@@ -931,6 +944,10 @@ MultiWysyłlka: %1</translation>
     <message>
         <source>Form</source>
         <translation>Forma</translation>
+    </message>
+    <message>
+        <source>My Masternodes</source>
+        <translation>Moje Masternode</translation>
     </message>
     <message>
         <source>Address</source>
@@ -1084,10 +1101,6 @@ MultiWysyłlka: %1</translation>
         <translation>Podgląd MultiWysyłki</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(brak zakładki)</translation>
-    </message>
-    <message>
         <source>The entered address:
 </source>
         <translation>Wprowadzony adres:
@@ -1114,21 +1127,6 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
 </translation>
     </message>
 </context>
-<context>
-    <name>MultisigDialog</name>
-    <message>
-        <source>Status:</source>
-        <translation>Status:</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Liczba:</translation>
-    </message>
-    </context>
 <context>
     <name>ObfuscationConfig</name>
     <message>
@@ -1190,12 +1188,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start WealthSilo after logging in to the system.</source>
-        <translation>Automatycznie uruchom WealthSilo po zalogowaniu do systemu</translation>
+        <source>Automatically start WEALTHSILO after logging in to the system.</source>
+        <translation>Automatycznie uruchom WEALTHSILO po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start WealthSilo on system login</source>
-        <translation>&amp;Uruchom WealthSilo podczas logowania do systemu</translation>
+        <source>&amp;Start WEALTHSILO on system login</source>
+        <translation>&amp;Uruchom WEALTHSILO podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1214,8 +1212,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting WealthSilo.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie WealthSilo</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting WEALTHSILO.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie WEALTHSILO</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1224,8 +1222,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations</so
 https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </translation>
     </message>
     <message>
-        <source>Connect to the WealthSilo network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią WealthSilo poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the WEALTHSILO network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią WEALTHSILO poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1315,7 +1313,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <source>The supplied proxy address is invalid.</source>
         <translation>Podany adres proxy jest nieprawidłowy</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>OverviewPage</name>
     <message>
@@ -1343,6 +1341,10 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <translation>Całość:</translation>
     </message>
     <message>
+        <source>Your current total balance</source>
+        <translation>Twój całkowity bilans</translation>
+    </message>
+    <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>Obecny całkowity bilans w adresach tylko do obejrzenia</translation>
     </message>
@@ -1362,7 +1364,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <source>out of sync</source>
         <translation>Brak synchronizacji</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>PaymentServer</name>
     <message>
@@ -1424,10 +1426,6 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <translation>Priorytet:</translation>
     </message>
     <message>
-        <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
-    </message>
-    <message>
         <source>Fee:</source>
         <translation>Opłata:</translation>
     </message>
@@ -1463,8 +1461,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a WealthSilo address (e.g. %1)</source>
-        <translation>Wprowadź adres WealthSilo (np. %1)</translation>
+        <source>Enter a WEALTHSILO address (e.g. %1)</source>
+        <translation>Wprowadź adres WEALTHSILO (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1649,6 +1647,14 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <translation>Usługi</translation>
     </message>
     <message>
+        <source>Starting Height</source>
+        <translation>Wysokość rozpoczęcia</translation>
+    </message>
+    <message>
+        <source>Sync Height</source>
+        <translation>Wysokość synchronizacji</translation>
+    </message>
+    <message>
         <source>Connection Time</source>
         <translation>Czas połączenia</translation>
     </message>
@@ -1736,7 +1742,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <source>Unknown</source>
         <translation>Nieznane</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1894,8 +1900,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this WealthSilo address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres WealthSilo jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this WEALTHSILO address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres WEALTHSILO jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1929,8 +1935,8 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>WealthSilo Core</source>
-        <translation>&amp;Rdzeń WealthSilo</translation>
+        <source>WEALTHSILO Core</source>
+        <translation>&amp;Rdzeń WEALTHSILO</translation>
     </message>
     </context>
 <context>
@@ -2021,7 +2027,7 @@ https://www.transifex.com/wealthsilo-project/wealthsilo-project-translations </t
     </message>
     </context>
 <context>
-    <name>ZWealthControlDialog</name>
+    <name>ZPhrControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

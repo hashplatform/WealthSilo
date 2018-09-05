@@ -68,7 +68,6 @@ WalletFrame {
     border:0px solid #091f3a;
     padding:1;
     margin:0;
-    width: 70px;
     }
     
     QToolBar > QToolButton {

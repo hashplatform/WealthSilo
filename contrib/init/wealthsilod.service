@@ -1,5 +1,5 @@
 [Unit]
-Description=WealthSilo's distributed currency daemon
+Description=WEALTHSILO's distributed currency daemon
 After=network.target
 
 [Service]
