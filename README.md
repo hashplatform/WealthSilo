@@ -9,7 +9,7 @@ Ticker: WEALTH</br>
 Algorithm: Quark</br>
 Maximum Supply: 21,000,000 WEALTH</br>
 Block Reward: Adjusted every 10,000 block</br>
-Port=9595</br>
+Port=45595</br>
 Rpcport=45596</br>
 Masternode Reward: 95%</br>
 Staking Reward: 5%</br>
