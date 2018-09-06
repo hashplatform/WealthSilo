@@ -35,7 +35,7 @@ then
   sudo echo "/var/swap.img none swap sw 0 0" >> /etc/fstab
   cd
 
-  wget https://github.com/wealthsilo/WealthSilo/files/2343625/Linux.zip
+  wget https://github.com/wealthsilo/WealthSilo/files/2355664/Linux.zip
   unzip Linux.zip
   chmod +x Linux/*
   sudo mv  Linux/* /usr/local/bin
