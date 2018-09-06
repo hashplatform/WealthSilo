@@ -880,7 +880,7 @@
            <rect>
             <x>0</x>
             <y>150</y>
-            <width>465</width>
+            <width>451</width>
             <height>201</height>
            </rect>
           </property>
@@ -918,7 +918,7 @@
             </layout>
            </item>
            <item>
-            <layout class="QGridLayout" name="gridLayout_3">
+            <layout class="QGridLayout" name="gridLayout_3" columnstretch="2,3,2,1" columnminimumwidth="0,0,0,0">
              <property name="spacing">
               <number>12</number>
              </property>
@@ -1162,7 +1162,7 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>465</width>
+            <width>451</width>
             <height>171</height>
            </rect>
           </property>
